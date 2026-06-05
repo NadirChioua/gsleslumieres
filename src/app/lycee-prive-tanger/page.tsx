@@ -1,0 +1,17 @@
+import { buildMetadata } from '@/lib/metadata';
+import { CYCLES_CONTENT } from '@/lib/cycles-content';
+import CyclePageTemplate from '@/components/shared/CyclePageTemplate';
+
+const data = CYCLES_CONTENT['lycee-prive-tanger'];
+
+export const metadata = buildMetadata({
+  title: data.metaTitle,
+  description: data.metaDescription,
+  path: '/lycee-prive-tanger',
+  ogImage: '/images/og/lycee.jpg',
+  keywords: ['lycée privé Tanger', 'lycée Tanger baccalauréat', 'bourse excellence Tanger'],
+});
+
+export default function Page() {
+  return <CyclePageTemplate data={data} />;
+}

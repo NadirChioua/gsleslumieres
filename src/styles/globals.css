@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #8b0000;
+    --color-gold: #c9a227;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-cream text-ink font-body antialiased;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading;
+    line-height: 1.2;
+  }
+
+  /* Focus visibility for accessibility */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    @apply outline-none ring-2 ring-gold-500 ring-offset-2 ring-offset-cream rounded;
+  }
+
+  [dir='rtl'] {
+    @apply font-arabic;
+    text-align: right;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-12 md:py-20;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 font-semibold transition-all duration-300 focus-visible:outline-none;
+  }
+
+  .btn-gold {
+    @apply btn bg-gold-500 text-ink hover:bg-gold-600 hover:shadow-lg;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-800 text-white hover:bg-primary-900 hover:shadow-lg;
+  }
+
+  .btn-whatsapp {
+    @apply btn bg-whatsapp text-white hover:brightness-95 hover:shadow-lg;
+  }
+
+  .btn-outline-white {
+    @apply btn border-2 border-white/80 bg-transparent text-white hover:bg-white hover:text-primary-800;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-primary-800 bg-transparent text-primary-800 hover:bg-primary-800 hover:text-white;
+  }
+
+  .card {
+    @apply rounded-xl border border-black/5 bg-white shadow-sm transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-1 hover:border-gold-300 hover:shadow-xl;
+  }
+
+  .eyebrow {
+    @apply inline-block text-sm font-semibold uppercase tracking-wider text-gold-600;
+  }
+
+  /* Prose-like readable content blocks */
+  .rich-text p {
+    @apply mb-4 text-base leading-relaxed text-ink/80;
+  }
+  .rich-text h2 {
+    @apply mb-4 mt-10 text-2xl text-primary-800 md:text-3xl;
+  }
+  .rich-text h3 {
+    @apply mb-3 mt-6 text-xl text-ink;
+  }
+  .rich-text ul {
+    @apply mb-4 list-disc space-y-2 pl-6 text-ink/80;
+  }
+  .rich-text a {
+    @apply font-medium text-primary-700 underline underline-offset-2 hover:text-gold-600;
+  }
+}
+
+/* Hide scrollbars on the testimonial track but keep scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

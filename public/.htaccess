@@ -1,0 +1,28 @@
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Old URL redirects (301)
+RewriteRule ^mot-du-president/?$ /mot-du-directeur/ [R=301,L]
+RewriteRule ^activites-parascolaire/?$ /activites-parascolaires/ [R=301,L]
+RewriteRule ^structure-pedagogique-maternelle/?$ /maternelle-tanger/ [R=301,L]
+RewriteRule ^structure-pedagogique-primaire/?$ /primaire-prive-tanger/ [R=301,L]
+RewriteRule ^structure-pedagogique-college-2/?$ /college-prive-tanger/ [R=301,L]
+RewriteRule ^structure-pedagogique-lycee/?$ /lycee-prive-tanger/ [R=301,L]
+RewriteRule ^la-cantine/?$ /cantine/ [R=301,L]
+RewriteRule ^inscription/?$ /inscription-ecole-tanger/ [R=301,L]
+RewriteRule ^presentation/?$ /qui-sommes-nous/ [R=301,L]
+RewriteRule ^galerie-photos/?$ /galerie/ [R=301,L]
+RewriteRule ^galerie-maternelle/?$ /galerie/ [R=301,L]
+RewriteRule ^galerie-primaire/?$ /galerie/ [R=301,L]
+RewriteRule ^galerie-college/?$ /galerie/ [R=301,L]
+RewriteRule ^galerie-lycee/?$ /galerie/ [R=301,L]
+RewriteRule ^vie-scolaire/?$ /activites-parascolaires/ [R=301,L]
+RewriteRule ^les-tice/?$ /pourquoi-les-lumieres/ [R=301,L]
+RewriteRule ^evenement-programme/?$ /actualites/ [R=301,L]
+RewriteRule ^calendrier-vacances/?$ /actualites/ [R=301,L]
+
+# Custom 404
+ErrorDocument 404 /404.html

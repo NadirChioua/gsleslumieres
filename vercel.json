@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/mot-du-president", "destination": "/mot-du-directeur", "permanent": true },
+    { "source": "/activites-parascolaire", "destination": "/activites-parascolaires", "permanent": true },
+    { "source": "/structure-pedagogique-maternelle", "destination": "/maternelle-tanger", "permanent": true },
+    { "source": "/structure-pedagogique-primaire", "destination": "/primaire-prive-tanger", "permanent": true },
+    { "source": "/structure-pedagogique-college-2", "destination": "/college-prive-tanger", "permanent": true },
+    { "source": "/structure-pedagogique-lycee", "destination": "/lycee-prive-tanger", "permanent": true },
+    { "source": "/la-cantine", "destination": "/cantine", "permanent": true },
+    { "source": "/inscription", "destination": "/inscription-ecole-tanger", "permanent": true },
+    { "source": "/presentation", "destination": "/qui-sommes-nous", "permanent": true },
+    { "source": "/galerie-photos", "destination": "/galerie", "permanent": true },
+    { "source": "/galerie-maternelle", "destination": "/galerie", "permanent": true },
+    { "source": "/galerie-primaire", "destination": "/galerie", "permanent": true },
+    { "source": "/galerie-college", "destination": "/galerie", "permanent": true },
+    { "source": "/galerie-lycee", "destination": "/galerie", "permanent": true },
+    { "source": "/vie-scolaire", "destination": "/activites-parascolaires", "permanent": true },
+    { "source": "/les-tice", "destination": "/pourquoi-les-lumieres", "permanent": true },
+    { "source": "/evenement-programme", "destination": "/actualites", "permanent": true },
+    { "source": "/calendrier-vacances", "destination": "/actualites", "permanent": true }
+  ]
+}

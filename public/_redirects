@@ -1,0 +1,19 @@
+# Netlify redirects — old URLs → new URLs (301)
+/mot-du-president                    /mot-du-directeur/             301
+/activites-parascolaire             /activites-parascolaires/      301
+/structure-pedagogique-maternelle   /maternelle-tanger/            301
+/structure-pedagogique-primaire     /primaire-prive-tanger/        301
+/structure-pedagogique-college-2    /college-prive-tanger/         301
+/structure-pedagogique-lycee        /lycee-prive-tanger/           301
+/la-cantine                         /cantine/                      301
+/inscription                        /inscription-ecole-tanger/     301
+/presentation                       /qui-sommes-nous/              301
+/galerie-photos                     /galerie/                      301
+/galerie-maternelle                 /galerie/                      301
+/galerie-primaire                   /galerie/                      301
+/galerie-college                    /galerie/                      301
+/galerie-lycee                      /galerie/                      301
+/vie-scolaire                       /activites-parascolaires/      301
+/les-tice                           /pourquoi-les-lumieres/        301
+/evenement-programme                /actualites/                   301
+/calendrier-vacances                /actualites/                   301
