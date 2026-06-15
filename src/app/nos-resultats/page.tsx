@@ -9,20 +9,20 @@ import ScrollReveal from '@/components/shared/ScrollReveal';
 export const metadata = buildMetadata({
   title: 'Nos Résultats & Réussites | Les Lumières Tanger',
   description:
-    'Découvrez les résultats et réussites du Groupe Scolaire Les Lumières à Tanger : excellents taux de réussite au baccalauréat, certifications Cambridge, distinctions et bourses d’excellence.',
+    'Découvrez les résultats et réussites du Groupe Scolaire Les Lumières à Tanger : réussite au lycée, certifications Cambridge, distinctions et bourses d’excellence.',
   path: '/nos-resultats',
-  keywords: ['résultats baccalauréat Tanger', 'taux de réussite école Tanger', 'réussite Les Lumières'],
+  keywords: ['résultats lycée Tanger', 'taux de réussite école Tanger', 'réussite Les Lumières'],
 });
 
 const highlights = [
-  { icon: 'GraduationCap', value: 'Excellents', label: 'Taux de réussite au baccalauréat' },
+  { icon: 'GraduationCap', value: 'Excellents', label: 'Taux de réussite au lycée' },
   { icon: 'Award', value: 'Cambridge', label: 'Élèves certifiés en anglais' },
   { icon: 'Trophy', value: 'Olympiades', label: 'Distinctions en mathématiques' },
   { icon: 'Star', value: 'Bourses', label: 'd’excellence pour les méritants' },
 ];
 
 const achievements = [
-  'Des taux de réussite élevés et constants aux examens du baccalauréat, toutes filières confondues.',
+  'Des taux de réussite élevés et constants aux examens du lycée, toutes filières confondues.',
   'Une préparation rigoureuse aux Cambridge English Qualifications, avec de nombreux élèves certifiés.',
   'Des élèves distingués lors de l’Olympiade Ramadan des mathématiques et d’autres concours.',
   'Une Bourse d’Excellence qui récompense chaque année les élèves les plus méritants.',

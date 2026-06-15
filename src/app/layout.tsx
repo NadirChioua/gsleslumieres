@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Groupe Scolaire Les Lumières | École Privée Trilingue à Tanger',
-    description: 'École privée trilingue à Tanger depuis 2004. De la maternelle au baccalauréat.',
+    description: 'École privée trilingue à Tanger depuis 2004. De la maternelle au lycée.',
     images: [`${SITE_URL}/images/og/default.jpg`],
   },
 };

@@ -17,13 +17,13 @@ export const metadata = buildMetadata({
 });
 
 const reasons = [
-  { icon: 'GraduationCap', title: '21 ans d’expérience et de confiance', text: 'Fondée en 2004, notre école a accompagné des milliers d’élèves vers la réussite. Cette longévité est le fruit de la confiance renouvelée des familles tangéroises et d’une quête constante d’excellence.' },
-  { icon: 'Globe', title: 'École trilingue dès la maternelle', text: 'Arabe, français et anglais sont enseignés de manière progressive et structurée. Cette immersion précoce donne à nos élèves une aisance linguistique rare et une véritable ouverture sur le monde.' },
+  { icon: 'GraduationCap', title: '21 ans d’expérience et de confiance', text: 'Fondée en 2004, notre école a accompagné des milliers d’élèves vers la réussite. Cette longévité est le fruit de la confiance renouvelée des familles de Tanger et des familles qui s’y installent, avec une quête constante d’excellence.' },
+  { icon: 'Globe', title: 'École trilingue dès la maternelle', text: 'Le français est la langue principale d’instruction, l’arabe est enseigné dès la Petite Section et l’anglais commence dès la Grande Section à raison de 3 heures par semaine.' },
   { icon: 'Calculator', title: 'Méthode de Singapour en mathématiques', text: 'Nous appliquons la Méthode de Singapour, reconnue comme l’une des plus efficaces au monde. Son approche concrète-imagée-abstraite développe le raisonnement et la maîtrise durable des concepts.' },
   { icon: 'Award', title: 'Cambridge English Qualifications', text: 'Nos élèves préparent les certifications Cambridge English, reconnues internationalement. Un atout décisif pour leurs études supérieures et leur future carrière professionnelle.' },
   { icon: 'Drama', title: 'Activités parascolaires riches et diversifiées', text: 'Théâtre, chorale Albatros, arts plastiques, sports et voyages scolaires : l’épanouissement de nos élèves se construit aussi en dehors de la salle de classe.' },
   { icon: 'HeartHandshake', title: 'Encadrement bienveillant et suivi personnalisé', text: 'Effectifs maîtrisés, équipe pédagogique investie, communication régulière avec les familles : chaque élève bénéficie d’une attention individuelle qui fait la différence.' },
-  { icon: 'Monitor', title: 'De la maternelle au baccalauréat, en un seul lieu', text: 'Un parcours scolaire complet et cohérent, sans rupture. Votre enfant évolue dans un environnement familier, avec une continuité pédagogique qui favorise sa réussite.' },
+  { icon: 'Monitor', title: 'De la maternelle au lycée, en un seul lieu', text: 'Un parcours scolaire complet et cohérent, sans rupture. Votre enfant évolue dans un environnement familier, avec une continuité pédagogique qui favorise sa réussite.' },
 ];
 
 export default function PourquoiPage() {

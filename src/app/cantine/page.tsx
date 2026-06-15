@@ -31,7 +31,7 @@ export default function CantinePage() {
         image="/images/services/cantine.jpg"
         imageAlt="Cantine scolaire du Groupe Scolaire Les Lumières à Tanger"
       />
-      <BreadCrumb items={[{ name: 'Services', path: '/transport-scolaire' }, { name: 'Cantine', path: '/cantine' }]} />
+      <BreadCrumb items={[{ name: 'Services Scolaires', path: '/transport-scolaire' }, { name: 'Cantine', path: '/cantine' }]} />
 
       <section className="section-padding">
         <div className="container-page grid items-center gap-10 lg:grid-cols-2">

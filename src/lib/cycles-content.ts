@@ -43,13 +43,13 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     metaDescription:
       'Maternelle privée trilingue à Tanger. Petite, Moyenne et Grande Section. Approche Montessori, éveil et apprentissage dans un cadre chaleureux. Inscriptions 2026-2027.',
     heroSubtitle:
-      'Les premiers pas de votre enfant dans un environnement chaleureux, sécurisé et stimulant — où l’on apprend en jouant, en arabe, en français et en anglais.',
-    heroImage: '/images/cycles/maternelle.jpg',
+      'Les premiers pas de votre enfant dans un environnement chaleureux, sécurisé et stimulant — où le français structure les apprentissages, avec l’arabe dès la PS et l’anglais dès la GS.',
+    heroImage: '/images/campaign/maternelle-inscriptions-2026.jpg',
     heroImageAlt: 'Enfants de maternelle en activité d’éveil à l’école Les Lumières à Tanger',
     intro: [
       'La maternelle du Groupe Scolaire Les Lumières accueille les enfants de 3 à 5 ans dans un cadre conçu pour le respect de leur rythme et de leur curiosité naturelle. Notre approche s’inspire de la pédagogie Montessori : l’enfant apprend par la manipulation, l’expérimentation et le jeu, accompagné par des éducatrices bienveillantes et expérimentées.',
-      'Dès la Petite Section, votre enfant est immergé dans un univers trilingue. L’arabe, le français et l’anglais sont introduits progressivement à travers des chansons, des histoires et des activités ludiques. Cette exposition précoce développe l’oreille, la mémoire et l’aisance linguistique qui feront la différence tout au long de sa scolarité.',
-      'Les effectifs réduits permettent un suivi individualisé : chaque enfant est observé, encouragé et valorisé. La maternelle Les Lumières, située à Val Fleuri à Tanger, est bien plus qu’une garderie : c’est le socle sur lequel se construit la confiance en soi, l’autonomie et le goût d’apprendre.',
+      'Dès la Petite Section, votre enfant bénéficie d’un éveil linguistique structuré : le français accompagne la communication quotidienne, l’arabe est enseigné dès la PS et l’anglais commence dès la Grande Section à raison de 3 heures par semaine. Cette progression développe l’oreille, la mémoire et l’aisance linguistique qui feront la différence tout au long de sa scolarité.',
+      'Les effectifs réduits permettent un suivi individualisé : chaque enfant est observé, encouragé et valorisé. La maternelle Les Lumières, située à Val Fleuri à Tanger, constitue le socle sur lequel se construit la confiance en soi, l’autonomie et le goût d’apprendre.',
     ],
     levels: [
       { level: 'Petite Section (PS)', description: '3 ans — adaptation, socialisation et éveil sensoriel.' },
@@ -67,18 +67,18 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     methods: [
       { title: 'Pédagogie Montessori', text: 'Du matériel sensoriel adapté pour apprendre par l’expérience et développer l’autonomie.' },
       { title: 'Apprendre en jouant', text: 'Le jeu est le moteur de l’apprentissage : chaque activité a un objectif pédagogique précis.' },
-      { title: 'Éveil trilingue', text: 'Immersion douce en arabe, français et anglais dès la Petite Section.' },
+      { title: 'Éveil trilingue', text: 'Français langue principale, arabe dès la Petite Section et anglais dès la Grande Section.' },
     ],
     languages: [
-      { lang: 'Arabe', detail: 'Dès la Petite Section — comptines, histoires et vocabulaire.' },
       { lang: 'Français', detail: 'Langue principale d’éveil et de communication.' },
-      { lang: 'Anglais', detail: 'Initiation ludique à l’oral.' },
+      { lang: 'Arabe', detail: 'Dès la Petite Section — comptines, histoires et vocabulaire.' },
+      { lang: 'Anglais', detail: 'Dès la Grande Section, 3 heures par semaine — initiation orale et préparation progressive Cambridge.' },
     ],
     advantages: [
       'Effectifs réduits et suivi individualisé',
       'Éducatrices qualifiées et bienveillantes',
       'Locaux sécurisés et adaptés aux tout-petits',
-      'Garderie et service de transport disponibles',
+      'Transport scolaire et cantine disponibles',
     ],
     gallery: galleryFor('maternelle', 'maternelle', 'Maternelle'),
     testimonialName: 'Fatima',
@@ -92,15 +92,15 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     h1: 'École Primaire Privée à Tanger — Du CP au CE6',
     metaTitle: 'Primaire Privé à Tanger | École Les Lumières — Méthode de Singapour',
     metaDescription:
-      'École primaire privée à Tanger du CP au CE6. Méthode de Singapour pour les maths, enseignement trilingue, anglais dès le CP. Groupe Scolaire Les Lumières.',
+      'École primaire privée à Tanger du CP au CE6. Méthode de Singapour pour les maths, enseignement trilingue, anglais depuis la GS. Groupe Scolaire Les Lumières.',
     heroSubtitle:
       'Des bases solides en français, en arabe et en anglais, et une excellence en mathématiques grâce à la Méthode de Singapour.',
-    heroImage: '/images/cycles/primaire.jpg',
+    heroImage: '/images/campaign/primaire-inscriptions-2026.jpg',
     heroImageAlt: 'Élèves de primaire en classe à l’école privée Les Lumières à Tanger',
     intro: [
       'Le cycle primaire du Groupe Scolaire Les Lumières, du CP au CE6, constitue une étape déterminante dans le parcours de votre enfant. C’est ici que se construisent les compétences fondamentales : lire, écrire, compter et raisonner. Notre projet pédagogique met l’accent sur la rigueur, la curiosité et la confiance en soi.',
       'En mathématiques, nous appliquons la célèbre Méthode de Singapour, reconnue comme l’une des plus efficaces au monde. Cette approche progressive — du concret vers l’abstrait — développe une compréhension profonde des concepts et un véritable goût pour la résolution de problèmes.',
-      'L’enseignement reste résolument trilingue : le français est la langue principale d’instruction, l’arabe est consolidé, et l’anglais est enseigné dès le CP à raison de 3 heures par semaine, dans la perspective des certifications Cambridge English. Notre école primaire privée à Tanger conjugue exigence académique et épanouissement personnel.',
+      'L’enseignement reste résolument trilingue : le français est la langue principale d’instruction, l’arabe est consolidé, et l’anglais commencé dès la Grande Section se poursuit à raison de 3 heures par semaine, dans la perspective des certifications Cambridge English. Notre école primaire privée à Tanger conjugue exigence académique et épanouissement personnel.',
     ],
     levels: [
       { level: 'CP', description: 'Apprentissage de la lecture et de l’écriture.' },
@@ -124,11 +124,11 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     languages: [
       { lang: 'Français', detail: 'Langue principale d’instruction.' },
       { lang: 'Arabe', detail: 'Enseignement structuré et progressif.' },
-      { lang: 'Anglais', detail: 'Dès le CP, 3 heures par semaine — préparation Cambridge.' },
+      { lang: 'Anglais', detail: 'Depuis la Grande Section, 3 heures par semaine — préparation Cambridge.' },
     ],
     advantages: [
       'Méthode de Singapour pour les mathématiques',
-      'Anglais dès le CP avec préparation Cambridge',
+      'Anglais depuis la GS avec préparation Cambridge',
       'Salles informatiques et tableaux interactifs',
       'Activités parascolaires riches et variées',
     ],
@@ -147,7 +147,7 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
       'Collège privé international à Tanger. 1AC, 2AC, 3AC. Préparation Cambridge English, laboratoires de sciences, programme trilingue. Inscriptions ouvertes.',
     heroSubtitle:
       'Un collège international exigeant et bienveillant, qui prépare les adolescents au lycée et aux certifications Cambridge English.',
-    heroImage: '/images/cycles/college.jpg',
+    heroImage: '/images/campaign/college-inscriptions-2026.jpg',
     heroImageAlt: 'Collégiens en laboratoire de sciences au collège international Les Lumières à Tanger',
     intro: [
       'Le Collège International du Groupe Scolaire Les Lumières accompagne les élèves de la 1ère à la 3ème Année Collège (1AC, 2AC, 3AC) à travers une période charnière de leur développement. Notre objectif : conjuguer exigence académique, ouverture internationale et accompagnement personnalisé.',
@@ -192,23 +192,23 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     slug: 'lycee-prive-tanger',
     name: 'Lycée',
     breadcrumbName: 'Lycée',
-    h1: 'Lycée Privé à Tanger — Tronc Commun au Baccalauréat',
-    metaTitle: 'Lycée Privé à Tanger | Groupe Scolaire Les Lumières — Baccalauréat',
+    h1: 'Lycée Privé à Tanger — Tronc Commun, 1er Bac et 2ème Bac',
+    metaTitle: 'Lycée Privé à Tanger | Groupe Scolaire Les Lumières — Parcours Lycée',
     metaDescription:
       'Lycée privé à Tanger. Tronc commun, 1er et 2ème Bac (SVT, PC, Éco, SGC). Préparation Cambridge, bourse d’excellence. Groupe Scolaire Les Lumières.',
     heroSubtitle:
-      'Du Tronc Commun au Baccalauréat, nous préparons chaque lycéen à réussir ses examens et à construire son projet d’avenir.',
-    heroImage: '/images/cycles/lycee.jpg',
-    heroImageAlt: 'Lycéens préparant le baccalauréat au lycée privé Les Lumières à Tanger',
+      'Du Tronc Commun au 2ème Bac, nous préparons chaque lycéen à réussir ses examens et à construire son projet d’avenir.',
+    heroImage: '/images/campaign/lycee-inscriptions-2026.jpg',
+    heroImageAlt: 'Lycéens en préparation aux examens au lycée privé Les Lumières à Tanger',
     intro: [
-      'Le Lycée du Groupe Scolaire Les Lumières conduit les élèves du Tronc Commun jusqu’au Baccalauréat, avec un seul objectif : la réussite de chacun. Notre encadrement allie exigence académique, accompagnement personnalisé et orientation active vers les études supérieures.',
-      'Les élèves choisissent parmi plusieurs filières : Sciences de la Vie et de la Terre (SVT), Physique-Chimie (PC), Sciences Mathématiques, Sciences Économiques et Sciences de Gestion Comptable (SGC). Chaque filière bénéficie d’un suivi rigoureux, de devoirs surveillés réguliers et d’une préparation intensive aux épreuves du baccalauréat.',
+      'Le Lycée du Groupe Scolaire Les Lumières conduit les élèves du Tronc Commun jusqu’au 2ème Bac, avec un seul objectif : la réussite de chacun. Notre encadrement allie exigence académique, accompagnement personnalisé et orientation active vers les études supérieures.',
+      'Les élèves choisissent parmi plusieurs filières : Sciences de la Vie et de la Terre (SVT), Physique-Chimie (PC), Sciences Mathématiques, Sciences Économiques et Sciences de Gestion Comptable (SGC). Chaque filière bénéficie d’un suivi rigoureux, de devoirs surveillés réguliers et d’une préparation intensive aux examens.',
       'Au-delà des résultats, le lycée valorise l’excellence à travers une Bourse d’Excellence destinée aux élèves les plus méritants, et poursuit la préparation aux Cambridge English Qualifications. Notre lycée privé à Tanger forme des bacheliers confiants, ambitieux et prêts pour l’enseignement supérieur.',
     ],
     levels: [
       { level: 'Tronc Commun', description: 'Année de consolidation et d’orientation.' },
-      { level: '1er Baccalauréat', description: 'Filières : SVT, Sciences Maths, Sciences Éco.' },
-      { level: '2ème Baccalauréat', description: 'Filières : PC, SVT, Éco, SGC — préparation finale au Bac.' },
+      { level: '1er Bac', description: 'Filières : SVT, Sciences Maths, Sciences Éco.' },
+      { level: '2ème Bac', description: 'Filières : PC, SVT, Éco, SGC — préparation finale aux examens.' },
     ],
     subjects: [
       { icon: 'Calculator', name: 'Mathématiques' },
@@ -230,7 +230,7 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     ],
     advantages: [
       'Filières scientifiques et économiques complètes',
-      'Préparation intensive au baccalauréat',
+      'Préparation intensive aux examens',
       'Bourse d’excellence pour les élèves méritants',
       'Orientation vers les études supérieures',
     ],

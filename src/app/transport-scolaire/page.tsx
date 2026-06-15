@@ -31,7 +31,7 @@ export default function TransportPage() {
         image="/images/services/transport.jpg"
         imageAlt="Bus de transport scolaire du Groupe Scolaire Les Lumières à Tanger"
       />
-      <BreadCrumb items={[{ name: 'Services', path: '/transport-scolaire' }, { name: 'Transport scolaire', path: '/transport-scolaire' }]} />
+      <BreadCrumb items={[{ name: 'Services Scolaires', path: '/transport-scolaire' }, { name: 'Transport scolaire', path: '/transport-scolaire' }]} />
 
       <section className="section-padding">
         <div className="container-page grid items-center gap-10 lg:grid-cols-2">

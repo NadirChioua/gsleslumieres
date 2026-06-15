@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'Groupe Scolaire Les Lumières',
     short_name: 'Les Lumières',
-    description: 'École privée trilingue à Tanger depuis 2004 — de la maternelle au baccalauréat.',
+    description: 'École privée trilingue à Tanger depuis 2004 — de la maternelle au lycée.',
     start_url: '/',
     display: 'standalone',
     background_color: '#FAFAF8',

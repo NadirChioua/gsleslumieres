@@ -49,9 +49,19 @@ export const SCHOOL = {
     youtube: 'https://www.youtube.com/@GroupeScolaireLesLumieres',
   },
 
+  adminHours: [
+    { day: 'Lundi – Jeudi', time: '08h00 – 17h00' },
+    { day: 'Vendredi', time: '08h00 – à confirmer' },
+    { day: 'Samedi', time: '09h00 – 13h00' },
+    { day: 'Dimanche', time: 'Fermé' },
+  ],
+  schoolHours: [
+    { day: 'Session matinale', time: '08h45 – 12h30' },
+  ],
   hours: [
-    { day: 'Lundi – Vendredi', time: '08h00 – 18h00' },
-    { day: 'Samedi', time: '08h00 – 13h00' },
+    { day: 'Lundi – Jeudi', time: '08h00 – 17h00' },
+    { day: 'Vendredi', time: '08h00 – à confirmer' },
+    { day: 'Samedi', time: '09h00 – 13h00' },
     { day: 'Dimanche', time: 'Fermé' },
   ],
 } as const;
@@ -76,8 +86,8 @@ export const CYCLES = [
     shortLabel: 'Maternelle',
     ages: '3 à 5 ans',
     levels: ['Petite Section (PS)', 'Moyenne Section (MS)', 'Grande Section (GS)'],
-    tagline: 'Approche Montessori, éveil et premiers pas dans 3 langues',
-    image: '/images/cycles/maternelle.jpg',
+    tagline: 'Approche Montessori, éveil et ouverture linguistique progressive',
+    image: '/images/campaign/maternelle-inscriptions-2026.jpg',
     imageAlt:
       'Enfants de maternelle en activité d’éveil à l’école Les Lumières à Tanger',
     features: [
@@ -92,14 +102,14 @@ export const CYCLES = [
     shortLabel: 'Primaire',
     ages: '6 à 11 ans',
     levels: ['CP', 'CE2', 'CE3', 'CE4', 'CE5', 'CE6'],
-    tagline: 'Méthode de Singapour en mathématiques, anglais dès le CP',
-    image: '/images/cycles/primaire.jpg',
+    tagline: 'Méthode de Singapour en mathématiques, préparation Cambridge',
+    image: '/images/campaign/primaire-inscriptions-2026.jpg',
     imageAlt:
       'Élèves de primaire en classe à l’école privée Les Lumières à Tanger',
     features: [
       'Méthode de Singapour',
       'Bases solides en français',
-      'Anglais dès le CP',
+      'Anglais dès la GS',
     ],
   },
   {
@@ -109,7 +119,7 @@ export const CYCLES = [
     ages: '12 à 14 ans',
     levels: ['1ère Année Collège (1AC)', '2AC', '3AC'],
     tagline: 'Préparation Cambridge English et laboratoires de sciences',
-    image: '/images/cycles/college.jpg',
+    image: '/images/campaign/college-inscriptions-2026.jpg',
     imageAlt:
       'Collégiens en laboratoire de sciences au collège international Les Lumières à Tanger',
     features: [
@@ -124,12 +134,12 @@ export const CYCLES = [
     shortLabel: 'Lycée',
     ages: '15 à 18 ans',
     levels: ['Tronc Commun', '1er Bac (SVT / Maths / Éco)', '2ème Bac (PC / SVT / Éco / SGC)'],
-    tagline: 'Préparation au baccalauréat et bourse d’excellence',
-    image: '/images/cycles/lycee.jpg',
+    tagline: 'Parcours lycée, orientation et bourse d’excellence',
+    image: '/images/campaign/lycee-inscriptions-2026.jpg',
     imageAlt:
-      'Lycéens préparant le baccalauréat au lycée privé Les Lumières à Tanger',
+      'Lycéens en préparation aux examens au lycée privé Les Lumières à Tanger',
     features: [
-      'Préparation au Bac',
+      'Préparation aux examens',
       'Filières scientifiques & éco',
       'Bourse d’excellence',
     ],
@@ -151,8 +161,8 @@ export const NIVEAUX = [
   '2ème Année Collège (2AC)',
   '3ème Année Collège (3AC)',
   'Tronc Commun',
-  '1er Baccalauréat',
-  '2ème Baccalauréat',
+  '1er Bac',
+  '2ème Bac',
 ] as const;
 
 // ─── Atouts (Why Us) ───────────────────────────────────────────
@@ -165,7 +175,7 @@ export const WHY_US = [
   {
     icon: 'Globe',
     title: 'École trilingue',
-    description: 'Arabe, français et anglais dès le plus jeune âge.',
+    description: 'Français langue principale, arabe dès la PS, anglais dès la GS.',
   },
   {
     icon: 'Calculator',
@@ -257,7 +267,6 @@ export const ACTIVITIES = [
 export const SERVICES = [
   { icon: 'Bus', title: 'Transport scolaire', description: 'Flotte de véhicules neufs avec personnel d’accompagnement dédié.', href: '/transport-scolaire' },
   { icon: 'UtensilsCrossed', title: 'Cantine & Restauration', description: 'Repas équilibrés sur place sous la supervision de notre équipe.', href: '/cantine' },
-  { icon: 'Clock', title: 'Garderie', description: 'Heures de surveillance prolongées avant et après les cours.', href: '/contact' },
   { icon: 'Monitor', title: 'TICE & Laboratoires', description: 'Salles informatiques, tableaux interactifs et laboratoire de sciences.', href: '/pourquoi-les-lumieres' },
 ] as const;
 
@@ -274,7 +283,7 @@ export const NAV = [
     ],
   },
   {
-    label: 'Nos Formations',
+    label: 'Cycles',
     children: [
       { label: 'Maternelle', href: '/maternelle-tanger' },
       { label: 'Primaire', href: '/primaire-prive-tanger' },
@@ -291,7 +300,7 @@ export const NAV = [
     ],
   },
   {
-    label: 'Services',
+    label: 'Services Scolaires',
     children: [
       { label: 'Transport scolaire', href: '/transport-scolaire' },
       { label: 'Cantine', href: '/cantine' },

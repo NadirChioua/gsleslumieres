@@ -20,8 +20,8 @@ const articles = [
     title: 'Inscriptions 2026-2027 ouvertes — Places limitées',
     date: '2026-05-15',
     excerpt:
-      'Les inscriptions pour l’année scolaire 2026-2027 sont officiellement ouvertes au Groupe Scolaire Les Lumières. Les places étant limitées, nous invitons les familles à nous contacter au plus tôt pour réserver la place de leur enfant, de la maternelle au baccalauréat.',
-    img: '/images/actualites/inscriptions.jpg',
+      'Les inscriptions pour l’année scolaire 2026-2027 sont officiellement ouvertes au Groupe Scolaire Les Lumières. Les places étant limitées, nous invitons les familles à nous contacter au plus tôt pour réserver la place de leur enfant, de la maternelle au lycée.',
+    img: '/images/campaign/college-inscriptions-2026.jpg',
     featured: true,
   },
   {
@@ -36,7 +36,7 @@ const articles = [
     date: '2026-03-10',
     excerpt:
       'Le Groupe Scolaire Les Lumières récompense chaque année ses élèves les plus méritants à travers une Bourse d’Excellence, encourageant ainsi l’effort, la rigueur et la réussite.',
-    img: '/images/actualites/bourse.jpg',
+    img: '/images/campaign/lycee-inscriptions-2026.jpg',
   },
   {
     title: 'Olympiade Ramadan des mathématiques — Résultats',

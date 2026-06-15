@@ -10,9 +10,9 @@ export function organizationSchema() {
     name: SCHOOL.name,
     alternateName: SCHOOL.nameAr,
     description:
-      'École privée trilingue à Tanger, Maroc. De la maternelle au baccalauréat. Fondée en 2004. Méthode de Singapour, Cambridge English, activités parascolaires.',
+      'École privée trilingue à Tanger, Maroc. De la maternelle au lycée. Fondée en 2004. Méthode de Singapour, Cambridge English, activités parascolaires.',
     url: SITE_URL,
-    logo: `${SITE_URL}/images/logo.svg`,
+    logo: `${SITE_URL}/images/brand/logo-les-lumieres-transparent.png`,
     image: `${SITE_URL}/images/hero/school-campus.jpg`,
     telephone: [SCHOOL.phone1Intl, SCHOOL.phone2Intl],
     email: SCHOOL.email,

@@ -39,7 +39,7 @@ export default function InscriptionPage() {
       <PageHero
         title="Inscriptions 2026-2027 — Rejoignez le Groupe Scolaire Les Lumières"
         subtitle="Inscriptions ouvertes pour l’année scolaire 2026-2027. Places limitées — réservez dès maintenant."
-        image="/images/campus/inscription.jpg"
+        image="/images/campaign/maternelle-inscriptions-2026.jpg"
         imageAlt="Parents et élèves lors des inscriptions au Groupe Scolaire Les Lumières à Tanger"
         badge="Places limitées"
       />

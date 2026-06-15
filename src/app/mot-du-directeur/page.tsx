@@ -47,8 +47,9 @@ export default function MotDuDirecteurPage() {
             <p>
               Notre projet éducatif repose sur une pédagogie de projet et une approche par compétences. Nous ne
               nous contentons pas de transmettre des connaissances : nous formons des esprits curieux, autonomes et
-              responsables. L’enseignement trilingue — arabe, français et anglais — et la Méthode de Singapour en
-              mathématiques donnent à nos élèves des fondations solides et durables.
+              responsables. L’enseignement trilingue — français langue principale, arabe dès la Petite Section et
+              anglais dès la Grande Section — ainsi que la Méthode de Singapour en mathématiques donnent à nos élèves
+              des fondations solides et durables.
             </p>
             <p>
               Mais une école ne se résume pas à ses programmes. Aux Lumières, la vie scolaire est riche : théâtre,
@@ -58,7 +59,7 @@ export default function MotDuDirecteurPage() {
             </p>
             <p>
               Notre vision est tournée vers l’avenir : préparer des citoyens du monde, confiants et ambitieux,
-              capables de réussir leur baccalauréat puis leurs études supérieures, tout en restant attachés à leurs
+              capables de réussir leur parcours au lycée puis leurs études supérieures, tout en restant attachés à leurs
               valeurs. Cet engagement, nous le partageons avec vous, parents, qui êtes nos premiers partenaires.
             </p>
             <p>

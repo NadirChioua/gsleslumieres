@@ -1,7 +1,7 @@
 # Groupe Scolaire Les Lumières — Site web
 
 Site web officiel du **Groupe Scolaire Les Lumières**, école privée trilingue à Tanger (Maroc),
-de la maternelle au baccalauréat. Construit avec **Next.js 14 (App Router, export statique)**,
+de la maternelle au lycée. Construit avec **Next.js 14 (App Router, export statique)**,
 **Tailwind CSS**, **TypeScript**, **Framer Motion** et **Lucide Icons**.
 
 Optimisé pour le **SEO**, l’**AI Search (AEO)**, la **conversion via WhatsApp** et le **mobile-first**.

@@ -6,6 +6,7 @@ import { ChevronDown, MessageCircle } from 'lucide-react';
 import { NAV, SCHOOL, whatsappLink } from '@/lib/constants';
 import Logo from './Logo';
 import MobileMenu from './MobileMenu';
+import CambridgeBadge from '@/components/shared/CambridgeBadge';
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -26,6 +27,7 @@ export default function Header() {
     >
       <div className="container-page flex items-center justify-between gap-4">
         <Logo />
+        <CambridgeBadge compact className="hidden xl:inline-flex" />
 
         {/* Desktop nav */}
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Navigation principale">

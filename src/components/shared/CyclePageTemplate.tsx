@@ -13,6 +13,7 @@ import CTASection from './CTASection';
 import JsonLd from '@/components/seo/JsonLd';
 import { courseSchema } from '@/lib/schema';
 import { CYCLES } from '@/lib/constants';
+import CambridgeBadge from './CambridgeBadge';
 
 export default function CyclePageTemplate({ data }: { data: CycleContent }) {
   const testimonial = getTestimonial(data.testimonialName);
@@ -30,7 +31,7 @@ export default function CyclePageTemplate({ data }: { data: CycleContent }) {
       />
       <BreadCrumb
         items={[
-          { name: 'Nos Formations', path: '/maternelle-tanger' },
+          { name: 'Cycles', path: '/maternelle-tanger' },
           { name: data.breadcrumbName, path: `/${data.slug}` },
         ]}
       />
@@ -115,6 +116,7 @@ export default function CyclePageTemplate({ data }: { data: CycleContent }) {
           </div>
           <div>
             <SectionTitle eyebrow="Trilingue" title="Les langues enseignées" align="left" />
+            <CambridgeBadge className="mb-4" />
             <div className="space-y-4">
               {data.languages.map((l) => (
                 <div key={l.lang} className="flex items-start gap-3 rounded-xl bg-white p-5 shadow-sm">

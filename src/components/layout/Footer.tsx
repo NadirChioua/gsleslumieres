@@ -32,7 +32,7 @@ export default function Footer() {
             <Logo variant="light" />
           </div>
           <p className="mb-4 text-sm leading-relaxed text-white/70">
-            École privée trilingue à Tanger depuis 2004. De la maternelle au baccalauréat,
+            École privée trilingue à Tanger depuis 2004. De la maternelle au lycée,
             nous accompagnons chaque élève vers la réussite et l’épanouissement.
           </p>
           <SocialIcons className="text-white" />

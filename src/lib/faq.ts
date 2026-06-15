@@ -7,12 +7,12 @@ export const FAQS: FAQ[] = [
   {
     question: 'Quels sont les cycles scolaires proposés par Les Lumières ?',
     answer:
-      'Le Groupe Scolaire Les Lumières propose 4 cycles complets : Maternelle (PS, MS, GS), Primaire (CP à CE6), Collège International (1AC, 2AC, 3AC) et Lycée (Tronc Commun, 1er et 2ème Baccalauréat). Votre enfant peut ainsi être accompagné de 3 à 18 ans dans un même établissement à Tanger.',
+      'Le Groupe Scolaire Les Lumières propose 4 cycles complets : Maternelle (PS, MS, GS), Primaire (CP à CE6), Collège International (1AC, 2AC, 3AC) et Lycée (Tronc Commun, 1er Bac et 2ème Bac). Votre enfant peut ainsi être accompagné de 3 à 18 ans dans un même établissement à Tanger.',
   },
   {
     question: 'L’école est-elle trilingue ? Quelles langues sont enseignées ?',
     answer:
-      'Oui, Les Lumières est une école trilingue. L’arabe est enseigné dès la Petite Section, le français est la langue principale d’instruction (mathématiques, sciences, informatique), et l’anglais est introduit dès le CP à raison de 3 heures par semaine, avec préparation aux certifications Cambridge English.',
+      'Oui, Les Lumières est une école trilingue. Le français est la langue principale d’instruction (mathématiques, sciences, informatique), l’arabe est enseigné dès la Petite Section, et l’anglais est introduit dès la Grande Section à raison de 3 heures par semaine, avec préparation aux certifications Cambridge English.',
   },
   {
     question: 'Qu’est-ce que la Méthode de Singapour utilisée en mathématiques ?',
@@ -22,7 +22,7 @@ export const FAQS: FAQ[] = [
   {
     question: 'L’école prépare-t-elle aux certifications Cambridge English ?',
     answer:
-      'Oui. Le Groupe Scolaire Les Lumières prépare ses élèves aux Cambridge English Qualifications, des certifications internationales reconnues mondialement. La préparation commence au primaire et s’intensifie au collège et au lycée.',
+      'Oui. Le Groupe Scolaire Les Lumières prépare ses élèves aux Cambridge English Qualifications, des certifications internationales reconnues mondialement. L’anglais commence dès la Grande Section à raison de 3 heures par semaine, puis la préparation Cambridge se structure progressivement jusqu’au lycée.',
   },
   {
     question: 'Quelles sont les activités parascolaires proposées ?',
@@ -47,12 +47,12 @@ export const FAQS: FAQ[] = [
   {
     question: 'Y a-t-il une cantine ou un service de restauration ?',
     answer:
-      'Oui, l’école propose un service de restauration sur place avec des repas équilibrés, un encadrement des élèves pendant les repas et des conditions d’hygiène strictes. Une garderie est également disponible pour une surveillance prolongée.',
+      'Oui, l’école propose un service de restauration sur place avec des repas équilibrés, un encadrement des élèves pendant les repas et des conditions d’hygiène strictes.',
   },
   {
     question: 'Quels sont les horaires de l’école ?',
     answer:
-      'L’école est ouverte du lundi au vendredi de 08h00 à 18h00 et le samedi de 08h00 à 13h00. Une garderie assure un accueil avant et après les heures de cours. Pour les horaires précis par cycle, contactez-nous au 0539 93 90 95.',
+      'Les horaires administratifs sont : lundi à jeudi de 08h00 à 17h00, vendredi à partir de 08h00 avec horaire de fermeture à confirmer, et samedi de 09h00 à 13h00. La session scolaire matinale est de 08h45 à 12h30. Pour les horaires précis par cycle, contactez-nous au 0539 93 90 95.',
   },
   {
     question: 'Comment contacter l’école pour plus d’informations ?',

@@ -9,7 +9,7 @@ export const metadata = buildMetadata({
   description: data.metaDescription,
   path: '/lycee-prive-tanger',
   ogImage: '/images/og/lycee.jpg',
-  keywords: ['lycée privé Tanger', 'lycée Tanger baccalauréat', 'bourse excellence Tanger'],
+  keywords: ['lycée privé Tanger', 'cycle lycée Tanger', 'bourse excellence Tanger'],
 });
 
 export default function Page() {

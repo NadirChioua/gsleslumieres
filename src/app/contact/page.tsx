@@ -65,21 +65,37 @@ export default function ContactPage() {
         <div className="container-page grid gap-10 lg:grid-cols-2">
           <div>
             <SectionTitle eyebrow="Nous trouver" title="Adresse & horaires" align="left" />
-            <div className="mb-6 space-y-4">
+            <div className="mb-6 space-y-5">
               <a href={GOOGLE_MAPS_DIRECTIONS} target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-ink/80 hover:text-primary-800">
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" />
                 <span>{SCHOOL.address.full}</span>
               </a>
               <div className="flex items-start gap-3">
                 <Clock className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" />
-                <ul className="space-y-1 text-sm text-ink/80">
-                  {SCHOOL.hours.map((h) => (
-                    <li key={h.day} className="flex justify-between gap-6">
-                      <span className="font-medium">{h.day}</span>
-                      <span>{h.time}</span>
-                    </li>
-                  ))}
-                </ul>
+                <div className="space-y-3 text-sm text-ink/80">
+                  <div>
+                    <p className="mb-1 font-bold text-primary-800">Horaires administratifs</p>
+                    <ul className="space-y-1">
+                      {SCHOOL.adminHours.map((h) => (
+                        <li key={h.day} className="flex justify-between gap-6">
+                          <span className="font-medium">{h.day}</span>
+                          <span>{h.time}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="mb-1 font-bold text-primary-800">Horaires scolaires</p>
+                    <ul className="space-y-1">
+                      {SCHOOL.schoolHours.map((h) => (
+                        <li key={h.day} className="flex justify-between gap-6">
+                          <span className="font-medium">{h.day}</span>
+                          <span>{h.time}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
             <GoogleMap height={360} />

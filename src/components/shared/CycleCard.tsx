@@ -1,17 +1,16 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Check } from 'lucide-react';
+import { ArrowRight, Check, GraduationCap } from 'lucide-react';
 
 interface CycleCardProps {
   slug: string;
   name: string;
-  ages: string;
   features: readonly string[];
   image: string;
   imageAlt: string;
 }
 
-export default function CycleCard({ slug, name, ages, features, image, imageAlt }: CycleCardProps) {
+export default function CycleCard({ slug, name, features, image, imageAlt }: CycleCardProps) {
   return (
     <Link
       href={`/${slug}`}
@@ -25,8 +24,9 @@ export default function CycleCard({ slug, name, ages, features, image, imageAlt 
           sizes="(max-width: 768px) 100vw, 25vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <span className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-primary-800">
-          {ages}
+        <span className="absolute left-3 top-3 inline-flex items-center gap-1.5 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-primary-800">
+          <GraduationCap className="h-3.5 w-3.5 text-gold-600" />
+          Cycle scolaire
         </span>
       </div>
       <div className="flex flex-1 flex-col p-5">

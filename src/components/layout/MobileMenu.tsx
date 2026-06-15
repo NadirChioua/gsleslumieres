@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { NAV, SCHOOL, telLink, whatsappLink } from '@/lib/constants';
 import SocialIcons from './SocialIcons';
+import CambridgeBadge from '@/components/shared/CambridgeBadge';
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
@@ -83,6 +84,7 @@ export default function MobileMenu() {
           </nav>
 
           <div className="space-y-3 border-t border-black/5 px-4 py-4">
+            <CambridgeBadge className="w-full justify-center" />
             <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="btn-whatsapp w-full">
               Contacter via WhatsApp
             </a>

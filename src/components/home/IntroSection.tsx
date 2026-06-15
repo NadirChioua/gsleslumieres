@@ -17,8 +17,9 @@ export default function IntroSection() {
             <p>
               Le <strong>Groupe Scolaire Les Lumières</strong> est une école privée trilingue
               <strong> fondée en 2004</strong>, située dans le quartier <strong>Val Fleuri à Tanger</strong>,
-              au Maroc. L’établissement accueille les élèves de la <strong>maternelle au baccalauréat</strong> et
-              propose un enseignement en <strong>arabe, français et anglais</strong>.
+              au Maroc. L’établissement accueille les élèves de la <strong>maternelle au lycée</strong> et
+              propose un enseignement où le <strong>français</strong> est la langue principale, avec
+              <strong> l’arabe dès la Petite Section</strong> et <strong>l’anglais dès la Grande Section</strong>.
             </p>
             <p>
               L’école utilise la <strong>Méthode de Singapour</strong> pour les mathématiques et prépare ses élèves

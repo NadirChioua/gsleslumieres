@@ -8,9 +8,9 @@ export default function CyclesGrid() {
     <section id="decouvrir" className="section-padding">
       <div className="container-page">
         <SectionTitle
-          eyebrow="Nos Formations"
+          eyebrow="Cycles"
           title="Un parcours complet, de 3 à 18 ans"
-          subtitle="Quatre cycles scolaires dans un même établissement, pour accompagner votre enfant de la maternelle jusqu’au baccalauréat."
+          subtitle="Quatre cycles scolaires dans un même établissement, pour accompagner votre enfant de la maternelle jusqu’au lycée."
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {CYCLES.map((c, i) => (
@@ -18,7 +18,6 @@ export default function CyclesGrid() {
               <CycleCard
                 slug={c.slug}
                 name={c.name}
-                ages={c.ages}
                 features={c.features}
                 image={c.image}
                 imageAlt={c.imageAlt}
