@@ -8,7 +8,7 @@ export const metadata = buildMetadata({
   title: data.metaTitle,
   description: data.metaDescription,
   path: '/maternelle-tanger',
-  ogImage: '/images/og/maternelle.jpg',
+  ogImage: data.heroImage,
   keywords: ['maternelle privée Tanger', 'école maternelle Val Fleuri', 'Montessori Tanger'],
 });
 

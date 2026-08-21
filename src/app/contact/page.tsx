@@ -1,6 +1,7 @@
 import { MapPin, Phone, Mail, MessageCircle, Clock } from 'lucide-react';
 import { buildMetadata } from '@/lib/metadata';
 import { SCHOOL, telLink, whatsappLink, GOOGLE_MAPS_DIRECTIONS } from '@/lib/constants';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 import PageHero from '@/components/shared/PageHero';
 import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
@@ -21,7 +22,7 @@ export default function ContactPage() {
       <PageHero
         title="Contactez-nous"
         subtitle="Une question, une visite, une inscription ? Notre équipe est à votre écoute."
-        image="/images/campus/campus-3.jpg"
+        image={SCHOOL_IMAGES.general.contactCampus}
         imageAlt="Entrée du Groupe Scolaire Les Lumières à Val Fleuri, Tanger"
       />
       <BreadCrumb items={[{ name: 'Contact', path: '/contact' }]} />
@@ -70,32 +71,17 @@ export default function ContactPage() {
                 <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" />
                 <span>{SCHOOL.address.full}</span>
               </a>
-              <div className="flex items-start gap-3">
-                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-gold-600" />
-                <div className="space-y-3 text-sm text-ink/80">
-                  <div>
-                    <p className="mb-1 font-bold text-primary-800">Horaires administratifs</p>
-                    <ul className="space-y-1">
-                      {SCHOOL.adminHours.map((h) => (
-                        <li key={h.day} className="flex justify-between gap-6">
-                          <span className="font-medium">{h.day}</span>
-                          <span>{h.time}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <p className="mb-1 font-bold text-primary-800">Horaires scolaires</p>
-                    <ul className="space-y-1">
-                      {SCHOOL.schoolHours.map((h) => (
-                        <li key={h.day} className="flex justify-between gap-6">
-                          <span className="font-medium">{h.day}</span>
-                          <span>{h.time}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
+              <div className="rounded-lg border border-gold-200 bg-white p-6 text-center shadow-sm">
+                <Clock className="mx-auto mb-3 h-6 w-6 text-gold-600" />
+                <p className="text-sm font-bold uppercase tracking-wide text-primary-800">
+                  Horaires scolaires officiels
+                </p>
+                <p className="mt-2 font-heading text-4xl font-normal leading-none text-primary-900">
+                  {SCHOOL.schoolHours[0].time}
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-ink/65">
+                  Pour les visites, inscriptions et informations administratives, contactez-nous par téléphone ou WhatsApp.
+                </p>
               </div>
             </div>
             <GoogleMap height={360} />

@@ -6,7 +6,7 @@ import { Send, CheckCircle2, Loader2 } from 'lucide-react';
 import { NIVEAUX, FORMSPREE_ENDPOINT, whatsappLink } from '@/lib/constants';
 
 interface FormValues {
-  parent: string;
+  etudiant: string;
   whatsapp: string;
   niveau: string;
   message?: string;
@@ -37,7 +37,7 @@ export default function InscriptionForm() {
 
   if (done) {
     const v = getValues();
-    const waText = `Bonjour, je suis ${v.parent}. Je souhaite inscrire mon enfant en ${v.niveau} au Groupe Scolaire Les Lumières.`;
+    const waText = `Bonjour, je souhaite inscrire l’étudiant ${v.etudiant} en ${v.niveau} au Groupe Scolaire Les Lumières.`;
     return (
       <div className="rounded-xl border border-whatsapp/30 bg-green-50 p-8 text-center">
         <CheckCircle2 className="mx-auto mb-3 h-12 w-12 text-whatsapp" />
@@ -55,17 +55,17 @@ export default function InscriptionForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 rounded-xl border border-black/5 bg-white p-6 shadow-sm md:p-8">
       <div>
-        <label htmlFor="parent" className="mb-1.5 block text-sm font-medium text-ink">
-          Nom complet du parent <span className="text-primary-700">*</span>
+        <label htmlFor="etudiant" className="mb-1.5 block text-sm font-medium text-ink">
+          Nom complet de l’étudiant <span className="text-primary-700">*</span>
         </label>
         <input
-          id="parent"
+          id="etudiant"
           type="text"
-          {...register('parent', { required: 'Ce champ est requis' })}
+          {...register('etudiant', { required: 'Ce champ est requis' })}
           className="w-full rounded-lg border border-black/10 px-4 py-3 focus:border-primary-700 focus:outline-none"
-          placeholder="Ex. Karim Bennani"
+          placeholder="Ex. Lina Bennani"
         />
-        {errors.parent && <p className="mt-1 text-sm text-primary-700">{errors.parent.message}</p>}
+        {errors.etudiant && <p className="mt-1 text-sm text-primary-700">{errors.etudiant.message}</p>}
       </div>
 
       <div>

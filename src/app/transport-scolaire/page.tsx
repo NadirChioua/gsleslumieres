@@ -6,6 +6,7 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
 import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Transport Scolaire Sécurisé | Les Lumières Tanger',
@@ -28,7 +29,7 @@ export default function TransportPage() {
       <PageHero
         title="Transport Scolaire Sécurisé"
         subtitle="La sérénité des parents, la sécurité des enfants : notre service de transport accompagne votre enfant en toute confiance."
-        image="/images/services/transport.jpg"
+        image={SCHOOL_IMAGES.services.transport}
         imageAlt="Bus de transport scolaire du Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'Services Scolaires', path: '/transport-scolaire' }, { name: 'Transport scolaire', path: '/transport-scolaire' }]} />
@@ -52,7 +53,7 @@ export default function TransportPage() {
           </ScrollReveal>
           <ScrollReveal delay={0.15}>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
-              <Image src="/images/services/transport.jpg" alt="Véhicule de transport scolaire sécurisé des Lumières à Tanger" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+              <Image src={SCHOOL_IMAGES.services.transport} alt="Véhicule de transport scolaire sécurisé des Lumières à Tanger" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
             </div>
           </ScrollReveal>
         </div>

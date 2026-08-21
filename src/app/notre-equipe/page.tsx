@@ -5,6 +5,7 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
 import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Notre Équipe Pédagogique | Les Lumières Tanger',
@@ -15,12 +16,12 @@ export const metadata = buildMetadata({
 });
 
 const team = [
-  { name: 'Ahmed ABBOU', role: 'Directeur & Fondateur', img: '/images/team/directeur.jpg' },
-  { name: 'Direction des études', role: 'Coordination pédagogique', img: '/images/team/team-1.jpg' },
-  { name: 'Équipe Maternelle', role: 'Éducatrices spécialisées', img: '/images/team/team-2.jpg' },
-  { name: 'Équipe Primaire', role: 'Professeurs des écoles', img: '/images/team/team-3.jpg' },
-  { name: 'Équipe Collège & Lycée', role: 'Professeurs de spécialité', img: '/images/team/team-4.jpg' },
-  { name: 'Équipe administrative', role: 'Accueil & accompagnement des familles', img: '/images/team/team-5.jpg' },
+  { name: 'Ahmed ABBOU', role: 'Directeur & Fondateur', img: SCHOOL_IMAGES.general.directorMessage },
+  { name: 'Direction des études', role: 'Coordination pédagogique', img: SCHOOL_IMAGES.general.teamHero },
+  { name: 'Équipe Maternelle', role: 'Éducatrices spécialisées', img: SCHOOL_IMAGES.cycles.maternelle.card },
+  { name: 'Équipe Primaire', role: 'Professeurs des écoles', img: SCHOOL_IMAGES.cycles.primaire.card },
+  { name: 'Équipe Collège & Lycée', role: 'Professeurs de spécialité', img: SCHOOL_IMAGES.cycles.college.card },
+  { name: 'Équipe administrative', role: 'Accueil & accompagnement des familles', img: SCHOOL_IMAGES.general.schoolGroup },
 ];
 
 export default function NotreEquipePage() {
@@ -29,7 +30,7 @@ export default function NotreEquipePage() {
       <PageHero
         title="Notre Équipe Pédagogique"
         subtitle="Des femmes et des hommes passionnés, qualifiés et bienveillants, engagés pour la réussite de chaque élève."
-        image="/images/team/team-hero.jpg"
+        image={SCHOOL_IMAGES.general.teamHero}
         imageAlt="Équipe pédagogique du Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'L’École', path: '/qui-sommes-nous' }, { name: 'Notre équipe', path: '/notre-equipe' }]} />

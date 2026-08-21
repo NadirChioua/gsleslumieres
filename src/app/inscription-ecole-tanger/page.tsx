@@ -7,13 +7,14 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
 import InscriptionForm from '@/components/shared/InscriptionForm';
 import FAQAccordion from '@/components/shared/FAQAccordion';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Inscription École Privée Tanger 2026-2027 | Les Lumières',
   description:
     'Inscrivez votre enfant au Groupe Scolaire Les Lumières à Tanger. Inscriptions 2026-2027 ouvertes. Formulaire en ligne, WhatsApp ou visite sur place. Réponse rapide.',
   path: '/inscription-ecole-tanger',
-  ogImage: '/images/og/inscription.jpg',
+  ogImage: SCHOOL_IMAGES.cycles.maternelle.card,
   keywords: ['inscription école Tanger', 'inscription 2026-2027 Tanger', 'inscrire enfant école privée Tanger'],
 });
 
@@ -39,7 +40,7 @@ export default function InscriptionPage() {
       <PageHero
         title="Inscriptions 2026-2027 — Rejoignez le Groupe Scolaire Les Lumières"
         subtitle="Inscriptions ouvertes pour l’année scolaire 2026-2027. Places limitées — réservez dès maintenant."
-        image="/images/campaign/maternelle-inscriptions-2026.jpg"
+        image={SCHOOL_IMAGES.cycles.maternelle.card}
         imageAlt="Parents et élèves lors des inscriptions au Groupe Scolaire Les Lumières à Tanger"
         badge="Places limitées"
       />

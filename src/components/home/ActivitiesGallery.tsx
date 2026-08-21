@@ -2,14 +2,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import SectionTitle from '@/components/shared/SectionTitle';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 const PHOTOS = [
-  { src: '/images/activities/theatre.jpg', alt: 'Atelier théâtre des élèves de l’école Les Lumières à Tanger', span: 'row-span-2' },
-  { src: '/images/activities/chorale.jpg', alt: 'Chorale Albatros en répétition au Groupe Scolaire Les Lumières' },
-  { src: '/images/activities/sport.jpg', alt: 'Élèves lors d’une compétition sportive à l’école Les Lumières Tanger' },
-  { src: '/images/activities/arts.jpg', alt: 'Atelier d’arts plastiques au Groupe Scolaire Les Lumières' },
-  { src: '/images/activities/sortie.jpg', alt: 'Sortie scolaire des élèves de l’école Les Lumières à Tanger', span: 'col-span-2' },
-  { src: '/images/campus/classroom.jpg', alt: 'Salle de classe moderne au Groupe Scolaire Les Lumières à Tanger' },
+  { src: SCHOOL_IMAGES.activities.theatre, alt: 'Atelier théâtre des élèves de l’école Les Lumières à Tanger', span: 'row-span-2' },
+  { src: SCHOOL_IMAGES.activities.chorale, alt: 'Chorale Albatros en répétition au Groupe Scolaire Les Lumières' },
+  { src: SCHOOL_IMAGES.activities.sport, alt: 'Élèves lors d’une activité sportive à l’école Les Lumières Tanger' },
+  { src: SCHOOL_IMAGES.activities.arts, alt: 'Atelier d’arts plastiques au Groupe Scolaire Les Lumières' },
+  { src: SCHOOL_IMAGES.activities.sortie, alt: 'Sortie scolaire des élèves de l’école Les Lumières à Tanger', span: 'col-span-2' },
+  { src: SCHOOL_IMAGES.cycles.primaire.gallery[0].src, alt: 'Vie de classe au Groupe Scolaire Les Lumières à Tanger' },
 ];
 
 export default function ActivitiesGallery() {

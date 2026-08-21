@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { MessageCircle } from 'lucide-react';
 import { buildMetadata } from '@/lib/metadata';
 import { SCHOOL, whatsappLink } from '@/lib/constants';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 import PageHero from '@/components/shared/PageHero';
 import BreadCrumb from '@/components/shared/BreadCrumb';
 
@@ -19,7 +20,7 @@ export default function MotDuDirecteurPage() {
       <PageHero
         title="Mot du Directeur — Ahmed ABBOU"
         subtitle="« Notre école, votre confiance » — un engagement que nous honorons chaque jour."
-        image="/images/campus/campus-3.jpg"
+        image={SCHOOL_IMAGES.general.directorMessage}
         imageAlt="Directeur du Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'L’École', path: '/qui-sommes-nous' }, { name: 'Mot du Directeur', path: '/mot-du-directeur' }]} />
@@ -28,7 +29,7 @@ export default function MotDuDirecteurPage() {
         <div className="container-page grid gap-10 lg:grid-cols-[300px_1fr]">
           <div className="mx-auto w-full max-w-[300px]">
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl shadow-lg">
-              <Image src="/images/team/directeur.jpg" alt="Portrait de Ahmed ABBOU, directeur du Groupe Scolaire Les Lumières" fill sizes="300px" className="object-cover" />
+              <Image src={SCHOOL_IMAGES.general.directorMessage} alt="Portrait de Ahmed ABBOU, directeur du Groupe Scolaire Les Lumières" fill sizes="300px" className="object-cover" />
             </div>
             <div className="mt-4 rounded-xl bg-cream p-4 text-center">
               <p className="font-heading text-lg text-primary-800">Ahmed ABBOU</p>

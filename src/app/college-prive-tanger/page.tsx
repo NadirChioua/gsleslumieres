@@ -8,7 +8,7 @@ export const metadata = buildMetadata({
   title: data.metaTitle,
   description: data.metaDescription,
   path: '/college-prive-tanger',
-  ogImage: '/images/og/college.jpg',
+  ogImage: data.heroImage,
   keywords: ['collège privé Tanger', 'collège international Tanger', 'Cambridge English Tanger'],
 });
 

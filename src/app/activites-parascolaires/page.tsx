@@ -7,6 +7,7 @@ import SectionTitle from '@/components/shared/SectionTitle';
 import FeatureCard from '@/components/shared/FeatureCard';
 import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Activités Parascolaires | Les Lumières Tanger',
@@ -31,7 +32,7 @@ export default function ActivitesPage() {
       <PageHero
         title="Activités Parascolaires — L’épanouissement au-delà des cours"
         subtitle="À Les Lumières, on grandit aussi en dehors de la salle de classe. Théâtre, musique, sport, arts et voyages : chaque talent trouve sa place."
-        image="/images/activities/theatre.jpg"
+        image={SCHOOL_IMAGES.activities.theatre}
         imageAlt="Élèves sur scène lors d’un spectacle de théâtre au Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'Vie Scolaire', path: '/activites-parascolaires' }, { name: 'Activités parascolaires', path: '/activites-parascolaires' }]} />
@@ -53,7 +54,7 @@ export default function ActivitesPage() {
         <div className="container-page grid items-center gap-10 lg:grid-cols-2">
           <ScrollReveal>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
-              <Image src="/images/activities/sortie.jpg" alt="Sortie scolaire des élèves de l’école Les Lumières à Chefchaouen" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+              <Image src={SCHOOL_IMAGES.activities.sortie} alt="Sortie scolaire des élèves de l’école Les Lumières à Chefchaouen" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={0.15}>

@@ -17,8 +17,10 @@ import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import JsonLd from '@/components/seo/JsonLd';
 import { organizationSchema } from '@/lib/schema';
 import { SITE_URL, SCHOOL } from '@/lib/constants';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 const GTM_ID = 'GTM-XXXXXXX';
+const hasGtm = !GTM_ID.includes('XXXX');
 
 const heading = DM_Serif_Display({ subsets: ['latin'], weight: '400', variable: '--font-heading', display: 'swap' });
 const body = DM_Sans({ subsets: ['latin'], variable: '--font-body', display: 'swap' });
@@ -50,13 +52,13 @@ export const metadata: Metadata = {
     title: 'Groupe Scolaire Les Lumières | École Privée Trilingue à Tanger depuis 2004',
     description:
       'École privée trilingue à Tanger depuis 2004. Maternelle, Primaire, Collège, Lycée. Cambridge English. Méthode de Singapour. Inscriptions 2026-2027 ouvertes.',
-    images: [{ url: `${SITE_URL}/images/og/default.jpg`, width: 1200, height: 630, alt: SCHOOL.name }],
+    images: [{ url: `${SITE_URL}${SCHOOL_IMAGES.general.heroCampus}`, width: 1200, height: 630, alt: SCHOOL.name }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Groupe Scolaire Les Lumières | École Privée Trilingue à Tanger',
     description: 'École privée trilingue à Tanger depuis 2004. De la maternelle au lycée.',
-    images: [`${SITE_URL}/images/og/default.jpg`],
+    images: [`${SITE_URL}${SCHOOL_IMAGES.general.heroCampus}`],
   },
 };
 
@@ -64,14 +66,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${heading.variable} ${body.variable} ${arabic.variable}`}>
       <head>
-        {/* Google Tag Manager */}
-        <Script id="gtm" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        {hasGtm && (
+          <Script id="gtm" strategy="afterInteractive">
+            {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','${GTM_ID}');`}
-        </Script>
+          </Script>
+        )}
         <link rel="alternate" hrefLang="fr-ma" href={SITE_URL} />
         <meta name="theme-color" content="#8B0000" />
         <meta name="geo.region" content="MA-01" />
@@ -79,16 +82,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={organizationSchema()} />
       </head>
       <body>
-        {/* GTM noscript */}
-        <noscript>
-          <iframe
-            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-            height="0"
-            width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
-            title="gtm"
-          />
-        </noscript>
+        {hasGtm && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+              title="gtm"
+            />
+          </noscript>
+        )}
 
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[200] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-primary-800 focus:shadow">
           Aller au contenu

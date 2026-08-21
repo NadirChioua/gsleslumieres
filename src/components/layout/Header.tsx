@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown, MessageCircle } from 'lucide-react';
-import { NAV, SCHOOL, whatsappLink } from '@/lib/constants';
+import { NAV, whatsappLink } from '@/lib/constants';
 import Logo from './Logo';
 import MobileMenu from './MobileMenu';
 import CambridgeBadge from '@/components/shared/CambridgeBadge';

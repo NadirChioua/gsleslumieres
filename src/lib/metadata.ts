@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import { SITE_URL, SCHOOL } from './constants';
+import { SCHOOL_IMAGES } from './school-images';
 
 interface PageMetaInput {
   title: string;
   description: string;
   path: string; // e.g. "/qui-sommes-nous" (no trailing slash needed)
-  ogImage?: string; // path under /images/og/
+  ogImage?: string;
   keywords?: string[];
 }
 
@@ -17,7 +18,7 @@ export function buildMetadata({
   title,
   description,
   path,
-  ogImage = '/images/og/default.jpg',
+  ogImage = SCHOOL_IMAGES.general.heroCampus,
   keywords = [],
 }: PageMetaInput): Metadata {
   const canonical = `${SITE_URL}${path === '/' ? '' : path}/`;

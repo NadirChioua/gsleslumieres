@@ -4,7 +4,7 @@ import { SCHOOL, telLink, whatsappLink } from '@/lib/constants';
 
 const quickLinks = [
   { label: 'Accueil', href: '/' },
-  { label: 'Nos formations', href: '/maternelle-tanger' },
+  { label: 'Cycles', href: '/maternelle-tanger' },
   { label: 'Inscription', href: '/inscription-ecole-tanger' },
   { label: 'Contact', href: '/contact' },
 ];

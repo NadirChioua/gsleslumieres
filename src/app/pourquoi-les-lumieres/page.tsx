@@ -7,20 +7,21 @@ import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
 import Icon from '@/components/shared/Icon';
 import TestimonialCard from '@/components/shared/TestimonialCard';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Pourquoi choisir Les Lumières ? | Meilleure École Privée à Tanger',
   description:
-    '7 raisons de choisir le Groupe Scolaire Les Lumières à Tanger : 21 ans d’expérience, école trilingue, Cambridge English, Méthode de Singapour, activités riches, encadrement personnalisé.',
+    '7 raisons de choisir le Groupe Scolaire Les Lumières à Tanger : 22 ans d’expérience, école trilingue, Cambridge Preparation, Méthode de Singapour, activités riches, encadrement personnalisé.',
   path: '/pourquoi-les-lumieres',
   keywords: ['meilleure école privée Tanger', 'pourquoi Les Lumières', 'TICE Tanger'],
 });
 
 const reasons = [
-  { icon: 'GraduationCap', title: '21 ans d’expérience et de confiance', text: 'Fondée en 2004, notre école a accompagné des milliers d’élèves vers la réussite. Cette longévité est le fruit de la confiance renouvelée des familles de Tanger et des familles qui s’y installent, avec une quête constante d’excellence.' },
+  { icon: 'GraduationCap', title: '22 ans d’expérience et de confiance', text: 'Fondée en 2004, notre école a accompagné des milliers d’élèves vers la réussite. Cette longévité est le fruit de la confiance renouvelée des familles, avec une quête constante d’excellence.' },
   { icon: 'Globe', title: 'École trilingue dès la maternelle', text: 'Le français est la langue principale d’instruction, l’arabe est enseigné dès la Petite Section et l’anglais commence dès la Grande Section à raison de 3 heures par semaine.' },
   { icon: 'Calculator', title: 'Méthode de Singapour en mathématiques', text: 'Nous appliquons la Méthode de Singapour, reconnue comme l’une des plus efficaces au monde. Son approche concrète-imagée-abstraite développe le raisonnement et la maîtrise durable des concepts.' },
-  { icon: 'Award', title: 'Cambridge English Qualifications', text: 'Nos élèves préparent les certifications Cambridge English, reconnues internationalement. Un atout décisif pour leurs études supérieures et leur future carrière professionnelle.' },
+  { icon: 'Award', title: 'Cambridge Preparation', text: 'Nos élèves avancent dans un parcours Cambridge Preparation vers les Cambridge English Qualifications, reconnues internationalement. Un atout décisif pour leurs études supérieures et leur future carrière professionnelle.' },
   { icon: 'Drama', title: 'Activités parascolaires riches et diversifiées', text: 'Théâtre, chorale Albatros, arts plastiques, sports et voyages scolaires : l’épanouissement de nos élèves se construit aussi en dehors de la salle de classe.' },
   { icon: 'HeartHandshake', title: 'Encadrement bienveillant et suivi personnalisé', text: 'Effectifs maîtrisés, équipe pédagogique investie, communication régulière avec les familles : chaque élève bénéficie d’une attention individuelle qui fait la différence.' },
   { icon: 'Monitor', title: 'De la maternelle au lycée, en un seul lieu', text: 'Un parcours scolaire complet et cohérent, sans rupture. Votre enfant évolue dans un environnement familier, avec une continuité pédagogique qui favorise sa réussite.' },
@@ -32,7 +33,7 @@ export default function PourquoiPage() {
       <PageHero
         title="Pourquoi choisir le Groupe Scolaire Les Lumières à Tanger ?"
         subtitle="Sept raisons concrètes qui font de Les Lumières l’un des établissements privés les plus appréciés de Tanger."
-        image="/images/campus/classroom.jpg"
+        image={SCHOOL_IMAGES.general.whyScience}
         imageAlt="Salle de classe équipée d’un tableau interactif au Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'L’École', path: '/qui-sommes-nous' }, { name: 'Pourquoi Les Lumières', path: '/pourquoi-les-lumieres' }]} />

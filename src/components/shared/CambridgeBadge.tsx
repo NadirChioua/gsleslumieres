@@ -1,23 +1,31 @@
-import { Award } from 'lucide-react';
+import Image from 'next/image';
 
 interface CambridgeBadgeProps {
   compact?: boolean;
   className?: string;
+  dark?: boolean;
 }
 
-export default function CambridgeBadge({ compact = false, className = '' }: CambridgeBadgeProps) {
+export default function CambridgeBadge({
+  compact = false,
+  className = '',
+  dark = false,
+}: CambridgeBadgeProps) {
   return (
     <div
-      className={`inline-flex items-center gap-2 rounded-lg border border-[#d6e2f3] bg-white px-3 py-2 text-[#1f4e8c] shadow-sm ${className}`}
-      aria-label="Préparation Cambridge English Qualifications"
+      className={`inline-flex items-center rounded-lg border bg-white/95 shadow-sm ${
+        dark ? 'border-white/30 shadow-xl ring-1 ring-white/10' : 'border-[#d6e2f3]'
+      } ${compact ? 'px-2.5 py-2' : 'px-4 py-3'} ${className}`}
+      aria-label="University of Cambridge"
     >
-      <span className="flex h-8 w-8 items-center justify-center rounded-md bg-[#1f4e8c] text-white">
-        <Award className="h-4 w-4" />
-      </span>
-      <span className="leading-tight">
-        <span className="block text-xs font-bold uppercase tracking-wide">Cambridge</span>
-        {!compact && <span className="block text-[11px] font-medium">English Qualifications</span>}
-      </span>
+      <Image
+        src="/images/brand/university-of-cambridge-logo.png"
+        alt="University of Cambridge"
+        width={300}
+        height={82}
+        sizes={compact ? '150px' : '220px'}
+        className={`${compact ? 'h-8 w-auto max-w-[150px]' : 'h-10 w-auto max-w-[220px]'} object-contain`}
+      />
     </div>
   );
 }

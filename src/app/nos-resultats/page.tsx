@@ -5,6 +5,7 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
 import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Nos Résultats & Réussites | Les Lumières Tanger',
@@ -35,7 +36,7 @@ export default function NosResultatsPage() {
       <PageHero
         title="Nos Résultats & Réussites"
         subtitle="L’excellence académique au service de l’avenir de nos élèves."
-        image="/images/campus/campus-2.jpg"
+        image={SCHOOL_IMAGES.general.results}
         imageAlt="Élèves lauréats du Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'L’École', path: '/qui-sommes-nous' }, { name: 'Nos résultats', path: '/nos-resultats' }]} />

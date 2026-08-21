@@ -2,6 +2,7 @@
 // Schema.org JSON-LD generators
 // ═══════════════════════════════════════════════════════════════
 import { SITE_URL, SCHOOL } from './constants';
+import { SCHOOL_IMAGES } from './school-images';
 
 export function organizationSchema() {
   return {
@@ -13,7 +14,7 @@ export function organizationSchema() {
       'École privée trilingue à Tanger, Maroc. De la maternelle au lycée. Fondée en 2004. Méthode de Singapour, Cambridge English, activités parascolaires.',
     url: SITE_URL,
     logo: `${SITE_URL}/images/brand/logo-les-lumieres-transparent.png`,
-    image: `${SITE_URL}/images/hero/school-campus.jpg`,
+    image: `${SITE_URL}${SCHOOL_IMAGES.general.heroCampus}`,
     telephone: [SCHOOL.phone1Intl, SCHOOL.phone2Intl],
     email: SCHOOL.email,
     foundingDate: '2004',

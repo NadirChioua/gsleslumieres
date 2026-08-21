@@ -1,5 +1,6 @@
 import { buildMetadata } from '@/lib/metadata';
 import { SCHOOL, SITE_URL } from '@/lib/constants';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 import PageHero from '@/components/shared/PageHero';
 import BreadCrumb from '@/components/shared/BreadCrumb';
 
@@ -16,7 +17,7 @@ export default function MentionsLegalesPage() {
       <PageHero
         title="Mentions Légales"
         subtitle="Informations légales relatives au site gsleslumieres.ma."
-        image="/images/campus/campus-2.jpg"
+        image={SCHOOL_IMAGES.general.schoolGroup}
         imageAlt="Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'Mentions légales', path: '/mentions-legales' }]} />

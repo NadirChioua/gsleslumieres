@@ -28,6 +28,7 @@ export default function CyclePageTemplate({ data }: { data: CycleContent }) {
         image={data.heroImage}
         imageAlt={data.heroImageAlt}
         badge="Inscriptions 2026-2027 ouvertes"
+        video={data.heroVideo}
       />
       <BreadCrumb
         items={[

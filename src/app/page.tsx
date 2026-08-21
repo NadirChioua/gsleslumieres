@@ -2,7 +2,9 @@ import HeroSection from '@/components/home/HeroSection';
 import BrandPromiseStrip from '@/components/home/BrandPromiseStrip';
 import StatsCounter from '@/components/home/StatsCounter';
 import IntroSection from '@/components/home/IntroSection';
+import SchoolDatesSection from '@/components/home/SchoolDatesSection';
 import CyclesGrid from '@/components/home/CyclesGrid';
+import ServicesMatrixSection from '@/components/home/ServicesMatrixSection';
 import WhyUsSection from '@/components/home/WhyUsSection';
 import CambridgeSection from '@/components/home/CambridgeSection';
 import AdmissionsSection from '@/components/home/AdmissionsSection';
@@ -27,7 +29,9 @@ export default function HomePage() {
       <BrandPromiseStrip />
       <StatsCounter />
       <IntroSection />
+      <SchoolDatesSection />
       <CyclesGrid />
+      <ServicesMatrixSection />
       <WhyUsSection />
       <CambridgeSection />
       <AdmissionsSection />

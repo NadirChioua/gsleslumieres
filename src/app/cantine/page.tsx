@@ -6,6 +6,7 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
 import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Cantine et Restauration | Les Lumières Tanger',
@@ -28,7 +29,7 @@ export default function CantinePage() {
       <PageHero
         title="Restauration et Cantine Scolaire"
         subtitle="Des repas sains et équilibrés, servis sur place dans un cadre encadré et convivial."
-        image="/images/services/cantine.jpg"
+        image={SCHOOL_IMAGES.services.cantine}
         imageAlt="Cantine scolaire du Groupe Scolaire Les Lumières à Tanger"
       />
       <BreadCrumb items={[{ name: 'Services Scolaires', path: '/transport-scolaire' }, { name: 'Cantine', path: '/cantine' }]} />
@@ -53,7 +54,7 @@ export default function CantinePage() {
           </ScrollReveal>
           <ScrollReveal delay={0.15}>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
-              <Image src="/images/services/cantine.jpg" alt="Repas équilibré servi à la cantine des Lumières à Tanger" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+              <Image src={SCHOOL_IMAGES.services.cantine} alt="Repas équilibré servi à la cantine des Lumières à Tanger" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
             </div>
           </ScrollReveal>
         </div>

@@ -6,6 +6,24 @@
   :root {
     --color-primary: #8b0000;
     --color-gold: #c9a227;
+    --accent: #c9a227;
+    --accent-strong: #8b0000;
+    --surface: #fafaf8;
+    --surface-alt: #f4f1ea;
+    --surface-elevated: #ffffff;
+    --surface-inverse: #1a1a2e;
+    --text-primary: #1a1a2e;
+    --text-secondary: rgb(26 26 46 / 0.76);
+    --text-muted: rgb(26 26 46 / 0.58);
+    --text-on-media: #ffffff;
+    --text-on-media-muted: rgb(255 255 255 / 0.82);
+    --border-subtle: rgb(26 26 46 / 0.08);
+    --overlay-media:
+      linear-gradient(180deg, rgb(0 0 0 / 0.42) 0%, rgb(0 0 0 / 0.12) 34%, rgb(0 0 0 / 0.58) 100%),
+      radial-gradient(circle at 50% 52%, rgb(26 26 46 / 0.42) 0%, rgb(63 4 12 / 0.24) 42%, rgb(0 0 0 / 0.18) 100%);
+    --ease-reveal: cubic-bezier(0.22, 1, 0.36, 1);
+    --duration-reveal: 700ms;
+    --duration-fade: 500ms;
   }
 
   html {
@@ -39,6 +57,17 @@
     @apply font-arabic;
     text-align: right;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
 }
 
 @layer components {
@@ -48,6 +77,10 @@
 
   .section-padding {
     @apply py-12 md:py-20;
+  }
+
+  .section-y {
+    @apply py-14 md:py-20 lg:py-28;
   }
 
   .btn {
@@ -84,6 +117,10 @@
 
   .eyebrow {
     @apply inline-block text-sm font-semibold uppercase tracking-wider text-gold-600;
+  }
+
+  .text-shadow-media {
+    text-shadow: 0 2px 24px rgb(0 0 0 / 0.55);
   }
 
   /* Prose-like readable content blocks */

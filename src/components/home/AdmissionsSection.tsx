@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CalendarCheck, MessageCircle, Phone } from 'lucide-react';
 import { SCHOOL, telLink, whatsappLink } from '@/lib/constants';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export default function AdmissionsSection() {
   return (
@@ -10,7 +11,7 @@ export default function AdmissionsSection() {
         <div className="grid overflow-hidden rounded-2xl bg-primary-900 shadow-2xl lg:grid-cols-[0.95fr_1.05fr]">
           <div className="relative min-h-[360px]">
             <Image
-              src="/images/campaign/maternelle-inscriptions-2026.jpg"
+              src={SCHOOL_IMAGES.cycles.maternelle.card}
               alt="Inscriptions ouvertes 2026-2027 au Groupe Scolaire Les Lumières"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -24,7 +25,7 @@ export default function AdmissionsSection() {
             <h2 className="mt-5 font-heading text-4xl text-white md:text-5xl">
               Inscriptions ouvertes 2026-2027
             </h2>
-            <p className="mt-4 max-w-xl text-lg text-white/82">
+            <p className="mt-4 max-w-xl text-lg text-white/80">
               Prenez rendez-vous, posez vos questions ou démarrez une pré-inscription. Le parcours
               doit rester simple pour les parents : notre équipe vous accompagne étape par étape.
             </p>

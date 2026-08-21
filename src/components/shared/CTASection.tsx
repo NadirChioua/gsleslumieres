@@ -17,7 +17,7 @@ export default function CTASection({
     <section className="bg-gradient-to-br from-primary-800 to-primary-900 text-white">
       <div className="container-page section-padding text-center">
         <h2 className="mx-auto max-w-3xl text-3xl font-bold md:text-4xl">{title}</h2>
-        <p className="mx-auto mt-3 max-w-2xl text-lg text-white/85">{subtitle}</p>
+        <p className="mx-auto mt-3 max-w-2xl text-lg text-white/90">{subtitle}</p>
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href={whatsappLink(whatsappText)}

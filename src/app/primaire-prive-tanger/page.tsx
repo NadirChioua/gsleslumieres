@@ -8,7 +8,7 @@ export const metadata = buildMetadata({
   title: data.metaTitle,
   description: data.metaDescription,
   path: '/primaire-prive-tanger',
-  ogImage: '/images/og/primaire.jpg',
+  ogImage: data.heroImage,
   keywords: ['primaire privé Tanger', 'école primaire privée Tanger', 'Méthode de Singapour Tanger'],
 });
 

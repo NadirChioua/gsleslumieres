@@ -8,7 +8,7 @@ export const metadata = buildMetadata({
   title: data.metaTitle,
   description: data.metaDescription,
   path: '/lycee-prive-tanger',
-  ogImage: '/images/og/lycee.jpg',
+  ogImage: data.heroImage,
   keywords: ['lycée privé Tanger', 'cycle lycée Tanger', 'bourse excellence Tanger'],
 });
 

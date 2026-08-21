@@ -18,7 +18,9 @@ export default function SectionTitle({
   return (
     <div className={`mb-10 max-w-3xl ${align === 'center' ? 'mx-auto text-center' : 'text-left'}`}>
       {eyebrow && <span className="eyebrow mb-2 block">{eyebrow}</span>}
-      <Tag className="text-3xl font-bold text-primary-800 md:text-4xl">{title}</Tag>
+      <Tag className="font-heading text-3xl font-normal leading-tight text-primary-900 md:text-5xl">
+        {title}
+      </Tag>
       {subtitle && <p className="mt-3 text-base text-ink/70 md:text-lg">{subtitle}</p>}
       <span
         className={`mt-4 block h-1 w-16 rounded-full bg-gold-500 ${align === 'center' ? 'mx-auto' : ''}`}

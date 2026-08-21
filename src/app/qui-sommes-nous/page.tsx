@@ -6,11 +6,12 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 import SectionTitle from '@/components/shared/SectionTitle';
 import CTASection from '@/components/shared/CTASection';
 import ScrollReveal from '@/components/shared/ScrollReveal';
+import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
   title: 'Qui sommes-nous | École à Tanger depuis 2004',
   description:
-    'Découvrez le Groupe Scolaire Les Lumières, école privée trilingue fondée en 2004 à Tanger. 21 ans d’expérience, de la maternelle au lycée. Méthode Montessori et Singapour.',
+    'Découvrez le Groupe Scolaire Les Lumières, école privée trilingue fondée en 2004 à Tanger. 22 ans d’expérience, de la maternelle au lycée. Méthode Montessori et Singapour.',
   path: '/qui-sommes-nous',
   keywords: ['école privée Val Fleuri', 'histoire école Les Lumières', 'école trilingue Tanger 2004'],
 });
@@ -26,9 +27,9 @@ export default function QuiSommesNousPage() {
   return (
     <>
       <PageHero
-        title="Groupe Scolaire Les Lumières — 21 ans d’excellence éducative à Tanger"
+        title="Groupe Scolaire Les Lumières — 22 ans d’excellence éducative à Tanger"
         subtitle="Une école privée trilingue qui accompagne chaque élève de la maternelle au lycée, dans un cadre rassurant et stimulant."
-        image="/images/campus/campus-1.jpg"
+        image={SCHOOL_IMAGES.general.heroCampus}
         imageAlt="Bâtiment du Groupe Scolaire Les Lumières à Val Fleuri, Tanger"
       />
       <BreadCrumb items={[{ name: 'L’École', path: '/qui-sommes-nous' }, { name: 'Qui sommes-nous', path: '/qui-sommes-nous' }]} />
@@ -53,7 +54,7 @@ export default function QuiSommesNousPage() {
           </ScrollReveal>
           <ScrollReveal delay={0.15}>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-lg">
-              <Image src="/images/campus/campus-2.jpg" alt="Cour de récréation du Groupe Scolaire Les Lumières à Tanger" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
+              <Image src={SCHOOL_IMAGES.general.aboutLife} alt="Cour de récréation du Groupe Scolaire Les Lumières à Tanger" fill sizes="(max-width:1024px) 100vw, 50vw" className="object-cover" />
             </div>
           </ScrollReveal>
         </div>
@@ -107,7 +108,7 @@ export default function QuiSommesNousPage() {
             <ul>
               <li><strong>Français :</strong> langue principale d’instruction (mathématiques, physique, biologie, informatique).</li>
               <li><strong>Arabe :</strong> enseigné dès la Petite Section.</li>
-              <li><strong>Anglais :</strong> dès la Grande Section, 3 heures par semaine, avec préparation aux Cambridge English Qualifications.</li>
+              <li><strong>Anglais :</strong> dès la Grande Section, 3 heures par semaine, avec Cambridge Preparation.</li>
             </ul>
             <p>
               Cette immersion progressive donne à nos élèves une véritable aisance linguistique et une ouverture sur

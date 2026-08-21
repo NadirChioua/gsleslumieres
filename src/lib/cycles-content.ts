@@ -1,5 +1,7 @@
 // Detailed editorial content for each cycle page.
 import { TESTIMONIALS } from './constants';
+import { SCHOOL_MEDIA } from './media';
+import { SCHOOL_IMAGES } from './school-images';
 
 export interface SubjectItem {
   icon: string;
@@ -16,6 +18,11 @@ export interface CycleContent {
   heroSubtitle: string;
   heroImage: string;
   heroImageAlt: string;
+  heroVideo?: {
+    src: string;
+    poster: string;
+    description: string;
+  };
   intro: string[];
   levels: { level: string; description: string }[];
   subjects: SubjectItem[];
@@ -26,12 +33,6 @@ export interface CycleContent {
   testimonialName: string;
   ctaLabel: string;
 }
-
-const galleryFor = (folder: string, prefix: string, altBase: string) =>
-  Array.from({ length: 6 }).map((_, i) => ({
-    src: `/images/cycles/${folder}/${prefix}-${i + 1}.jpg`,
-    alt: `${altBase} — photo ${i + 1} au Groupe Scolaire Les Lumières à Tanger`,
-  }));
 
 export const CYCLES_CONTENT: Record<string, CycleContent> = {
   'maternelle-tanger': {
@@ -44,8 +45,13 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
       'Maternelle privée trilingue à Tanger. Petite, Moyenne et Grande Section. Approche Montessori, éveil et apprentissage dans un cadre chaleureux. Inscriptions 2026-2027.',
     heroSubtitle:
       'Les premiers pas de votre enfant dans un environnement chaleureux, sécurisé et stimulant — où le français structure les apprentissages, avec l’arabe dès la PS et l’anglais dès la GS.',
-    heroImage: '/images/campaign/maternelle-inscriptions-2026.jpg',
+    heroImage: SCHOOL_IMAGES.cycles.maternelle.hero,
     heroImageAlt: 'Enfants de maternelle en activité d’éveil à l’école Les Lumières à Tanger',
+    heroVideo: {
+      src: SCHOOL_MEDIA.maternelle.src,
+      poster: SCHOOL_MEDIA.maternelle.poster,
+      description: SCHOOL_MEDIA.maternelle.description,
+    },
     intro: [
       'La maternelle du Groupe Scolaire Les Lumières accueille les enfants de 3 à 5 ans dans un cadre conçu pour le respect de leur rythme et de leur curiosité naturelle. Notre approche s’inspire de la pédagogie Montessori : l’enfant apprend par la manipulation, l’expérimentation et le jeu, accompagné par des éducatrices bienveillantes et expérimentées.',
       'Dès la Petite Section, votre enfant bénéficie d’un éveil linguistique structuré : le français accompagne la communication quotidienne, l’arabe est enseigné dès la PS et l’anglais commence dès la Grande Section à raison de 3 heures par semaine. Cette progression développe l’oreille, la mémoire et l’aisance linguistique qui feront la différence tout au long de sa scolarité.',
@@ -72,15 +78,15 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     languages: [
       { lang: 'Français', detail: 'Langue principale d’éveil et de communication.' },
       { lang: 'Arabe', detail: 'Dès la Petite Section — comptines, histoires et vocabulaire.' },
-      { lang: 'Anglais', detail: 'Dès la Grande Section, 3 heures par semaine — initiation orale et préparation progressive Cambridge.' },
+      { lang: 'Anglais', detail: 'Dès la Grande Section, 3 heures par semaine — initiation orale et Cambridge Preparation progressive.' },
     ],
     advantages: [
       'Effectifs réduits et suivi individualisé',
       'Éducatrices qualifiées et bienveillantes',
       'Locaux sécurisés et adaptés aux tout-petits',
-      'Transport scolaire et cantine disponibles',
+      'Service de Cantine et Transport disponibles',
     ],
-    gallery: galleryFor('maternelle', 'maternelle', 'Maternelle'),
+    gallery: SCHOOL_IMAGES.cycles.maternelle.gallery,
     testimonialName: 'Fatima',
     ctaLabel: 'Inscrire mon enfant en Maternelle',
   },
@@ -92,15 +98,15 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     h1: 'École Primaire Privée à Tanger — Du CP au CE6',
     metaTitle: 'Primaire Privé à Tanger | École Les Lumières — Méthode de Singapour',
     metaDescription:
-      'École primaire privée à Tanger du CP au CE6. Méthode de Singapour pour les maths, enseignement trilingue, anglais depuis la GS. Groupe Scolaire Les Lumières.',
+      'École primaire privée à Tanger du CP au CE6. Méthode de Singapour pour les maths, enseignement trilingue et Cambridge Preparation. Groupe Scolaire Les Lumières.',
     heroSubtitle:
       'Des bases solides en français, en arabe et en anglais, et une excellence en mathématiques grâce à la Méthode de Singapour.',
-    heroImage: '/images/campaign/primaire-inscriptions-2026.jpg',
+    heroImage: SCHOOL_IMAGES.cycles.primaire.hero,
     heroImageAlt: 'Élèves de primaire en classe à l’école privée Les Lumières à Tanger',
     intro: [
       'Le cycle primaire du Groupe Scolaire Les Lumières, du CP au CE6, constitue une étape déterminante dans le parcours de votre enfant. C’est ici que se construisent les compétences fondamentales : lire, écrire, compter et raisonner. Notre projet pédagogique met l’accent sur la rigueur, la curiosité et la confiance en soi.',
       'En mathématiques, nous appliquons la célèbre Méthode de Singapour, reconnue comme l’une des plus efficaces au monde. Cette approche progressive — du concret vers l’abstrait — développe une compréhension profonde des concepts et un véritable goût pour la résolution de problèmes.',
-      'L’enseignement reste résolument trilingue : le français est la langue principale d’instruction, l’arabe est consolidé, et l’anglais commencé dès la Grande Section se poursuit à raison de 3 heures par semaine, dans la perspective des certifications Cambridge English. Notre école primaire privée à Tanger conjugue exigence académique et épanouissement personnel.',
+      'L’enseignement reste résolument trilingue : le français est la langue principale d’instruction, l’arabe est consolidé, et l’anglais commencé dès la Grande Section se poursuit à raison de 3 heures par semaine, avec Cambridge Preparation progressive. Notre école primaire privée à Tanger conjugue exigence académique et épanouissement personnel.',
     ],
     levels: [
       { level: 'CP', description: 'Apprentissage de la lecture et de l’écriture.' },
@@ -124,15 +130,15 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     languages: [
       { lang: 'Français', detail: 'Langue principale d’instruction.' },
       { lang: 'Arabe', detail: 'Enseignement structuré et progressif.' },
-      { lang: 'Anglais', detail: 'Depuis la Grande Section, 3 heures par semaine — préparation Cambridge.' },
+      { lang: 'Anglais', detail: 'Depuis la Grande Section, 3 heures par semaine — Cambridge Preparation progressive.' },
     ],
     advantages: [
       'Méthode de Singapour pour les mathématiques',
-      'Anglais depuis la GS avec préparation Cambridge',
+      'Cambridge Preparation dès CE1',
       'Salles informatiques et tableaux interactifs',
       'Activités parascolaires riches et variées',
     ],
-    gallery: galleryFor('primaire', 'primaire', 'Primaire'),
+    gallery: SCHOOL_IMAGES.cycles.primaire.gallery,
     testimonialName: 'Youssef',
     ctaLabel: 'Inscrire mon enfant en Primaire',
   },
@@ -144,14 +150,14 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     h1: 'Collège Privé International à Tanger — 1AC, 2AC, 3AC',
     metaTitle: 'Collège Privé International à Tanger | Les Lumières — Cambridge English',
     metaDescription:
-      'Collège privé international à Tanger. 1AC, 2AC, 3AC. Préparation Cambridge English, laboratoires de sciences, programme trilingue. Inscriptions ouvertes.',
+      'Collège privé international à Tanger. 1AC, 2AC, 3AC. Cambridge Preparation, laboratoires de sciences, programme trilingue. Inscriptions ouvertes.',
     heroSubtitle:
-      'Un collège international exigeant et bienveillant, qui prépare les adolescents au lycée et aux certifications Cambridge English.',
-    heroImage: '/images/campaign/college-inscriptions-2026.jpg',
+      'Un collège international exigeant et bienveillant, qui prépare les adolescents au lycée et au parcours Cambridge Preparation.',
+    heroImage: SCHOOL_IMAGES.cycles.college.hero,
     heroImageAlt: 'Collégiens en laboratoire de sciences au collège international Les Lumières à Tanger',
     intro: [
       'Le Collège International du Groupe Scolaire Les Lumières accompagne les élèves de la 1ère à la 3ème Année Collège (1AC, 2AC, 3AC) à travers une période charnière de leur développement. Notre objectif : conjuguer exigence académique, ouverture internationale et accompagnement personnalisé.',
-      'Le programme, enrichi d’une dimension internationale, prépare activement aux Cambridge English Qualifications. Les élèves bénéficient de laboratoires de sciences modernes, de salles informatiques équipées de tableaux interactifs, et d’une équipe pédagogique investie qui valorise l’esprit critique et l’autonomie.',
+      'Le programme, enrichi d’une dimension internationale, s’appuie sur Cambridge Preparation. Les élèves bénéficient de laboratoires de sciences modernes, de salles informatiques équipées de tableaux interactifs, et d’une équipe pédagogique investie qui valorise l’esprit critique et l’autonomie.',
       'Au collège, l’enseignement trilingue prend toute sa dimension : maîtrise du français comme langue d’instruction, perfectionnement de l’arabe, et renforcement de l’anglais en vue des certifications internationales. Notre collège privé international à Tanger forme des adolescents curieux, responsables et confiants.',
     ],
     levels: [
@@ -163,27 +169,27 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
       { icon: 'Calculator', name: 'Mathématiques' },
       { icon: 'Award', name: 'Sciences (SVT, Physique)' },
       { icon: 'Globe', name: 'Français, Arabe, Anglais' },
-      { icon: 'Award', name: 'Préparation Cambridge' },
+      { icon: 'Award', name: 'Cambridge Preparation' },
       { icon: 'Monitor', name: 'Informatique & laboratoire' },
       { icon: 'Drama', name: 'Histoire-Géo & éducation civique' },
     ],
     methods: [
       { title: 'Programme international', text: 'Un curriculum enrichi tourné vers l’ouverture et l’excellence.' },
-      { title: 'Préparation Cambridge', text: 'Entraînement régulier aux examens Cambridge English Qualifications.' },
+      { title: 'Cambridge Preparation', text: 'Entraînement régulier vers les Cambridge English Qualifications.' },
       { title: 'Travaux pratiques', text: 'Laboratoires de sciences pour apprendre par l’expérimentation.' },
     ],
     languages: [
       { lang: 'Français', detail: 'Langue d’instruction des matières scientifiques.' },
       { lang: 'Arabe', detail: 'Perfectionnement linguistique et littéraire.' },
-      { lang: 'Anglais', detail: 'Renforcement et préparation aux certifications Cambridge.' },
+      { lang: 'Anglais', detail: 'Renforcement et Cambridge Preparation.' },
     ],
     advantages: [
-      'Préparation officielle aux Cambridge English Qualifications',
+      'Cambridge Preparation',
       'Laboratoires de sciences et salles TICE',
       'Encadrement rapproché des adolescents',
       'Ouverture internationale et projets pédagogiques',
     ],
-    gallery: galleryFor('college', 'college', 'Collège'),
+    gallery: SCHOOL_IMAGES.cycles.college.gallery,
     testimonialName: 'Samira',
     ctaLabel: 'Inscrire mon enfant au Collège',
   },
@@ -195,15 +201,15 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     h1: 'Lycée Privé à Tanger — Tronc Commun, 1er Bac et 2ème Bac',
     metaTitle: 'Lycée Privé à Tanger | Groupe Scolaire Les Lumières — Parcours Lycée',
     metaDescription:
-      'Lycée privé à Tanger. Tronc commun, 1er et 2ème Bac (SVT, PC, Éco, SGC). Préparation Cambridge, bourse d’excellence. Groupe Scolaire Les Lumières.',
+      'Lycée privé à Tanger. Tronc commun, 1er et 2ème Bac (SVT, PC, Éco, SGC). Cambridge Preparation, bourse d’excellence. Groupe Scolaire Les Lumières.',
     heroSubtitle:
       'Du Tronc Commun au 2ème Bac, nous préparons chaque lycéen à réussir ses examens et à construire son projet d’avenir.',
-    heroImage: '/images/campaign/lycee-inscriptions-2026.jpg',
+    heroImage: SCHOOL_IMAGES.cycles.lycee.hero,
     heroImageAlt: 'Lycéens en préparation aux examens au lycée privé Les Lumières à Tanger',
     intro: [
       'Le Lycée du Groupe Scolaire Les Lumières conduit les élèves du Tronc Commun jusqu’au 2ème Bac, avec un seul objectif : la réussite de chacun. Notre encadrement allie exigence académique, accompagnement personnalisé et orientation active vers les études supérieures.',
       'Les élèves choisissent parmi plusieurs filières : Sciences de la Vie et de la Terre (SVT), Physique-Chimie (PC), Sciences Mathématiques, Sciences Économiques et Sciences de Gestion Comptable (SGC). Chaque filière bénéficie d’un suivi rigoureux, de devoirs surveillés réguliers et d’une préparation intensive aux examens.',
-      'Au-delà des résultats, le lycée valorise l’excellence à travers une Bourse d’Excellence destinée aux élèves les plus méritants, et poursuit la préparation aux Cambridge English Qualifications. Notre lycée privé à Tanger forme des bacheliers confiants, ambitieux et prêts pour l’enseignement supérieur.',
+      'Au-delà des résultats, le lycée valorise l’excellence à travers une Bourse d’Excellence destinée aux élèves les plus méritants, et poursuit Cambridge Preparation. Notre lycée privé à Tanger forme des bacheliers confiants, ambitieux et prêts pour l’enseignement supérieur.',
     ],
     levels: [
       { level: 'Tronc Commun', description: 'Année de consolidation et d’orientation.' },
@@ -221,20 +227,20 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     methods: [
       { title: 'Préparation au Bac', text: 'Devoirs surveillés, examens blancs et méthodologie ciblée.' },
       { title: 'Orientation active', text: 'Accompagnement vers les filières et les études supérieures.' },
-      { title: 'Bourse d’Excellence', text: 'Récompense et encouragement des élèves les plus méritants.' },
+      { title: 'Cambridge Preparation', text: 'Renforcement continu en anglais vers des certifications internationales reconnues.' },
     ],
     languages: [
       { lang: 'Français', detail: 'Langue d’instruction des matières scientifiques.' },
       { lang: 'Arabe', detail: 'Matières littéraires et islamiques.' },
-      { lang: 'Anglais', detail: 'Préparation continue aux certifications Cambridge.' },
+      { lang: 'Anglais', detail: 'Cambridge Preparation continue.' },
     ],
     advantages: [
       'Filières scientifiques et économiques complètes',
       'Préparation intensive aux examens',
       'Bourse d’excellence pour les élèves méritants',
-      'Orientation vers les études supérieures',
+      'Cambridge Preparation au lycée',
     ],
-    gallery: galleryFor('lycee', 'lycee', 'Lycée'),
+    gallery: SCHOOL_IMAGES.cycles.lycee.gallery,
     testimonialName: 'Khalid',
     ctaLabel: 'Inscrire mon enfant au Lycée',
   },

@@ -3,6 +3,8 @@
 // Groupe Scolaire Les Lumières — Tanger, Maroc
 // ═══════════════════════════════════════════════════════════════
 
+import { SCHOOL_IMAGES } from './school-images';
+
 export const SITE_URL = 'https://gsleslumieres.ma';
 
 export const SCHOOL = {
@@ -10,7 +12,7 @@ export const SCHOOL = {
   shortName: 'Les Lumières',
   nameAr: 'مجموعة مدارس الأنوار',
   founded: 2004,
-  yearsOfExperience: new Date().getFullYear() - 2004, // 21+
+  yearsOfExperience: 22,
   director: 'Ahmed ABBOU',
   sloganFr: 'Notre école, votre confiance',
   sloganAr: 'مدرستنا، ثقتكم',
@@ -73,9 +75,6 @@ export function whatsappLink(text: string = SCHOOL.whatsappDefaultText): string 
 
 export const telLink = (phone: string) => `tel:${phone.replace(/\s/g, '')}`;
 
-export const GOOGLE_MAPS_EMBED =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.0!2d-5.834!3d35.7595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ1JzM0LjIiTiA1wrA1MCcwMi40Ilc!5e0!3m2!1sfr!2sma!4v1700000000000';
-
 export const GOOGLE_MAPS_DIRECTIONS = `https://www.google.com/maps/search/?api=1&query=${SCHOOL.geo.latitude},${SCHOOL.geo.longitude}`;
 
 // ─── Cycles scolaires ──────────────────────────────────────────
@@ -84,10 +83,10 @@ export const CYCLES = [
     slug: 'maternelle-tanger',
     name: 'Maternelle',
     shortLabel: 'Maternelle',
-    ages: '3 à 5 ans',
+    ages: 'Maternelle',
     levels: ['Petite Section (PS)', 'Moyenne Section (MS)', 'Grande Section (GS)'],
     tagline: 'Approche Montessori, éveil et ouverture linguistique progressive',
-    image: '/images/campaign/maternelle-inscriptions-2026.jpg',
+    image: SCHOOL_IMAGES.cycles.maternelle.card,
     imageAlt:
       'Enfants de maternelle en activité d’éveil à l’école Les Lumières à Tanger',
     features: [
@@ -100,30 +99,30 @@ export const CYCLES = [
     slug: 'primaire-prive-tanger',
     name: 'Primaire',
     shortLabel: 'Primaire',
-    ages: '6 à 11 ans',
+    ages: 'Primaire',
     levels: ['CP', 'CE2', 'CE3', 'CE4', 'CE5', 'CE6'],
-    tagline: 'Méthode de Singapour en mathématiques, préparation Cambridge',
-    image: '/images/campaign/primaire-inscriptions-2026.jpg',
+    tagline: 'Méthode de Singapour en mathématiques, Cambridge Preparation',
+    image: SCHOOL_IMAGES.cycles.primaire.card,
     imageAlt:
       'Élèves de primaire en classe à l’école privée Les Lumières à Tanger',
     features: [
       'Méthode de Singapour',
       'Bases solides en français',
-      'Anglais dès la GS',
+      'Cambridge Preparation dès CE1',
     ],
   },
   {
     slug: 'college-prive-tanger',
     name: 'Collège International',
     shortLabel: 'Collège',
-    ages: '12 à 14 ans',
+    ages: 'Collège',
     levels: ['1ère Année Collège (1AC)', '2AC', '3AC'],
-    tagline: 'Préparation Cambridge English et laboratoires de sciences',
-    image: '/images/campaign/college-inscriptions-2026.jpg',
+    tagline: 'Cambridge Preparation et laboratoires de sciences',
+    image: SCHOOL_IMAGES.cycles.college.card,
     imageAlt:
       'Collégiens en laboratoire de sciences au collège international Les Lumières à Tanger',
     features: [
-      'Préparation Cambridge',
+      'Cambridge Preparation',
       'Laboratoires de sciences',
       'Programme international',
     ],
@@ -132,15 +131,15 @@ export const CYCLES = [
     slug: 'lycee-prive-tanger',
     name: 'Lycée',
     shortLabel: 'Lycée',
-    ages: '15 à 18 ans',
+    ages: 'Lycée',
     levels: ['Tronc Commun', '1er Bac (SVT / Maths / Éco)', '2ème Bac (PC / SVT / Éco / SGC)'],
-    tagline: 'Parcours lycée, orientation et bourse d’excellence',
-    image: '/images/campaign/lycee-inscriptions-2026.jpg',
+    tagline: 'Parcours lycée, Cambridge Preparation et bourse d’excellence',
+    image: SCHOOL_IMAGES.cycles.lycee.card,
     imageAlt:
       'Lycéens en préparation aux examens au lycée privé Les Lumières à Tanger',
     features: [
+      'Cambridge Preparation',
       'Préparation aux examens',
-      'Filières scientifiques & éco',
       'Bourse d’excellence',
     ],
   },
@@ -169,13 +168,13 @@ export const NIVEAUX = [
 export const WHY_US = [
   {
     icon: 'GraduationCap',
-    title: '21 ans d’expérience',
+    title: `${SCHOOL.yearsOfExperience} ans d’expérience`,
     description: 'Plus de deux décennies d’excellence éducative à Tanger.',
   },
   {
     icon: 'Globe',
     title: 'École trilingue',
-    description: 'Français langue principale, arabe dès la PS, anglais dès la GS.',
+    description: 'Français langue principale, arabe dès la PS, anglais dès la GS avec Cambridge Preparation.',
   },
   {
     icon: 'Calculator',
@@ -184,8 +183,8 @@ export const WHY_US = [
   },
   {
     icon: 'Award',
-    title: 'Cambridge English',
-    description: 'Certifications internationales reconnues mondialement.',
+    title: 'Cambridge Preparation',
+    description: 'Parcours progressif vers les Cambridge English Qualifications.',
   },
   {
     icon: 'Drama',
@@ -201,7 +200,7 @@ export const WHY_US = [
 
 // ─── Statistiques ──────────────────────────────────────────────
 export const STATS = [
-  { value: 21, suffix: '+', label: 'Années d’expérience' },
+  { value: SCHOOL.yearsOfExperience, suffix: '+', label: 'Années d’expérience' },
   { value: 4, suffix: '', label: 'Cycles scolaires' },
   { value: 3, suffix: '', label: 'Langues enseignées' },
   { value: 'Cambridge', suffix: '', label: 'Certifications internationales' },
@@ -249,7 +248,7 @@ export const TESTIMONIALS = [
     cycle: 'Collège',
     rating: 5,
     quote:
-      'Le programme Cambridge English a donné à ma fille une vraie confiance en anglais. Excellente école.',
+      'Cambridge Preparation a donné à ma fille une vraie confiance en anglais. Excellente école.',
   },
 ] as const;
 
@@ -265,8 +264,8 @@ export const ACTIVITIES = [
 
 // ─── Services ──────────────────────────────────────────────────
 export const SERVICES = [
-  { icon: 'Bus', title: 'Transport scolaire', description: 'Flotte de véhicules neufs avec personnel d’accompagnement dédié.', href: '/transport-scolaire' },
-  { icon: 'UtensilsCrossed', title: 'Cantine & Restauration', description: 'Repas équilibrés sur place sous la supervision de notre équipe.', href: '/cantine' },
+  { icon: 'UtensilsCrossed', title: 'Service de Cantine', description: 'Repas équilibrés servis sur place dans un cadre encadré et convivial.', href: '/cantine' },
+  { icon: 'Bus', title: 'Transport disponible', description: 'Service de transport scolaire sécurisé avec accompagnement dédié.', href: '/transport-scolaire' },
   { icon: 'Monitor', title: 'TICE & Laboratoires', description: 'Salles informatiques, tableaux interactifs et laboratoire de sciences.', href: '/pourquoi-les-lumieres' },
 ] as const;
 
