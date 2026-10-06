@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import Link from 'next/link';
 import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { NAV, SCHOOL, telLink, whatsappLink } from '@/lib/constants';
@@ -10,26 +11,51 @@ import CambridgeBadge from '@/components/shared/CambridgeBadge';
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : '';
+    if (!open) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    dialogRef.current?.querySelector('button')?.focus();
+    const keydown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') setOpen(false);
+      if (event.key !== 'Tab') return;
+      const elements = dialogRef.current?.querySelectorAll<HTMLElement>('a[href], button');
+      if (!elements?.length) return;
+      const first = elements[0];
+      const last = elements[elements.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    };
+    const desktop = window.matchMedia('(min-width: 1280px)');
+    const onResize = () => { if (desktop.matches) setOpen(false); };
+    document.addEventListener('keydown', keydown);
+    desktop.addEventListener('change', onResize);
     return () => {
-      document.body.style.overflow = '';
+      document.body.style.overflow = previousOverflow;
+      document.removeEventListener('keydown', keydown);
+      desktop.removeEventListener('change', onResize);
+      triggerRef.current?.focus();
     };
   }, [open]);
 
   return (
-    <div className="lg:hidden">
+    <div className="xl:hidden">
       <button
+        ref={triggerRef}
         onClick={() => setOpen(true)}
         aria-label="Ouvrir le menu"
-        className="flex h-10 w-10 items-center justify-center rounded-md text-primary-800"
+        aria-expanded={open}
+        aria-controls="mobile-menu"
+        className="flex h-11 w-11 items-center justify-center rounded-md text-primary-800"
       >
         <Menu className="h-7 w-7" />
       </button>
 
-      {open && (
-        <div className="fixed inset-0 z-[100] flex flex-col bg-white">
+      {open && createPortal(
+        <div ref={dialogRef} id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navigation" className="fixed inset-0 z-[100] flex flex-col bg-white pb-[env(safe-area-inset-bottom)]">
           <div className="flex items-center justify-between border-b border-black/5 px-4 py-4">
             <span className="font-heading text-lg font-bold text-primary-800">Menu</span>
             <button
@@ -41,7 +67,7 @@ export default function MobileMenu() {
             </button>
           </div>
 
-          <nav className="flex-1 overflow-y-auto px-4 py-4" aria-label="Navigation mobile">
+          <nav className="min-h-0 flex-1 overflow-y-auto px-4 py-4" aria-label="Navigation mobile">
             {NAV.map((item) =>
               'children' in item && item.children ? (
                 <div key={item.label} className="border-b border-black/5">
@@ -83,7 +109,7 @@ export default function MobileMenu() {
             )}
           </nav>
 
-          <div className="space-y-3 border-t border-black/5 px-4 py-4">
+          <div className="shrink-0 space-y-3 border-t border-black/5 px-4 py-4">
             <CambridgeBadge className="w-full justify-center" />
             <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="btn-whatsapp w-full">
               Contacter via WhatsApp
@@ -95,7 +121,7 @@ export default function MobileMenu() {
               <SocialIcons />
             </div>
           </div>
-        </div>
+        </div>, document.body
       )}
     </div>
   );

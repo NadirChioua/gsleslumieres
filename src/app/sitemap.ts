@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/constants';
+import { languageAlternates } from '@/lib/locale';
 
 export const dynamic = 'force-static';
 
@@ -27,12 +28,23 @@ const PAGES: Entry[] = [
   { path: '/mentions-legales', priority: 0.3, changefreq: 'yearly' },
 ];
 
+// Every page exists in French (root), English (/en) and Arabic (/ar). Each URL lists its
+// language alternates so search engines treat them as translations, not duplicates.
+const LOCALE_PREFIXES = ['', '/en', '/ar'];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return PAGES.map((p) => ({
-    url: `${SITE_URL}${p.path === '/' ? '' : p.path}/`,
-    lastModified: now,
-    changeFrequency: p.changefreq,
-    priority: p.priority,
-  }));
+  return PAGES.flatMap((p) => {
+    const suffix = p.path === '/' ? '/' : `${p.path}/`;
+    const alternates = Object.fromEntries(
+      Object.entries(languageAlternates(p.path)).map(([lang, href]) => [lang, `${SITE_URL}${href}`])
+    );
+    return LOCALE_PREFIXES.map((prefix) => ({
+      url: `${SITE_URL}${prefix}${suffix}`,
+      lastModified: now,
+      changeFrequency: p.changefreq,
+      priority: prefix ? Math.round(p.priority * 0.9 * 10) / 10 : p.priority,
+      alternates: { languages: alternates },
+    }));
+  });
 }

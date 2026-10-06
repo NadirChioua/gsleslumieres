@@ -39,16 +39,16 @@ export default function AdmissionsSection() {
                 href={whatsappLink('Bonjour, je souhaite des informations sur les inscriptions 2026-2027 au Groupe Scolaire Les Lumières.')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl bg-whatsapp p-4 text-white transition hover:-translate-y-1"
+                className="rounded-xl bg-whatsapp p-4 text-ink transition hover:-translate-y-1"
               >
                 <MessageCircle className="mb-3 h-6 w-6" />
                 <span className="block font-bold">WhatsApp</span>
-                <span className="text-sm text-white/80">Réponse rapide</span>
+                <span className="text-sm text-ink/80">Réponse rapide</span>
               </a>
               <a href={telLink(SCHOOL.phone1Intl)} className="rounded-xl bg-gold-500 p-4 text-ink transition hover:-translate-y-1">
                 <Phone className="mb-3 h-6 w-6" />
                 <span className="block font-bold">Appeler</span>
-                <span className="text-sm text-ink/70">{SCHOOL.phone1}</span>
+                <span className="text-sm text-ink/90">{SCHOOL.phone1}</span>
               </a>
             </div>
           </div>

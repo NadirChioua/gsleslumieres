@@ -14,7 +14,9 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <MediaVideo
           src={SCHOOL_MEDIA.hero.src}
+          mobileSrc={SCHOOL_MEDIA.hero.mobileSrc}
           poster={SCHOOL_MEDIA.hero.poster}
+          mobilePoster={SCHOOL_MEDIA.hero.mobilePoster}
           description={SCHOOL_MEDIA.hero.description}
           mode="ambient"
           isHero
@@ -31,7 +33,7 @@ export default function HeroSection() {
       <div className="container-page relative z-10 flex w-full items-center justify-center py-16 text-center md:py-20">
         <div className="mx-auto max-w-4xl">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55 }}
             className="mb-5 flex flex-wrap items-center justify-center gap-2.5"
@@ -44,16 +46,19 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.h1
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.08 }}
             className="text-shadow-media mx-auto max-w-4xl font-heading text-[clamp(2.25rem,5.4vw,4.75rem)] font-normal leading-[1.02] text-white"
           >
             Groupe Scolaire Les Lumières
+            <span className="mt-3 block font-body text-[clamp(1.05rem,2.2vw,1.5rem)] font-semibold uppercase tracking-wide text-gold-300">
+              École privée trilingue à Tanger
+            </span>
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.16 }}
             className="text-shadow-media mx-auto mt-5 max-w-2xl text-base leading-relaxed text-white/90 md:text-xl"
@@ -63,7 +68,7 @@ export default function HeroSection() {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 24 }}
+            initial={{ y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.24 }}
             className="mx-auto mt-7 flex max-w-3xl flex-col items-stretch justify-center gap-2.5 sm:flex-row sm:flex-wrap"
@@ -85,7 +90,7 @@ export default function HeroSection() {
           </motion.div>
 
           <motion.ul
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.34 }}
             className="mt-7 hidden flex-wrap justify-center gap-2.5 text-xs font-semibold text-white/90 sm:flex"
@@ -107,7 +112,7 @@ export default function HeroSection() {
           <motion.a
             href="#decouvrir"
             aria-label="Découvrir les cycles scolaires"
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.46 }}
             className="mx-auto mt-7 inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/25 bg-white/10 text-white transition hover:border-gold-300 hover:text-gold-200"

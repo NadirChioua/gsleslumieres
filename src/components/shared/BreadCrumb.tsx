@@ -15,7 +15,7 @@ export default function BreadCrumb({ items }: { items: Crumb[] }) {
     <>
       <JsonLd data={breadcrumbSchema(full)} />
       <nav aria-label="Fil d’Ariane" className="container-page py-3 text-sm">
-        <ol className="flex flex-wrap items-center gap-1.5 text-ink/60">
+        <ol className="flex flex-wrap items-center gap-1.5 text-ink/70">
           {full.map((c, i) => {
             const last = i === full.length - 1;
             return (

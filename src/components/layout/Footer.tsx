@@ -98,15 +98,14 @@ export default function Footer() {
             href={GOOGLE_MAPS_DIRECTIONS}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Ouvrir l'adresse du Groupe Scolaire Les Lumières dans Google Maps"
             className="group flex min-h-44 flex-col justify-between rounded-lg border border-white/10 bg-white/[0.06] p-4 transition hover:border-gold-400/50 hover:bg-white/[0.09]"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-gold-500 text-ink">
               <MapPin className="h-5 w-5" aria-hidden="true" />
             </span>
-            <span className="mt-4 block text-sm leading-relaxed text-white/75">
+            <address className="mt-4 block text-sm not-italic leading-relaxed text-white/75">
               {SCHOOL.address.full}
-            </span>
+            </address>
             <span className="mt-4 inline-flex items-center justify-between gap-3 rounded-lg bg-white px-3 py-2 text-sm font-semibold text-primary-900 transition group-hover:bg-gold-500">
               Ouvrir dans Maps <ExternalLink className="h-4 w-4" aria-hidden="true" />
             </span>

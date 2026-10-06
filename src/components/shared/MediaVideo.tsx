@@ -9,6 +9,9 @@ type MediaVideoMode = 'ambient' | 'feature';
 interface MediaVideoProps {
   src: string;
   poster: string;
+  /** Lighter portrait cut used on phones (hero only). */
+  mobileSrc?: string;
+  mobilePoster?: string;
   description?: string;
   mode?: MediaVideoMode;
   isHero?: boolean;
@@ -30,6 +33,8 @@ function cx(...classes: Array<string | false | undefined>) {
 export default function MediaVideo({
   src,
   poster,
+  mobileSrc,
+  mobilePoster,
   description,
   mode = 'ambient',
   isHero = false,
@@ -38,7 +43,7 @@ export default function MediaVideo({
   withSound = false,
   showControls,
   loop,
-  usePoster = false,
+  usePoster = true,
   className,
   videoClassName,
   buttonLabel = 'Lire la video',
@@ -49,6 +54,12 @@ export default function MediaVideo({
   const [saveData, setSaveData] = useState(false);
   const [started, setStarted] = useState(false);
   const [blocked, setBlocked] = useState(false);
+  // Hero video: render the poster first (fast LCP), attach the video only after the page has loaded.
+  const [heroSrc, setHeroSrc] = useState<string | undefined>(undefined);
+  const [isPhone, setIsPhone] = useState(false);
+  // Other videos: attach poster and source only when the block comes near the viewport, so
+  // below-the-fold media never competes with the first screen.
+  const [near, setNear] = useState(false);
 
   const isAmbient = mode === 'ambient';
   const shouldAutoPlay = (isAmbient || autoPlayOnView) && !prefersReducedMotion && !saveData;
@@ -66,7 +77,36 @@ export default function MediaVideo({
     ).connection;
 
     setSaveData(Boolean(connection?.saveData));
+    setIsPhone(window.matchMedia('(max-width: 767px)').matches);
   }, []);
+
+  useEffect(() => {
+    if (!isHero) return;
+    const attach = () => setHeroSrc(isPhone && mobileSrc ? mobileSrc : src);
+    if (document.readyState === 'complete') {
+      const t = window.setTimeout(attach, 300);
+      return () => window.clearTimeout(t);
+    }
+    const onLoad = () => window.setTimeout(attach, 300);
+    window.addEventListener('load', onLoad, { once: true });
+    return () => window.removeEventListener('load', onLoad);
+  }, [isHero, isPhone, mobileSrc, src]);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (isHero || !container) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setNear(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '800px 0px' }
+    );
+    observer.observe(container);
+    return () => observer.disconnect();
+  }, [isHero]);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -95,7 +135,7 @@ export default function MediaVideo({
   useEffect(() => {
     const video = videoRef.current;
     const container = containerRef.current;
-    if (!video || !container || !shouldAutoPlay) {
+    if (!video || !container || !shouldAutoPlay || (isHero ? !heroSrc : !near)) {
       video?.pause();
       return;
     }
@@ -117,7 +157,7 @@ export default function MediaVideo({
 
     observer.observe(container);
     return () => observer.disconnect();
-  }, [shouldAutoPlay, isHero, play]);
+  }, [shouldAutoPlay, isHero, heroSrc, near, play]);
 
   const showButton =
     !decorative &&
@@ -125,16 +165,32 @@ export default function MediaVideo({
 
   return (
     <div ref={containerRef} className={cx('relative isolate overflow-hidden bg-ink', className)}>
+      {isHero && (
+        // Responsive still under the video: it is the LCP element and loads with high priority.
+        <picture>
+          {mobilePoster && <source media="(max-width: 767px)" srcSet={mobilePoster} />}
+          <img
+            src={poster}
+            alt=""
+            aria-hidden="true"
+            fetchPriority="high"
+            decoding="async"
+            className={cx('absolute inset-0 h-full w-full object-cover', videoClassName)}
+          />
+        </picture>
+      )}
       <video
         ref={videoRef}
-        src={src}
-        poster={usePoster ? poster : undefined}
+        src={isHero ? heroSrc : near ? src : undefined}
+        poster={usePoster && !isHero && near ? poster : undefined}
         muted={muted}
         loop={shouldLoop}
         playsInline
-        autoPlay={shouldAutoPlay}
+        // The autoplay attribute would start downloading every video at page load; non-hero
+        // videos are started by the IntersectionObserver instead.
+        autoPlay={isHero && shouldAutoPlay}
         controls={!decorative && shouldShowControls}
-        preload={isHero || shouldAutoPlay || mode === 'feature' ? 'auto' : 'metadata'}
+        preload={isHero && heroSrc ? 'auto' : 'none'}
         aria-hidden={decorative ? 'true' : undefined}
         aria-label={!decorative ? description : undefined}
         tabIndex={decorative ? -1 : undefined}

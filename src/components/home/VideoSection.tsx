@@ -47,7 +47,7 @@ export default function VideoSection() {
               className="aspect-video w-full rounded-lg shadow-xl"
               buttonLabel="Lire la video de l uniforme"
             />
-            <figcaption className="text-sm text-ink/60">
+            <figcaption className="text-sm text-ink/70">
               L'identité Les Lumières se voit aussi dans les détails du quotidien scolaire.
             </figcaption>
           </figure>

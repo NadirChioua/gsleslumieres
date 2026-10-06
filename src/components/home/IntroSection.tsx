@@ -50,7 +50,7 @@ export default function IntroSection() {
               className="aspect-[4/5] w-full rounded-lg shadow-xl md:aspect-video lg:aspect-[4/5]"
               buttonLabel="Lire la video de localisation"
             />
-            <figcaption className="mt-4 text-sm text-ink/60">
+            <figcaption className="mt-4 text-sm text-ink/70">
               Vue du quartier Val Fleuri et de l'environnement immédiat de l'école.
             </figcaption>
           </figure>

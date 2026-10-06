@@ -99,12 +99,12 @@ export default function ImageGallery({ images, categories }: ImageGalleryProps) 
       document.body.style.overflow = previousOverflow;
       previousActive?.focus();
     };
-  }, [lightbox, visible.length]);
+  }, [lightbox !== null, visible.length]);
 
   return (
     <div>
       {categories && (
-        <div className="mb-8 flex flex-wrap justify-center gap-2" role="list" aria-label="Filtrer la galerie">
+        <div className="mb-8 flex flex-wrap justify-center gap-2" role="group" aria-label="Filtrer la galerie">
           <FilterBtn active={filter === 'all'} onClick={() => setFilter('all')} label="Tout" />
           {categories.map((category) => (
             <FilterBtn
@@ -141,7 +141,7 @@ export default function ImageGallery({ images, categories }: ImageGalleryProps) 
       {lightbox !== null && visible[lightbox] && (
         <div
           ref={dialogRef}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4"
+          className="fixed inset-0 z-[110] flex items-center justify-center bg-black/90 p-4"
           onClick={closeLightbox}
           role="dialog"
           aria-modal="true"
@@ -155,7 +155,7 @@ export default function ImageGallery({ images, categories }: ImageGalleryProps) 
             type="button"
             onClick={closeLightbox}
             aria-label="Fermer"
-            className="absolute right-4 top-4 inline-flex h-11 w-11 items-center justify-center rounded-lg text-white/80 transition hover:bg-white/10 hover:text-white"
+            className="absolute right-4 top-4 z-10 inline-flex h-11 w-11 items-center justify-center rounded-lg text-white/80 transition hover:bg-white/10 hover:text-white"
           >
             <X className="h-7 w-7" aria-hidden="true" />
           </button>
@@ -166,7 +166,7 @@ export default function ImageGallery({ images, categories }: ImageGalleryProps) 
               move(-1);
             }}
             aria-label="Image précédente"
-            className="absolute left-3 inline-flex h-12 w-12 items-center justify-center rounded-lg text-white/80 transition hover:bg-white/10 hover:text-white"
+            className="absolute left-3 z-10 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-black/40 text-white transition hover:bg-white/10"
           >
             <ChevronLeft className="h-9 w-9" aria-hidden="true" />
           </button>
@@ -183,7 +183,7 @@ export default function ImageGallery({ images, categories }: ImageGalleryProps) 
               move(1);
             }}
             aria-label="Image suivante"
-            className="absolute right-3 inline-flex h-12 w-12 items-center justify-center rounded-lg text-white/80 transition hover:bg-white/10 hover:text-white"
+            className="absolute right-3 z-10 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-black/40 text-white transition hover:bg-white/10"
           >
             <ChevronRight className="h-9 w-9" aria-hidden="true" />
           </button>
@@ -198,6 +198,7 @@ function FilterBtn({ active, onClick, label }: { active: boolean; onClick: () =>
     <button
       type="button"
       onClick={onClick}
+      aria-pressed={active}
       className={`min-h-11 rounded-lg px-4 py-2 text-sm font-medium transition-colors ${
         active
           ? 'bg-primary-800 text-white shadow-sm'

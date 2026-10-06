@@ -9,7 +9,7 @@ import CTASection from '@/components/shared/CTASection';
 import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
-  title: 'Questions Fréquentes (FAQ) | Groupe Scolaire Les Lumières Tanger',
+  title: 'Questions Fréquentes (FAQ) | Les Lumières Tanger',
   description:
     'Réponses aux questions fréquentes sur le Groupe Scolaire Les Lumières Tanger : inscriptions, tarifs, transport, programmes, langues, Cambridge, activités.',
   path: '/faq',

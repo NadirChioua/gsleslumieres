@@ -9,7 +9,7 @@ import BreadCrumb from '@/components/shared/BreadCrumb';
 export const metadata = buildMetadata({
   title: 'Mot du Directeur Ahmed ABBOU | Les Lumières Tanger',
   description:
-    'Message du directeur Ahmed ABBOU, fondateur du Groupe Scolaire Les Lumières à Tanger. Notre vision pédagogique pour l’excellence et l’épanouissement de chaque élève.',
+    'Le message d’Ahmed ABBOU, directeur du Groupe Scolaire Les Lumières à Tanger : notre vision pour l’excellence et l’épanouissement de chaque élève.',
   path: '/mot-du-directeur',
   keywords: ['Ahmed ABBOU directeur', 'mot du directeur Les Lumières', 'directeur école Tanger'],
 });
@@ -33,7 +33,7 @@ export default function MotDuDirecteurPage() {
             </div>
             <div className="mt-4 rounded-xl bg-cream p-4 text-center">
               <p className="font-heading text-lg text-primary-800">Ahmed ABBOU</p>
-              <p className="text-sm text-ink/60">Directeur & Fondateur</p>
+              <p className="text-sm text-ink/70">Directeur & Fondateur</p>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function MotDuDirecteurPage() {
               passionnée qui accompagne vos enfants au quotidien.
             </p>
             <p className="mt-6 font-heading text-xl text-primary-800">Ahmed ABBOU</p>
-            <p className="text-sm text-ink/60">Directeur et Fondateur du Groupe Scolaire Les Lumières</p>
+            <p className="text-sm text-ink/70">Directeur et Fondateur du Groupe Scolaire Les Lumières</p>
 
             <div className="mt-8 rounded-xl border border-gold-200 bg-gold-50 p-6">
               <h2 className="mb-2 font-heading text-xl text-primary-800">Venez nous rencontrer</h2>

@@ -6,6 +6,7 @@ import { ChevronDown, MessageCircle } from 'lucide-react';
 import { NAV, whatsappLink } from '@/lib/constants';
 import Logo from './Logo';
 import MobileMenu from './MobileMenu';
+import LanguageSwitcher from './LanguageSwitcher';
 import CambridgeBadge from '@/components/shared/CambridgeBadge';
 
 export default function Header() {
@@ -27,10 +28,10 @@ export default function Header() {
     >
       <div className="container-page flex items-center justify-between gap-4">
         <Logo />
-        <CambridgeBadge compact className="hidden xl:inline-flex" />
+        <CambridgeBadge compact className="hidden 2xl:inline-flex" />
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Navigation principale">
+        <nav className="hidden items-center gap-0 xl:flex" aria-label="Navigation principale">
           {NAV.map((item) =>
             'children' in item && item.children ? (
               <div
@@ -38,10 +39,20 @@ export default function Header() {
                 className="relative"
                 onMouseEnter={() => setOpenMenu(item.label)}
                 onMouseLeave={() => setOpenMenu(null)}
+                onBlur={(event) => {
+                  if (!event.currentTarget.contains(event.relatedTarget)) setOpenMenu(null);
+                }}
+                onKeyDown={(event) => {
+                  if (event.key === 'Escape') {
+                    setOpenMenu(null);
+                    event.currentTarget.querySelector('button')?.focus();
+                  }
+                }}
               >
                 <button
                   className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-ink transition-colors hover:text-primary-800"
                   aria-expanded={openMenu === item.label}
+                  onClick={() => setOpenMenu(openMenu === item.label ? null : item.label)}
                 >
                   {item.label}
                   <ChevronDown className="h-4 w-4" />
@@ -52,6 +63,7 @@ export default function Header() {
                       <Link
                         key={child.href}
                         href={child.href}
+                        onClick={() => setOpenMenu(null)}
                         className="block rounded-lg px-3 py-2 text-sm text-ink/80 transition-colors hover:bg-cream hover:text-primary-800"
                       >
                         {child.label}
@@ -74,16 +86,17 @@ export default function Header() {
 
         {/* Right actions */}
         <div className="flex items-center gap-2">
+          <LanguageSwitcher />
           <a
             href={whatsappLink()}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contactez-nous sur WhatsApp"
-            className="hidden h-10 w-10 items-center justify-center rounded-full bg-whatsapp text-white transition-transform hover:scale-105 sm:flex"
+            className="hidden h-11 w-11 items-center justify-center rounded-full bg-whatsapp text-ink transition-transform hover:scale-105 2xl:flex"
           >
             <MessageCircle className="h-5 w-5" />
           </a>
-          <Link href="/contact" className="btn-gold hidden px-4 py-2 text-sm md:inline-flex">
+          <Link href="/contact" className="btn-gold hidden px-4 py-2 text-sm 2xl:inline-flex">
             Nous Contacter
           </Link>
           <MobileMenu />

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { SITE_URL, SCHOOL } from './constants';
 import { SCHOOL_IMAGES } from './school-images';
+import { LOCALE, localizedPath, languageAlternates } from './locale';
 
 interface PageMetaInput {
   title: string;
@@ -21,11 +22,11 @@ export function buildMetadata({
   ogImage = SCHOOL_IMAGES.general.heroCampus,
   keywords = [],
 }: PageMetaInput): Metadata {
-  const canonical = `${SITE_URL}${path === '/' ? '' : path}/`;
+  const canonical = `${SITE_URL}${localizedPath(path).replace(/\/$/, '')}/`;
   const imageUrl = `${SITE_URL}${ogImage}`;
 
   return {
-    title,
+    title: { absolute: title },
     description,
     keywords: [
       'école privée Tanger',
@@ -33,11 +34,11 @@ export function buildMetadata({
       'Groupe Scolaire Les Lumières',
       ...keywords,
     ],
-    alternates: { canonical },
+    alternates: { canonical, languages: languageAlternates(path) },
     openGraph: {
       type: 'website',
       siteName: SCHOOL.name,
-      locale: 'fr_MA',
+      locale: LOCALE === 'ar' ? 'ar_MA' : LOCALE === 'en' ? 'en_GB' : 'fr_MA',
       title,
       description,
       url: canonical,

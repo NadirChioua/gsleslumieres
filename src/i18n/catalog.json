@@ -1,0 +1,5829 @@
+[
+  {
+    "id": 1,
+    "fr": "Les Lumières Tanger | École Privée Trilingue depuis 2004",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 2,
+    "fr": "%s | Groupe Scolaire Les Lumières",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 3,
+    "fr": "École privée trilingue à Tanger depuis 2004 : maternelle, primaire, collège et lycée. Cambridge English, méthode de Singapour. Inscriptions 2026-2027.",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 4,
+    "fr": "École privée trilingue à Tanger depuis 2004. Maternelle, Primaire, Collège, Lycée. Cambridge English. Méthode de Singapour. Inscriptions 2026-2027 ouvertes.",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 5,
+    "fr": "Groupe Scolaire Les Lumières | École Privée Trilingue à Tanger",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 6,
+    "fr": "École privée trilingue à Tanger depuis 2004. De la maternelle au lycée.",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 7,
+    "fr": "Tanger",
+    "files": [
+      "src/app/layout.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 8,
+    "fr": "Aller au contenu",
+    "files": [
+      "src/app/layout.tsx"
+    ]
+  },
+  {
+    "id": 9,
+    "fr": "Groupe Scolaire Les Lumières",
+    "files": [
+      "src/app/manifest.ts",
+      "src/components/home/HeroSection.tsx",
+      "src/components/home/IntroSection.tsx",
+      "src/lib/constants.ts",
+      "src/lib/metadata.ts"
+    ]
+  },
+  {
+    "id": 10,
+    "fr": "Les Lumières",
+    "files": [
+      "src/app/manifest.ts",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 11,
+    "fr": "École privée trilingue à Tanger depuis 2004 — de la maternelle au lycée.",
+    "files": [
+      "src/app/manifest.ts"
+    ]
+  },
+  {
+    "id": 12,
+    "fr": "Accueil",
+    "files": [
+      "src/app/not-found.tsx",
+      "src/components/home/SchoolDatesSection.tsx",
+      "src/components/shared/BreadCrumb.tsx"
+    ]
+  },
+  {
+    "id": 13,
+    "fr": "Cycles",
+    "files": [
+      "src/app/not-found.tsx",
+      "src/components/home/CyclesGrid.tsx",
+      "src/components/home/SchoolDatesSection.tsx",
+      "src/components/shared/CyclePageTemplate.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 14,
+    "fr": "Contact",
+    "files": [
+      "src/app/not-found.tsx",
+      "src/app/contact/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 15,
+    "fr": "Oups, cette page est introuvable",
+    "files": [
+      "src/app/not-found.tsx"
+    ]
+  },
+  {
+    "id": 16,
+    "fr": "La page que vous recherchez n’existe pas ou a été déplacée. Pas d’inquiétude, voici quelques liens utiles pour retrouver votre chemin.",
+    "files": [
+      "src/app/not-found.tsx"
+    ]
+  },
+  {
+    "id": 17,
+    "fr": "Retour à l’accueil",
+    "files": [
+      "src/app/not-found.tsx"
+    ]
+  },
+  {
+    "id": 18,
+    "fr": "noopener noreferrer",
+    "files": [
+      "src/app/not-found.tsx",
+      "src/app/contact/page.tsx",
+      "src/app/inscription-ecole-tanger/page.tsx",
+      "src/app/mentions-legales/page.tsx",
+      "src/app/mot-du-directeur/page.tsx",
+      "src/components/home/AdmissionsSection.tsx",
+      "src/components/home/HeroSection.tsx",
+      "src/components/home/SchoolDatesSection.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/components/layout/Header.tsx",
+      "src/components/layout/MobileMenu.tsx",
+      "src/components/layout/SocialIcons.tsx",
+      "src/components/layout/WhatsAppButton.tsx",
+      "src/components/shared/CTASection.tsx",
+      "src/components/shared/EnquiryForm.tsx",
+      "src/components/shared/GoogleMap.tsx"
+    ]
+  },
+  {
+    "id": 19,
+    "fr": "WhatsApp",
+    "files": [
+      "src/app/not-found.tsx",
+      "src/app/contact/page.tsx",
+      "src/app/inscription-ecole-tanger/page.tsx",
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 20,
+    "fr": "École Privée Trilingue à Tanger — De la Maternelle au Lycée",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "id": 21,
+    "fr": "Groupe Scolaire Les Lumières, école privée trilingue à Tanger depuis 2004.",
+    "files": [
+      "src/app/page.tsx"
+    ]
+  },
+  {
+    "id": 22,
+    "fr": "Activités Parascolaires | Les Lumières Tanger",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 23,
+    "fr": "Activités parascolaires variées à l’école Les Lumières Tanger : théâtre, chorale, arts plastiques, sports, voyages scolaires. L’épanouissement de chaque élève.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 24,
+    "fr": "activités parascolaires Tanger",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 25,
+    "fr": "théâtre chorale école Tanger",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 26,
+    "fr": "voyages scolaires Tanger",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 27,
+    "fr": "Voyages scolaires",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 28,
+    "fr": "3 sorties par an : régionale, nationale et internationale, pour découvrir, apprendre et créer des souvenirs.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 29,
+    "fr": "Des moments festifs qui rassemblent élèves, parents et enseignants autour de la joie de vivre.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 30,
+    "fr": "Fête du printemps",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 31,
+    "fr": "Spectacles, danses et créations artistiques pour célébrer le talent de nos élèves.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 32,
+    "fr": "Une grande course annuelle qui cultive l’esprit sportif et le dépassement de soi.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 33,
+    "fr": "Olympiade Ramadan des mathématiques",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 34,
+    "fr": "Un concours stimulant qui valorise la logique et l’excellence en mathématiques.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 35,
+    "fr": "Bourse d’Excellence",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 36,
+    "fr": "Une récompense pour encourager et célébrer les élèves les plus méritants.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 37,
+    "fr": "Activités Parascolaires — L’épanouissement au-delà des cours",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 38,
+    "fr": "À Les Lumières, on grandit aussi en dehors de la salle de classe. Théâtre, musique, sport, arts et voyages : chaque talent trouve sa place.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 39,
+    "fr": "Élèves sur scène lors d’un spectacle de théâtre au Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 40,
+    "fr": "Vie Scolaire",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx",
+      "src/app/actualites/page.tsx",
+      "src/app/galerie/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 41,
+    "fr": "Activités parascolaires",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 42,
+    "fr": "Nos ateliers",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 43,
+    "fr": "Des activités pour tous les talents",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 44,
+    "fr": "Sortie scolaire des élèves de l’école Les Lumières à Chefchaouen",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 45,
+    "fr": "Une année rythmée par les événements",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 46,
+    "fr": "Tout au long de l’année, le Groupe Scolaire Les Lumières organise des temps forts qui font vivre la communauté scolaire et nourrissent le sentiment d’appartenance de nos élèves.",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 47,
+    "fr": "Offrez à votre enfant un quotidien riche et épanouissant",
+    "files": [
+      "src/app/activites-parascolaires/page.tsx"
+    ]
+  },
+  {
+    "id": 48,
+    "fr": "Actualités et Événements | Les Lumières Tanger",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 49,
+    "fr": "Suivez l'actualité du Groupe Scolaire Les Lumières à Tanger : événements scolaires, résultats, sorties, projets éducatifs et nouveautés.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 50,
+    "fr": "actualités école Tanger",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 51,
+    "fr": "événements Les Lumières",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 52,
+    "fr": "Inscriptions 2026-2027 ouvertes - Places limitées",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 53,
+    "fr": "Les inscriptions pour l'année scolaire 2026-2027 sont officiellement ouvertes au Groupe Scolaire Les Lumières. Les places étant limitées, nous invitons les familles à nous contacter au plus tôt.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 54,
+    "fr": "L'élève Malak Allouh représente Les Lumières avec distinction",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 55,
+    "fr": "Nous sommes fiers de notre élève Malak Allouh, qui a brillamment représenté l'école lors d'un concours régional. Une réussite qui illustre l'engagement et le talent de nos élèves.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 56,
+    "fr": "Bourse d'excellence pour les élèves méritants",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 57,
+    "fr": "Le Groupe Scolaire Les Lumières récompense chaque année ses élèves les plus méritants à travers une Bourse d'Excellence, encourageant ainsi l'effort, la rigueur et la réussite.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 58,
+    "fr": "Olympiade Ramadan des mathématiques - Résultats",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 59,
+    "fr": "L'Olympiade Ramadan des mathématiques a connu un vif succès cette année. Félicitations à tous les participants pour leur logique, leur persévérance et leur esprit de compétition.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 60,
+    "fr": "Sortie scolaire à Chefchaouen - Souvenirs inoubliables",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 61,
+    "fr": "Nos élèves ont vécu une journée mémorable à Chefchaouen, la perle bleue du Rif. Une sortie riche en découvertes, en partage et en émerveillement.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 62,
+    "fr": "Actualités et Événements",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 63,
+    "fr": "Toute la vie du Groupe Scolaire Les Lumières : événements, réussites, projets et nouveautés.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 64,
+    "fr": "Événements et actualités du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 65,
+    "fr": "Actualités",
+    "files": [
+      "src/app/actualites/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 66,
+    "fr": "À la une",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 67,
+    "fr": "En savoir plus",
+    "files": [
+      "src/app/actualites/page.tsx",
+      "src/components/home/ServicesMatrixSection.tsx",
+      "src/components/shared/CycleCard.tsx"
+    ]
+  },
+  {
+    "id": 68,
+    "fr": "Lire la vidéo des activités scolaires",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 69,
+    "fr": "Blog vidéo",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 70,
+    "fr": "Les activités scolaires en images",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 71,
+    "fr": "Un aperçu vidéo du quotidien Les Lumières : discipline, énergie, coopération et moments de partage au sein de l’établissement.",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 72,
+    "fr": "Voir plus de vidéos",
+    "files": [
+      "src/app/actualites/page.tsx"
+    ]
+  },
+  {
+    "id": 73,
+    "fr": "Cantine et Restauration | Les Lumières Tanger",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 74,
+    "fr": "Service de restauration scolaire au Groupe Scolaire Les Lumières Tanger. Repas équilibrés, encadrement lors des repas, conditions d’hygiène strictes.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 75,
+    "fr": "cantine école Tanger",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 76,
+    "fr": "restauration scolaire Tanger",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 77,
+    "fr": "repas équilibrés école Tanger",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 78,
+    "fr": "Repas équilibrés",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 79,
+    "fr": "Des menus variés et adaptés aux besoins nutritionnels des enfants.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 80,
+    "fr": "Hygiène stricte",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 81,
+    "fr": "Des conditions d’hygiène rigoureusement respectées en cuisine et en salle.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 82,
+    "fr": "Encadrement des repas",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 83,
+    "fr": "Notre équipe veille au bon déroulement et au calme pendant les repas.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 84,
+    "fr": "Service sur place",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 85,
+    "fr": "Une restauration au sein même de l’établissement, sans déplacement.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 86,
+    "fr": "Restauration et Cantine Scolaire",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 87,
+    "fr": "Des repas sains et équilibrés, servis sur place dans un cadre encadré et convivial.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 88,
+    "fr": "Cantine scolaire du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 89,
+    "fr": "Services Scolaires",
+    "files": [
+      "src/app/cantine/page.tsx",
+      "src/app/transport-scolaire/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 90,
+    "fr": "Cantine",
+    "files": [
+      "src/app/cantine/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 91,
+    "fr": "Bien manger pour bien apprendre",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 92,
+    "fr": "Une cantine au service de la santé de votre enfant",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 93,
+    "fr": "Le Groupe Scolaire Les Lumières propose un service de restauration scolaire sur place, pensé pour offrir aux élèves des repas équilibrés et savoureux. Une alimentation saine est essentielle à la concentration, à l’énergie et au bien-être de l’enfant tout au long de la journée.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 94,
+    "fr": "Les repas sont préparés et servis dans le respect de conditions d’hygiène strictes. Pendant le déjeuner, notre équipe encadre les élèves, veille au bon déroulement du service et accompagne les plus jeunes, dans une ambiance calme et conviviale.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 95,
+    "fr": "Repas équilibré servi à la cantine des Lumières à Tanger",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 96,
+    "fr": "Nos engagements",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 97,
+    "fr": "Une restauration de confiance",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 98,
+    "fr": "Des questions sur la cantine ?",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 99,
+    "fr": "Contactez-nous pour en savoir plus sur les menus et les modalités.",
+    "files": [
+      "src/app/cantine/page.tsx"
+    ]
+  },
+  {
+    "id": 100,
+    "fr": "collège privé Tanger",
+    "files": [
+      "src/app/college-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 101,
+    "fr": "collège international Tanger",
+    "files": [
+      "src/app/college-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 102,
+    "fr": "Cambridge English Tanger",
+    "files": [
+      "src/app/college-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 103,
+    "fr": "Contacter le Groupe Scolaire Les Lumières — Tanger",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 104,
+    "fr": "Contactez le Groupe Scolaire Les Lumières à Tanger. Adresse : Val Fleuri. Tél : 0539 93 90 95. WhatsApp disponible. Formulaire de contact en ligne.",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 105,
+    "fr": "contact école Tanger",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 106,
+    "fr": "adresse école Les Lumières",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 107,
+    "fr": "téléphone école privée Tanger",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 108,
+    "fr": "Une question, une visite, une inscription ? Notre équipe est à votre écoute.",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 109,
+    "fr": "Entrée du Groupe Scolaire Les Lumières à Val Fleuri, Tanger",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 110,
+    "fr": "Téléphone",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 111,
+    "fr": "Réponse rapide",
+    "files": [
+      "src/app/contact/page.tsx",
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 112,
+    "fr": "Email",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 113,
+    "fr": "Nous trouver",
+    "files": [
+      "src/app/contact/page.tsx",
+      "src/components/home/IntroSection.tsx",
+      "src/components/layout/Footer.tsx"
+    ]
+  },
+  {
+    "id": 114,
+    "fr": "Horaires scolaires officiels",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 115,
+    "fr": "Pour les visites, inscriptions et informations administratives, contactez-nous par téléphone ou WhatsApp.",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 116,
+    "fr": "Écrivez-nous",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 117,
+    "fr": "Formulaire de contact",
+    "files": [
+      "src/app/contact/page.tsx"
+    ]
+  },
+  {
+    "id": 118,
+    "fr": "Questions Fréquentes (FAQ) | Les Lumières Tanger",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 119,
+    "fr": "Réponses aux questions fréquentes sur le Groupe Scolaire Les Lumières Tanger : inscriptions, tarifs, transport, programmes, langues, Cambridge, activités.",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 120,
+    "fr": "FAQ école Tanger",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 121,
+    "fr": "inscription école privée Tanger",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 122,
+    "fr": "questions école Les Lumières",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 123,
+    "fr": "Questions Fréquentes — Tout savoir sur Les Lumières",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 124,
+    "fr": "Les réponses aux questions que se posent le plus souvent les parents sur notre école privée à Tanger.",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 125,
+    "fr": "Couloir et espaces du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 126,
+    "fr": "FAQ",
+    "files": [
+      "src/app/faq/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 127,
+    "fr": "Vous avez d’autres questions ?",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 128,
+    "fr": "Notre équipe vous répond rapidement par téléphone ou WhatsApp.",
+    "files": [
+      "src/app/faq/page.tsx"
+    ]
+  },
+  {
+    "id": 129,
+    "fr": "Galerie Photos et Vidéos | Les Lumières Tanger",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 130,
+    "fr": "Découvrez en images la vie scolaire au Groupe Scolaire Les Lumières à Tanger. Photos de classes, activités, événements, vidéos du campus et sorties scolaires.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 131,
+    "fr": "galerie école Tanger",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 132,
+    "fr": "photos école Les Lumières",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 133,
+    "fr": "vie scolaire Tanger",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 134,
+    "fr": "Cadre maternelle",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 135,
+    "fr": "Un aperçu concret des espaces dédiés aux plus jeunes.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 136,
+    "fr": "Sport scolaire",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 137,
+    "fr": "Un quotidien qui laisse une vraie place à l'activité physique.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 138,
+    "fr": "Cambridge",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 139,
+    "fr": "L'ouverture internationale présentée en images.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 140,
+    "fr": "Une vue du quartier et de l'environnement de l'établissement.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 141,
+    "fr": "Galerie Photos et Vidéos - La vie aux Lumières",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 142,
+    "fr": "Plongez dans le quotidien de notre école : apprentissage, créativité, sport et moments de partage.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 143,
+    "fr": "Vie scolaire au Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 144,
+    "fr": "En vidéo",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 145,
+    "fr": "Des aperçus réels du campus et de la vie scolaire",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 146,
+    "fr": "Les vidéos se lancent automatiquement sans son lorsqu'elles entrent dans l'écran, pour garder une navigation fluide.",
+    "files": [
+      "src/app/galerie/page.tsx"
+    ]
+  },
+  {
+    "id": 147,
+    "fr": "Inscription École Privée Tanger 2026-2027 | Les Lumières",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 148,
+    "fr": "Inscrivez votre enfant aux Lumières, école privée à Tanger. Inscriptions 2026-2027 ouvertes : formulaire en ligne, WhatsApp ou visite. Réponse rapide.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 149,
+    "fr": "inscription école Tanger",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 150,
+    "fr": "inscrire enfant école privée Tanger",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 151,
+    "fr": "Via WhatsApp ou le formulaire ci-dessous.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 152,
+    "fr": "Nous vous rappelons",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 153,
+    "fr": "Pour répondre à toutes vos questions.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 154,
+    "fr": "Visitez l’école",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 155,
+    "fr": "Rencontrez l’équipe pédagogique sur place.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 156,
+    "fr": "Finalisez l’inscription",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 157,
+    "fr": "Et réservez la place de votre enfant.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 158,
+    "fr": "Copie de l’acte de naissance de l’enfant",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 159,
+    "fr": "Copies de la CIN des parents",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 160,
+    "fr": "Bulletins scolaires de l’année précédente",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 161,
+    "fr": "4 photos d’identité récentes",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 162,
+    "fr": "Certificat de scolarité ou de radiation",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 163,
+    "fr": "Carnet de santé / vaccination",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 164,
+    "fr": "Inscriptions 2026-2027 — Rejoignez le Groupe Scolaire Les Lumières",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 165,
+    "fr": "Inscriptions ouvertes pour l’année scolaire 2026-2027. Places limitées — réservez dès maintenant.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 166,
+    "fr": "Parents et élèves lors des inscriptions au Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 167,
+    "fr": "Places limitées",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx",
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 168,
+    "fr": "3 façons de nous joindre",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 169,
+    "fr": "Inscrivez votre enfant en quelques minutes",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 170,
+    "fr": "Choisissez le canal qui vous convient — nous vous répondons rapidement.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 171,
+    "fr": "Bonjour, je souhaite inscrire mon enfant au Groupe Scolaire Les Lumières pour 2026-2027.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 172,
+    "fr": "Le moyen le plus rapide",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 173,
+    "fr": "Par téléphone",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 174,
+    "fr": "Du lundi au samedi",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 175,
+    "fr": "Formulaire en ligne",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 176,
+    "fr": "Remplissez-le ci-dessous",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 177,
+    "fr": "4 champs seulement",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 178,
+    "fr": "Demande d’inscription",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 179,
+    "fr": "Formulaire de pré-inscription",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 180,
+    "fr": "Remplissez ce court formulaire, nous vous recontactons via WhatsApp.",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 181,
+    "fr": "Comment ça marche",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 182,
+    "fr": "Les étapes de l’inscription",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 183,
+    "fr": "Documents nécessaires",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 184,
+    "fr": "Bon à savoir",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 185,
+    "fr": "Questions fréquentes sur l’inscription",
+    "files": [
+      "src/app/inscription-ecole-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 186,
+    "fr": "lycée privé Tanger",
+    "files": [
+      "src/app/lycee-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 187,
+    "fr": "cycle lycée Tanger",
+    "files": [
+      "src/app/lycee-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 188,
+    "fr": "bourse excellence Tanger",
+    "files": [
+      "src/app/lycee-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 189,
+    "fr": "maternelle privée Tanger",
+    "files": [
+      "src/app/maternelle-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 190,
+    "fr": "école maternelle Val Fleuri",
+    "files": [
+      "src/app/maternelle-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 191,
+    "fr": "Montessori Tanger",
+    "files": [
+      "src/app/maternelle-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 192,
+    "fr": "Mentions Légales | Groupe Scolaire Les Lumières Tanger",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 193,
+    "fr": "Mentions légales du site du Groupe Scolaire Les Lumières à Tanger : éditeur, hébergement, propriété intellectuelle et protection des données personnelles.",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 194,
+    "fr": "Mentions Légales",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 195,
+    "fr": "Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 196,
+    "fr": "Mentions légales",
+    "files": [
+      "src/app/mentions-legales/page.tsx",
+      "src/components/layout/Footer.tsx"
+    ]
+  },
+  {
+    "id": 197,
+    "fr": "Éditeur du site",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 198,
+    "fr": "Le présent site est édité par le",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 199,
+    "fr": "), établissement d’enseignement privé situé à",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 200,
+    "fr": "Directeur de la publication :",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 201,
+    "fr": "Téléphone :",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 202,
+    "fr": "Email :",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 203,
+    "fr": "Site web :",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 204,
+    "fr": "Hébergement",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 205,
+    "fr": "La publication du site est prévue sur Vercel. Informations sur le service :",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 206,
+    "fr": "vercel.com",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 207,
+    "fr": "Propriété intellectuelle",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 208,
+    "fr": "L’ensemble des contenus présents sur ce site (textes, images, logos, éléments graphiques) sont la propriété du",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 209,
+    "fr": ", sauf mention contraire. Toute reproduction, représentation ou diffusion, totale ou partielle, sans autorisation préalable écrite, est interdite.",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 210,
+    "fr": "Protection des données personnelles",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 211,
+    "fr": "Les formulaires préparent votre message dans votre navigateur. Le site ne l’enregistre pas dans une base de données. En ouvrant WhatsApp, vous transmettez le texte préparé à ce service ; votre demande parvient à l’école lorsque vous appuyez sur Envoyer dans WhatsApp. Les informations reçues servent à répondre à votre demande de contact ou d’inscription. N’ajoutez pas de documents d’identité ni d’informations médicales à votre message.",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 212,
+    "fr": "Pour toute question concernant vos informations ou pour demander leur correction ou leur suppression, contactez l’école à",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 213,
+    "fr": ". L’utilisation de WhatsApp est également soumise à sa propre",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 214,
+    "fr": "politique de confidentialité",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 215,
+    "fr": "Cookies & mesure d’audience",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 216,
+    "fr": "Le site n’intègre actuellement ni Google Analytics, ni pixel publicitaire. Les services externes que vous choisissez d’ouvrir (WhatsApp, réseaux sociaux, Google Maps) appliquent leurs propres règles de confidentialité et de cookies.",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 217,
+    "fr": "Liens externes",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 218,
+    "fr": "Ce site peut contenir des liens vers des sites tiers (réseaux sociaux, services de cartographie). Le",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 219,
+    "fr": "n’est pas responsable du contenu de ces sites externes.",
+    "files": [
+      "src/app/mentions-legales/page.tsx"
+    ]
+  },
+  {
+    "id": 220,
+    "fr": "Mot du Directeur Ahmed ABBOU | Les Lumières Tanger",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 221,
+    "fr": "Le message d’Ahmed ABBOU, directeur du Groupe Scolaire Les Lumières à Tanger : notre vision pour l’excellence et l’épanouissement de chaque élève.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 222,
+    "fr": "Ahmed ABBOU directeur",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 223,
+    "fr": "mot du directeur Les Lumières",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 224,
+    "fr": "directeur école Tanger",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 225,
+    "fr": "Mot du Directeur — Ahmed ABBOU",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 226,
+    "fr": "« Notre école, votre confiance » — un engagement que nous honorons chaque jour.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 227,
+    "fr": "Directeur du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 228,
+    "fr": "L’École",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx",
+      "src/app/nos-resultats/page.tsx",
+      "src/app/notre-equipe/page.tsx",
+      "src/app/pourquoi-les-lumieres/page.tsx",
+      "src/app/qui-sommes-nous/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 229,
+    "fr": "Mot du Directeur",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 230,
+    "fr": "Portrait de Ahmed ABBOU, directeur du Groupe Scolaire Les Lumières",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 231,
+    "fr": "Ahmed ABBOU",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx",
+      "src/app/notre-equipe/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 232,
+    "fr": "Directeur & Fondateur",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 233,
+    "fr": "Chers parents, chers visiteurs,",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 234,
+    "fr": "C’est avec une grande fierté que je vous souhaite la bienvenue au Groupe Scolaire Les Lumières. Depuis sa création en 2004, notre établissement s’est donné une mission claire : offrir à chaque enfant un cadre rassurant, stimulant et exigeant, où il puisse apprendre, grandir et s’épanouir en toute confiance.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 235,
+    "fr": "Notre projet éducatif repose sur une pédagogie de projet et une approche par compétences. Nous ne nous contentons pas de transmettre des connaissances : nous formons des esprits curieux, autonomes et responsables. L’enseignement trilingue — français langue principale, arabe dès la Petite Section et anglais dès la Grande Section — ainsi que la Méthode de Singapour en mathématiques donnent à nos élèves des fondations solides et durables.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 236,
+    "fr": "Mais une école ne se résume pas à ses programmes. Aux Lumières, la vie scolaire est riche : théâtre, musique, chorale, club cinéma, arts plastiques… Nos élèves participent tout au long de l’année à des événements marquants — cross-country, fête du printemps, carnaval, kermesse — qui cultivent l’esprit d’équipe, la créativité et la joie d’apprendre ensemble.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 237,
+    "fr": "Notre vision est tournée vers l’avenir : préparer des citoyens du monde, confiants et ambitieux, capables de réussir leur parcours au lycée puis leurs études supérieures, tout en restant attachés à leurs valeurs. Cet engagement, nous le partageons avec vous, parents, qui êtes nos premiers partenaires.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 238,
+    "fr": "Je vous invite à venir nous rencontrer, à visiter notre établissement et à découvrir l’équipe passionnée qui accompagne vos enfants au quotidien.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 239,
+    "fr": "Directeur et Fondateur du Groupe Scolaire Les Lumières",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 240,
+    "fr": "Venez nous rencontrer",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 241,
+    "fr": "Rien ne remplace une visite. Contactez-nous pour convenir d’un rendez-vous et découvrir notre école.",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 242,
+    "fr": "Contacter sur WhatsApp",
+    "files": [
+      "src/app/mot-du-directeur/page.tsx"
+    ]
+  },
+  {
+    "id": 243,
+    "fr": "Nos Résultats & Réussites | Les Lumières Tanger",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 244,
+    "fr": "Résultats et réussites du Groupe Scolaire Les Lumières à Tanger : réussite au lycée, certifications Cambridge, distinctions et bourses d’excellence.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 245,
+    "fr": "résultats lycée Tanger",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 246,
+    "fr": "taux de réussite école Tanger",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 247,
+    "fr": "réussite Les Lumières",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 248,
+    "fr": "Taux de réussite au lycée",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 249,
+    "fr": "Élèves certifiés en anglais",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 250,
+    "fr": "Distinctions en mathématiques",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 251,
+    "fr": "d’excellence pour les méritants",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 252,
+    "fr": "Des taux de réussite élevés et constants aux examens du lycée, toutes filières confondues.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 253,
+    "fr": "Une préparation rigoureuse aux Cambridge English Qualifications, avec de nombreux élèves certifiés.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 254,
+    "fr": "Des élèves distingués lors de l’Olympiade Ramadan des mathématiques et d’autres concours.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 255,
+    "fr": "Une Bourse d’Excellence qui récompense chaque année les élèves les plus méritants.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 256,
+    "fr": "Un accompagnement vers l’orientation et les études supérieures au Maroc et à l’étranger.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 257,
+    "fr": "Nos Résultats & Réussites",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 258,
+    "fr": "L’excellence académique au service de l’avenir de nos élèves.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 259,
+    "fr": "Élèves lauréats du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 260,
+    "fr": "Nos résultats",
+    "files": [
+      "src/app/nos-resultats/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 261,
+    "fr": "Nos fiertés",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 262,
+    "fr": "Des réussites qui parlent d’elles-mêmes",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 263,
+    "fr": "Les résultats détaillés par filière et par année sont communiqués sur demande lors de votre visite.",
+    "files": [
+      "src/app/nos-resultats/page.tsx"
+    ]
+  },
+  {
+    "id": 264,
+    "fr": "Notre Équipe Pédagogique | Les Lumières Tanger",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 265,
+    "fr": "L’équipe pédagogique du Groupe Scolaire Les Lumières à Tanger : des enseignants qualifiés et bienveillants au service de la réussite de chaque élève.",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 266,
+    "fr": "équipe pédagogique Tanger",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 267,
+    "fr": "enseignants école Les Lumières",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 268,
+    "fr": "professeurs Tanger",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 269,
+    "fr": "Direction des études",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 270,
+    "fr": "Équipe Maternelle",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 271,
+    "fr": "Équipe Primaire",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 272,
+    "fr": "Équipe Collège & Lycée",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 273,
+    "fr": "Équipe administrative",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 274,
+    "fr": "Notre Équipe Pédagogique",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 275,
+    "fr": "Des femmes et des hommes passionnés, qualifiés et bienveillants, engagés pour la réussite de chaque élève.",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 276,
+    "fr": "Équipe pédagogique du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 277,
+    "fr": "Notre équipe",
+    "files": [
+      "src/app/notre-equipe/page.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 278,
+    "fr": "Les visages des Lumières",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 279,
+    "fr": "Une équipe expérimentée et dévouée",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 280,
+    "fr": "Notre force, ce sont nos enseignants : qualifiés, formés en continu et profondément attachés à l’épanouissement des élèves.",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 281,
+    "fr": "{{0}} — {{1}} au Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 282,
+    "fr": "Venez rencontrer notre équipe",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 283,
+    "fr": "Réservez une visite et échangez avec nos enseignants.",
+    "files": [
+      "src/app/notre-equipe/page.tsx"
+    ]
+  },
+  {
+    "id": 284,
+    "fr": "Pourquoi choisir Les Lumières ? | École Privée à Tanger",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 285,
+    "fr": "7 raisons de choisir Les Lumières à Tanger : 22 ans d’expérience, école trilingue, Cambridge Preparation, méthode de Singapour et suivi personnalisé.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 286,
+    "fr": "meilleure école privée Tanger",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 287,
+    "fr": "pourquoi Les Lumières",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 288,
+    "fr": "TICE Tanger",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 289,
+    "fr": "22 ans d’expérience et de confiance",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 290,
+    "fr": "Fondée en 2004, notre école a accompagné des milliers d’élèves vers la réussite. Cette longévité est le fruit de la confiance renouvelée des familles, avec une quête constante d’excellence.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 291,
+    "fr": "École trilingue dès la maternelle",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 292,
+    "fr": "Le français est la langue principale d’instruction, l’arabe est enseigné dès la Petite Section et l’anglais commence dès la Grande Section à raison de 3 heures par semaine.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 293,
+    "fr": "Méthode de Singapour en mathématiques",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 294,
+    "fr": "Nous appliquons la Méthode de Singapour, reconnue comme l’une des plus efficaces au monde. Son approche concrète-imagée-abstraite développe le raisonnement et la maîtrise durable des concepts.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 295,
+    "fr": "Cambridge Preparation",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx",
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 296,
+    "fr": "Nos élèves avancent dans un parcours Cambridge Preparation vers les Cambridge English Qualifications, reconnues internationalement. Un atout décisif pour leurs études supérieures et leur future carrière professionnelle.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 297,
+    "fr": "Activités parascolaires riches et diversifiées",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 298,
+    "fr": "Théâtre, chorale Albatros, arts plastiques, sports et voyages scolaires : l’épanouissement de nos élèves se construit aussi en dehors de la salle de classe.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 299,
+    "fr": "Encadrement bienveillant et suivi personnalisé",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 300,
+    "fr": "Effectifs maîtrisés, équipe pédagogique investie, communication régulière avec les familles : chaque élève bénéficie d’une attention individuelle qui fait la différence.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 301,
+    "fr": "De la maternelle au lycée, en un seul lieu",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 302,
+    "fr": "Un parcours scolaire complet et cohérent, sans rupture. Votre enfant évolue dans un environnement familier, avec une continuité pédagogique qui favorise sa réussite.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 303,
+    "fr": "Pourquoi choisir le Groupe Scolaire Les Lumières à Tanger ?",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 304,
+    "fr": "Sept raisons concrètes qui font de Les Lumières l’un des établissements privés les plus appréciés de Tanger.",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 305,
+    "fr": "Salle de classe équipée d’un tableau interactif au Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 306,
+    "fr": "Pourquoi Les Lumières",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 307,
+    "fr": "Nos différences",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 308,
+    "fr": "7 bonnes raisons de nous faire confiance",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 309,
+    "fr": "Ils nous font confiance",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 310,
+    "fr": "Ce que disent les parents",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx",
+      "src/components/home/TestimonialsCarousel.tsx"
+    ]
+  },
+  {
+    "id": 311,
+    "fr": "Convaincu ? Contactez-nous pour inscrire votre enfant",
+    "files": [
+      "src/app/pourquoi-les-lumieres/page.tsx"
+    ]
+  },
+  {
+    "id": 312,
+    "fr": "primaire privé Tanger",
+    "files": [
+      "src/app/primaire-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 313,
+    "fr": "école primaire privée Tanger",
+    "files": [
+      "src/app/primaire-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 314,
+    "fr": "Méthode de Singapour Tanger",
+    "files": [
+      "src/app/primaire-prive-tanger/page.tsx"
+    ]
+  },
+  {
+    "id": 315,
+    "fr": "Qui sommes-nous | École à Tanger depuis 2004",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 316,
+    "fr": "Le Groupe Scolaire Les Lumières, école privée trilingue fondée en 2004 à Tanger : 22 ans d’expérience, de la maternelle au lycée, Montessori et Singapour.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 317,
+    "fr": "école privée Val Fleuri",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 318,
+    "fr": "histoire école Les Lumières",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 319,
+    "fr": "école trilingue Tanger 2004",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 320,
+    "fr": "Tolérance & respect",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 321,
+    "fr": "Un environnement où chaque enfant est accueilli, écouté et respecté.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 322,
+    "fr": "Nous formons des élèves capables de penser et d’agir par eux-mêmes.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 323,
+    "fr": "Formation de qualité",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 324,
+    "fr": "Une exigence académique constante, du préscolaire au lycée.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 325,
+    "fr": "Épanouissement",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 326,
+    "fr": "L’équilibre entre réussite scolaire et développement personnel.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 327,
+    "fr": "Groupe Scolaire Les Lumières — 22 ans d’excellence éducative à Tanger",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 328,
+    "fr": "Une école privée trilingue qui accompagne chaque élève de la maternelle au lycée, dans un cadre rassurant et stimulant.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 329,
+    "fr": "Bâtiment du Groupe Scolaire Les Lumières à Val Fleuri, Tanger",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 330,
+    "fr": "Qui sommes-nous",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx",
+      "src/components/home/IntroSection.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 331,
+    "fr": "Notre histoire",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 332,
+    "fr": "Une école née en 2004 à Val Fleuri",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 333,
+    "fr": "Fondé en 2004 et implanté dans le quartier Val Fleuri à Tanger, le Groupe Scolaire Les Lumières est devenu en plus de deux décennies une référence de l’enseignement privé trilingue dans la ville. L’établissement accueille aujourd’hui les élèves de la maternelle au lycée dans un même lieu, garantissant une continuité pédagogique précieuse.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 334,
+    "fr": "Notre conviction est simple : chaque enfant porte en lui une lumière qu’il appartient à l’école de révéler. C’est tout le sens de notre nom et de notre engagement quotidien.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 335,
+    "fr": "Cour de récréation du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 336,
+    "fr": "Notre mission",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 337,
+    "fr": "Accompagner chaque élève vers la réussite",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 338,
+    "fr": "« Accompagner l’élève de la maternelle au lycée dans un cadre rassurant et agréable. » Telle est la mission que nous poursuivons chaque jour, en plaçant l’élève au cœur de notre projet éducatif et en cultivant l’exigence comme la bienveillance.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 339,
+    "fr": "Nos valeurs",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 340,
+    "fr": "Les principes qui nous guident",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 341,
+    "fr": "Notre philosophie pédagogique",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 342,
+    "fr": "Notre enseignement repose sur la pédagogie de projet et l’approche par compétences. Les élèves n’apprennent pas seulement des savoirs : ils apprennent à les mobiliser dans des situations concrètes, à coopérer, à chercher et à créer. Dès la maternelle, la pédagogie Montessori favorise l’autonomie et le plaisir d’apprendre.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 343,
+    "fr": "En mathématiques, nous utilisons la Méthode de Singapour, reconnue mondialement pour son efficacité, qui développe une compréhension profonde et durable des concepts.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 344,
+    "fr": "Une stratégie trilingue",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 345,
+    "fr": "Français :",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 346,
+    "fr": "langue principale d’instruction (mathématiques, physique, biologie, informatique).",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 347,
+    "fr": "Arabe :",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 348,
+    "fr": "enseigné dès la Petite Section.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 349,
+    "fr": "Anglais :",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 350,
+    "fr": "dès la Grande Section, 3 heures par semaine, avec Cambridge Preparation.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 351,
+    "fr": "Cette immersion progressive donne à nos élèves une véritable aisance linguistique et une ouverture sur le monde, atouts majeurs pour leurs études supérieures et leur avenir professionnel.",
+    "files": [
+      "src/app/qui-sommes-nous/page.tsx"
+    ]
+  },
+  {
+    "id": 352,
+    "fr": "Transport Scolaire Sécurisé | Les Lumières Tanger",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 353,
+    "fr": "Service de transport scolaire sécurisé au Groupe Scolaire Les Lumières. Véhicules neufs, personnel d’accompagnement, contrôle technique régulier. Tanger.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 354,
+    "fr": "transport scolaire Tanger",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 355,
+    "fr": "bus scolaire sécurisé Tanger",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 356,
+    "fr": "ramassage scolaire Tanger",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 357,
+    "fr": "Véhicules neufs",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 358,
+    "fr": "Une flotte récente, confortable et régulièrement entretenue.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 359,
+    "fr": "Personnel d’accompagnement",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 360,
+    "fr": "Un accompagnateur dédié veille sur les élèves à chaque trajet.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 361,
+    "fr": "Contrôle technique régulier",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 362,
+    "fr": "Des vérifications fréquentes pour une sécurité maximale.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 363,
+    "fr": "Couverture étendue",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 364,
+    "fr": "Des circuits couvrant les principaux quartiers de Tanger.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 365,
+    "fr": "Transport Scolaire Sécurisé",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 366,
+    "fr": "La sérénité des parents, la sécurité des enfants : notre service de transport accompagne votre enfant en toute confiance.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 367,
+    "fr": "Bus de transport scolaire du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 368,
+    "fr": "Transport scolaire",
+    "files": [
+      "src/app/transport-scolaire/page.tsx",
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 369,
+    "fr": "Sécurité avant tout",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 370,
+    "fr": "Un transport pensé pour la tranquillité des familles",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 371,
+    "fr": "Le Groupe Scolaire Les Lumières met à disposition des familles un service de transport scolaire sécurisé et fiable. Notre flotte de véhicules neufs est conduite par des chauffeurs expérimentés et accompagnée d’un personnel dédié qui veille sur les élèves du domicile à l’école, et inversement.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 372,
+    "fr": "Chaque véhicule fait l’objet d’un contrôle technique régulier. Les circuits sont organisés pour couvrir les principaux quartiers de Tanger, avec des horaires adaptés au rythme scolaire de votre enfant.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 373,
+    "fr": "Véhicule de transport scolaire sécurisé des Lumières à Tanger",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 374,
+    "fr": "Nos garanties",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 375,
+    "fr": "Pourquoi nos parents nous font confiance",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 376,
+    "fr": "Pour connaître les circuits et tarifs, contactez-nous.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 377,
+    "fr": "Besoin d’informations sur le transport ?",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 378,
+    "fr": "Contactez-nous pour connaître les circuits desservis et les modalités.",
+    "files": [
+      "src/app/transport-scolaire/page.tsx"
+    ]
+  },
+  {
+    "id": 379,
+    "fr": "Atelier théâtre des élèves de l’école Les Lumières à Tanger",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 380,
+    "fr": "Chorale Albatros en répétition au Groupe Scolaire Les Lumières",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 381,
+    "fr": "Élèves lors d’une activité sportive à l’école Les Lumières Tanger",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 382,
+    "fr": "Atelier d’arts plastiques au Groupe Scolaire Les Lumières",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 383,
+    "fr": "Sortie scolaire des élèves de l’école Les Lumières à Tanger",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 384,
+    "fr": "Vie de classe au Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 385,
+    "fr": "Notre quotidien",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 386,
+    "fr": "La vie scolaire aux Lumières",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 387,
+    "fr": "Apprentissage, créativité, sport et amitié : un quotidien riche où chaque élève s’épanouit.",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 388,
+    "fr": "Voir toute la galerie",
+    "files": [
+      "src/components/home/ActivitiesGallery.tsx"
+    ]
+  },
+  {
+    "id": 389,
+    "fr": "Inscriptions ouvertes 2026-2027 au Groupe Scolaire Les Lumières",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 390,
+    "fr": "Inscriptions ouvertes 2026-2027",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 391,
+    "fr": "Prenez rendez-vous, posez vos questions ou démarrez une pré-inscription. Le parcours doit rester simple pour les parents : notre équipe vous accompagne étape par étape.",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 392,
+    "fr": "Pré-inscription",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 393,
+    "fr": "Formulaire rapide",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 394,
+    "fr": "Bonjour, je souhaite des informations sur les inscriptions 2026-2027 au Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 395,
+    "fr": "Appeler",
+    "files": [
+      "src/components/home/AdmissionsSection.tsx"
+    ]
+  },
+  {
+    "id": 396,
+    "fr": "École trilingue",
+    "files": [
+      "src/components/home/BrandPromiseStrip.tsx",
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 397,
+    "fr": "Méthodes pédagogiques modernes",
+    "files": [
+      "src/components/home/BrandPromiseStrip.tsx"
+    ]
+  },
+  {
+    "id": 398,
+    "fr": "Suivi pédagogique régulier",
+    "files": [
+      "src/components/home/BrandPromiseStrip.tsx"
+    ]
+  },
+  {
+    "id": 399,
+    "fr": "Encadrement de qualité",
+    "files": [
+      "src/components/home/BrandPromiseStrip.tsx"
+    ]
+  },
+  {
+    "id": 400,
+    "fr": "Éducation d’excellence",
+    "files": [
+      "src/components/home/BrandPromiseStrip.tsx"
+    ]
+  },
+  {
+    "id": 401,
+    "fr": "Ouverture internationale",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 402,
+    "fr": "Les élèves progressent avec Cambridge Preparation et des repères alignés sur les Cambridge English Qualifications.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 403,
+    "fr": "Anglais structuré",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 404,
+    "fr": "L'anglais commence dès la Grande Section, puis Cambridge Preparation se renforce avec des objectifs clairs par cycle.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 405,
+    "fr": "Confiance à l’oral",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 406,
+    "fr": "La pratique régulière aide les élèves à parler, écouter et communiquer avec plus d'assurance.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 407,
+    "fr": "Lire l'entretien Cambridge avec Simon",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 408,
+    "fr": "Entretien avec Simon",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 409,
+    "fr": "Témoignage vidéo autour de la collaboration entre Les Lumières et Cambridge.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 410,
+    "fr": "Partenariat Cambridge",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 411,
+    "fr": "Un parcours d’anglais vivant, expliqué par ceux qui l’accompagnent.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 412,
+    "fr": "La collaboration Cambridge prend du sens quand elle se voit dans le quotidien : progression, confiance, objectifs lisibles et ouverture internationale pour les élèves.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 413,
+    "fr": "Une parole directe sur l'expérience Cambridge au sein du Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 414,
+    "fr": "Interview vidéo avec Simon",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 415,
+    "fr": "Découvrir le Collège International",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 416,
+    "fr": "Voir le départ dès la Maternelle",
+    "files": [
+      "src/components/home/CambridgeSection.tsx"
+    ]
+  },
+  {
+    "id": 417,
+    "fr": "Un parcours complet, de la Maternelle au Lycée",
+    "files": [
+      "src/components/home/CyclesGrid.tsx"
+    ]
+  },
+  {
+    "id": 418,
+    "fr": "Chaque cycle garde son rythme, son niveau d'exigence et son accompagnement, dans un même établissement.",
+    "files": [
+      "src/components/home/CyclesGrid.tsx"
+    ]
+  },
+  {
+    "id": 419,
+    "fr": "use client",
+    "files": [
+      "src/components/home/HeroSection.tsx",
+      "src/components/home/SchoolDatesSection.tsx",
+      "src/components/home/StatsCounter.tsx",
+      "src/components/home/TestimonialsCarousel.tsx",
+      "src/components/layout/Header.tsx",
+      "src/components/layout/MobileMenu.tsx",
+      "src/components/layout/WhatsAppButton.tsx",
+      "src/components/shared/EnquiryForm.tsx",
+      "src/components/shared/FAQAccordion.tsx",
+      "src/components/shared/ImageGallery.tsx",
+      "src/components/shared/MediaVideo.tsx",
+      "src/components/shared/ScrollReveal.tsx"
+    ]
+  },
+  {
+    "id": 420,
+    "fr": "Depuis 2004",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 421,
+    "fr": "École privée trilingue à Tanger, de la Maternelle au Lycée, où l'exigence académique rencontre un accompagnement humain et régulier.",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 422,
+    "fr": "Inscriptions 2026-2027",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 423,
+    "fr": "Bonjour, je souhaite prendre rendez-vous pour visiter le Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 424,
+    "fr": "Rendez-vous WhatsApp",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 425,
+    "fr": "Français, arabe et anglais",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 426,
+    "fr": "Méthode de Singapour & Cambridge",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 427,
+    "fr": "Visites et admissions sur rendez-vous",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 428,
+    "fr": "Découvrir les cycles scolaires",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 429,
+    "fr": "Bienvenue",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 430,
+    "fr": "Le Groupe Scolaire Les Lumières, l'excellence éducative à Tanger",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 431,
+    "fr": "Le",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 432,
+    "fr": "est une école privée trilingue",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 433,
+    "fr": "fondée en 2004",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 434,
+    "fr": ", située dans le quartier",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 435,
+    "fr": "Val Fleuri à Tanger",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 436,
+    "fr": ". L'établissement accueille les élèves de la",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 437,
+    "fr": "maternelle au lycée",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 438,
+    "fr": "dans un cadre qui valorise l'exigence, la stabilité et le suivi régulier.",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 439,
+    "fr": "L'école combine le",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 440,
+    "fr": "français",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 441,
+    "fr": ", l'",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 442,
+    "fr": "arabe",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 443,
+    "fr": "et l'",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 444,
+    "fr": "anglais",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 445,
+    "fr": ", la",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 446,
+    "fr": "Méthode de Singapour",
+    "files": [
+      "src/components/home/IntroSection.tsx",
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 447,
+    "fr": "en mathématiques, la préparation",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 448,
+    "fr": "Cambridge English Qualifications",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 449,
+    "fr": "et une vie scolaire riche : théâtre, chorale, arts, sport et voyages scolaires.",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 450,
+    "fr": "Lire la video de localisation",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 451,
+    "fr": "Vue du quartier Val Fleuri et de l'environnement immédiat de l'école.",
+    "files": [
+      "src/components/home/IntroSection.tsx"
+    ]
+  },
+  {
+    "id": 452,
+    "fr": "Une école installée durablement à Tanger",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 453,
+    "fr": "Depuis 2004, Les Lumières accompagne les familles avec un cadre scolaire stable, exigeant et attentif à chaque élève.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 454,
+    "fr": "Un même établissement, de la Maternelle au Lycée",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 455,
+    "fr": "Les élèves avancent dans un parcours lisible : éveil en maternelle, bases solides au primaire, ouverture internationale au collège et orientation au lycée.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 456,
+    "fr": "Français, arabe et anglais avec progression continue",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 457,
+    "fr": "L'anglais commence dès la Grande Section, avec Cambridge Preparation progressive dans les cycles avancés.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 458,
+    "fr": "Inscriptions ouvertes pour 2026-2027",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 459,
+    "fr": "Les familles peuvent demander une pré-inscription, poser leurs questions et planifier une visite afin de confirmer le niveau et la disponibilité.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 460,
+    "fr": "Une équipe joignable pendant la semaine scolaire",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 461,
+    "fr": "Horaires scolaires officiels : 08h45 à 12h30. Pour les visites et les inscriptions, contactez-nous au {{0}}.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 462,
+    "fr": "Dates clés",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 463,
+    "fr": "Les repères qui comptent pour les familles",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 464,
+    "fr": "Une lecture rapide de l'histoire, du parcours et des dates pratiques de l'école, pensée pour les parents qui veulent comprendre l'essentiel sans chercher.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 465,
+    "fr": "Pré-inscription 2026-2027",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 466,
+    "fr": "Bonjour, je souhaite connaître les dates et disponibilités pour une inscription au Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 467,
+    "fr": "Planifier une visite",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 468,
+    "fr": "Ouvrir l'adresse",
+    "files": [
+      "src/components/home/SchoolDatesSection.tsx"
+    ]
+  },
+  {
+    "id": 469,
+    "fr": "Services disponibles",
+    "files": [
+      "src/components/home/ServicesMatrixSection.tsx"
+    ]
+  },
+  {
+    "id": 470,
+    "fr": "Cantine, transport et équipements au service des familles",
+    "files": [
+      "src/components/home/ServicesMatrixSection.tsx"
+    ]
+  },
+  {
+    "id": 471,
+    "fr": "Des services utiles et clairement identifiés pour accompagner le quotidien scolaire de votre enfant.",
+    "files": [
+      "src/components/home/ServicesMatrixSection.tsx"
+    ]
+  },
+  {
+    "id": 472,
+    "fr": "Témoignages",
+    "files": [
+      "src/components/home/TestimonialsCarousel.tsx"
+    ]
+  },
+  {
+    "id": 473,
+    "fr": "La confiance des familles est notre plus belle récompense.",
+    "files": [
+      "src/components/home/TestimonialsCarousel.tsx"
+    ]
+  },
+  {
+    "id": 474,
+    "fr": "Aller au groupe de témoignages {{0}}",
+    "files": [
+      "src/components/home/TestimonialsCarousel.tsx"
+    ]
+  },
+  {
+    "id": 475,
+    "fr": "Sport et esprit d'équipe",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 476,
+    "fr": "Des activités encadrées pour développer énergie, discipline et coopération.",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 477,
+    "fr": "Cambridge sur le campus",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 478,
+    "fr": "Un aperçu de la visite Cambridge et des échanges autour du parcours d'anglais.",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 479,
+    "fr": "Message de direction",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 480,
+    "fr": "Une parole institutionnelle pour partager la vision et les réussites de l'année.",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 481,
+    "fr": "Vie scolaire",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 482,
+    "fr": "Découvrez l'atmosphère Les Lumières en vidéo",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 483,
+    "fr": "Des moments réels du campus, des activités et de la vision pédagogique, présentés avec un chargement maîtrisé.",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 484,
+    "fr": "Lire la video de l uniforme",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 485,
+    "fr": "L'identité Les Lumières se voit aussi dans les détails du quotidien scolaire.",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 486,
+    "fr": "Vidéo",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 487,
+    "fr": "Voir la galerie complète",
+    "files": [
+      "src/components/home/VideoSection.tsx"
+    ]
+  },
+  {
+    "id": 488,
+    "fr": "Nos atouts",
+    "files": [
+      "src/components/home/WhyUsSection.tsx"
+    ]
+  },
+  {
+    "id": 489,
+    "fr": "Pourquoi choisir Les Lumières ?",
+    "files": [
+      "src/components/home/WhyUsSection.tsx"
+    ]
+  },
+  {
+    "id": 490,
+    "fr": "Plus de deux décennies d’expérience au service de la réussite et de l’épanouissement de chaque élève.",
+    "files": [
+      "src/components/home/WhyUsSection.tsx"
+    ]
+  },
+  {
+    "id": 491,
+    "fr": "Découvrir toutes nos raisons",
+    "files": [
+      "src/components/home/WhyUsSection.tsx"
+    ]
+  },
+  {
+    "id": 492,
+    "fr": "Maternelle",
+    "files": [
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts",
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 493,
+    "fr": "Primaire",
+    "files": [
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts",
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 494,
+    "fr": "Collège International",
+    "files": [
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 495,
+    "fr": "Lycée",
+    "files": [
+      "src/components/layout/Footer.tsx",
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts",
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 496,
+    "fr": "École privée trilingue à Tanger depuis 2004. De la maternelle au lycée, nous accompagnons chaque élève vers la réussite et l'épanouissement.",
+    "files": [
+      "src/components/layout/Footer.tsx"
+    ]
+  },
+  {
+    "id": 497,
+    "fr": "Navigation",
+    "files": [
+      "src/components/layout/Footer.tsx"
+    ]
+  },
+  {
+    "id": 498,
+    "fr": "Ouvrir l'adresse du Groupe Scolaire Les Lumières dans Google Maps",
+    "files": [
+      "src/components/layout/Footer.tsx"
+    ]
+  },
+  {
+    "id": 499,
+    "fr": "Ouvrir dans Maps",
+    "files": [
+      "src/components/layout/Footer.tsx",
+      "src/components/shared/GoogleMap.tsx"
+    ]
+  },
+  {
+    "id": 500,
+    "fr": "- Tanger, Maroc. Tous droits réservés.",
+    "files": [
+      "src/components/layout/Footer.tsx"
+    ]
+  },
+  {
+    "id": 501,
+    "fr": "Navigation principale",
+    "files": [
+      "src/components/layout/Header.tsx"
+    ]
+  },
+  {
+    "id": 502,
+    "fr": "Contactez-nous sur WhatsApp",
+    "files": [
+      "src/components/layout/Header.tsx",
+      "src/components/layout/WhatsAppButton.tsx"
+    ]
+  },
+  {
+    "id": 503,
+    "fr": "Nous Contacter",
+    "files": [
+      "src/components/layout/Header.tsx"
+    ]
+  },
+  {
+    "id": 504,
+    "fr": "Ouvrir le menu",
+    "files": [
+      "src/components/layout/MobileMenu.tsx"
+    ]
+  },
+  {
+    "id": 505,
+    "fr": "Menu de navigation",
+    "files": [
+      "src/components/layout/MobileMenu.tsx"
+    ]
+  },
+  {
+    "id": 506,
+    "fr": "Menu",
+    "files": [
+      "src/components/layout/MobileMenu.tsx"
+    ]
+  },
+  {
+    "id": 507,
+    "fr": "Fermer le menu",
+    "files": [
+      "src/components/layout/MobileMenu.tsx"
+    ]
+  },
+  {
+    "id": 508,
+    "fr": "Navigation mobile",
+    "files": [
+      "src/components/layout/MobileMenu.tsx"
+    ]
+  },
+  {
+    "id": 509,
+    "fr": "Contacter via WhatsApp",
+    "files": [
+      "src/components/layout/MobileMenu.tsx",
+      "src/components/shared/CTASection.tsx"
+    ]
+  },
+  {
+    "id": 510,
+    "fr": "Fil d’Ariane",
+    "files": [
+      "src/components/shared/BreadCrumb.tsx"
+    ]
+  },
+  {
+    "id": 511,
+    "fr": "University of Cambridge",
+    "files": [
+      "src/components/shared/CambridgeBadge.tsx"
+    ]
+  },
+  {
+    "id": 512,
+    "fr": "Les inscriptions 2026-2027 sont ouvertes",
+    "files": [
+      "src/components/shared/CTASection.tsx"
+    ]
+  },
+  {
+    "id": 513,
+    "fr": "Places limitées — Réservez une visite ou contactez-nous dès maintenant.",
+    "files": [
+      "src/components/shared/CTASection.tsx"
+    ]
+  },
+  {
+    "id": 514,
+    "fr": "Appeler :",
+    "files": [
+      "src/components/shared/CTASection.tsx"
+    ]
+  },
+  {
+    "id": 515,
+    "fr": "Présentation du cycle",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 516,
+    "fr": "Points forts",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 517,
+    "fr": "Matières & disciplines",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 518,
+    "fr": "Pédagogie",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 519,
+    "fr": "Nos méthodes d’enseignement",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 520,
+    "fr": "Les langues enseignées",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 521,
+    "fr": "En images",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 522,
+    "fr": "Témoignage",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 523,
+    "fr": "La parole aux parents",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 524,
+    "fr": "Découvrez aussi nos autres cycles",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 525,
+    "fr": "Bonjour, je souhaite des informations sur les inscriptions en {{0}} au Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/shared/CyclePageTemplate.tsx"
+    ]
+  },
+  {
+    "id": 526,
+    "fr": "Bonjour, je souhaite des informations pour une inscription au Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 527,
+    "fr": "Bonjour, je souhaite contacter le Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 528,
+    "fr": "Téléphone : {{0}}",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 529,
+    "fr": "Prénom de l’élève : {{0}}",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 530,
+    "fr": "Niveau demandé : {{0}}",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 531,
+    "fr": "Préparez votre demande, puis envoyez-la à notre équipe sur WhatsApp. Les champs marqués d’un * sont obligatoires.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 532,
+    "fr": "Nom du parent *",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 533,
+    "fr": "Téléphone / WhatsApp *",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 534,
+    "fr": "Saisissez un numéro de téléphone valide, avec son indicatif si nécessaire.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 535,
+    "fr": "Prénom de l’élève *",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 536,
+    "fr": "Niveau demandé *",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 537,
+    "fr": "Choisissez un niveau…",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 538,
+    "fr": "Email (optionnel)",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 539,
+    "fr": "Message",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 540,
+    "fr": "Préparer mon message",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 541,
+    "fr": "Aucune demande n’est envoyée à cette étape.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 542,
+    "fr": "Utilisation de vos données",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 543,
+    "fr": "Votre message est prêt",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 544,
+    "fr": "Vérifiez votre demande, ouvrez WhatsApp, puis appuyez sur Envoyer pour la transmettre à notre équipe.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 545,
+    "fr": "Ouvrir WhatsApp",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 546,
+    "fr": "Modifier ma demande",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 547,
+    "fr": "Votre demande ne sera reçue qu’après son envoi dans WhatsApp.",
+    "files": [
+      "src/components/shared/EnquiryForm.tsx"
+    ]
+  },
+  {
+    "id": 548,
+    "fr": "Filtrer la galerie",
+    "files": [
+      "src/components/shared/ImageGallery.tsx"
+    ]
+  },
+  {
+    "id": 549,
+    "fr": "Aperçu de la galerie",
+    "files": [
+      "src/components/shared/ImageGallery.tsx"
+    ]
+  },
+  {
+    "id": 550,
+    "fr": "Image précédente",
+    "files": [
+      "src/components/shared/ImageGallery.tsx"
+    ]
+  },
+  {
+    "id": 551,
+    "fr": "Image suivante",
+    "files": [
+      "src/components/shared/ImageGallery.tsx"
+    ]
+  },
+  {
+    "id": 552,
+    "fr": "Lire la video",
+    "files": [
+      "src/components/shared/MediaVideo.tsx"
+    ]
+  },
+  {
+    "id": 553,
+    "fr": "Campus du Groupe Scolaire Les Lumières à Tanger",
+    "files": [
+      "src/components/shared/PageHero.tsx"
+    ]
+  },
+  {
+    "id": 554,
+    "fr": "Parent —",
+    "files": [
+      "src/components/shared/TestimonialCard.tsx"
+    ]
+  },
+  {
+    "id": 555,
+    "fr": "Notre école, votre confiance",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 556,
+    "fr": "Ribh2, Avenue Moulay Rachid, Val Fleuri, 90060 Tanger, Maroc",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 557,
+    "fr": "Ribh2, Avenue Moulay Rachid, Val Fleuri",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 558,
+    "fr": "Tanger-Tétouan-Al Hoceima",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 559,
+    "fr": "Maroc",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 560,
+    "fr": "Bonjour, je souhaite des informations sur les inscriptions au Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 561,
+    "fr": "08h00 – à confirmer",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 562,
+    "fr": "Fermé",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 563,
+    "fr": "Session matinale",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 564,
+    "fr": "Petite Section (PS)",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 565,
+    "fr": "Moyenne Section (MS)",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 566,
+    "fr": "Grande Section (GS)",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 567,
+    "fr": "Approche Montessori, éveil et ouverture linguistique progressive",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 568,
+    "fr": "Enfants de maternelle en activité d’éveil à l’école Les Lumières à Tanger",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 569,
+    "fr": "Pédagogie Montessori",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 570,
+    "fr": "Éveil & socialisation",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 571,
+    "fr": "Introduction trilingue",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 572,
+    "fr": "Méthode de Singapour en mathématiques, Cambridge Preparation",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 573,
+    "fr": "Élèves de primaire en classe à l’école privée Les Lumières à Tanger",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 574,
+    "fr": "Bases solides en français",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 575,
+    "fr": "Cambridge Preparation dès CE1",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 576,
+    "fr": "Collège",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 577,
+    "fr": "1ère Année Collège (1AC)",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 578,
+    "fr": "Cambridge Preparation et laboratoires de sciences",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 579,
+    "fr": "Collégiens en laboratoire de sciences au collège international Les Lumières à Tanger",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 580,
+    "fr": "Laboratoires de sciences",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 581,
+    "fr": "Programme international",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 582,
+    "fr": "Tronc Commun",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 583,
+    "fr": "1er Bac (SVT / Maths / Éco)",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 584,
+    "fr": "2ème Bac (PC / SVT / Éco / SGC)",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 585,
+    "fr": "Parcours lycée, Cambridge Preparation et bourse d’excellence",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 586,
+    "fr": "Lycéens en préparation aux examens au lycée privé Les Lumières à Tanger",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 587,
+    "fr": "Préparation aux examens",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 588,
+    "fr": "Bourse d’excellence",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 589,
+    "fr": "2ème Année Collège (2AC)",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 590,
+    "fr": "3ème Année Collège (3AC)",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 591,
+    "fr": "1er Bac",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 592,
+    "fr": "2ème Bac",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 593,
+    "fr": "{{0}} ans d’expérience",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 594,
+    "fr": "Plus de deux décennies d’excellence éducative à Tanger.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 595,
+    "fr": "Français langue principale, arabe dès la PS, anglais dès la GS avec Cambridge Preparation.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 596,
+    "fr": "L’approche mathématique la plus efficace au monde.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 597,
+    "fr": "Parcours progressif vers les Cambridge English Qualifications.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 598,
+    "fr": "Activités enrichissantes",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 599,
+    "fr": "Théâtre, chorale, arts, sports et voyages scolaires.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 600,
+    "fr": "Encadrement bienveillant",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 601,
+    "fr": "Un suivi personnalisé pour chaque élève.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 602,
+    "fr": "Années d’expérience",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 603,
+    "fr": "Cycles scolaires",
+    "files": [
+      "src/lib/constants.ts",
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 604,
+    "fr": "Langues enseignées",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 605,
+    "fr": "Certifications internationales",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 606,
+    "fr": "Un groupe pédagogique et administratif professionnel. Vous êtes la deuxième famille de mon enfant !",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 607,
+    "fr": "Je recommande vivement cette belle école, mon fils y a passé de très bons moments, les éducatrices sont très câlines et qualifiées.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 608,
+    "fr": "Très bonne école gérée par des professionnels. Très bon niveau scolaire, les enfants y sont épanouis.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 609,
+    "fr": "Un cadre rassurant pour les premiers pas de mon enfant. Les éducatrices sont formidables et très attentives.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 610,
+    "fr": "La méthode de Singapour a transformé le niveau de mon fils en mathématiques. Je recommande vivement.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 611,
+    "fr": "Cambridge Preparation a donné à ma fille une vraie confiance en anglais. Excellente école.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 612,
+    "fr": "Théâtre & Art dramatique",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 613,
+    "fr": "Expression, confiance en soi et créativité sur scène.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 614,
+    "fr": "Musique & Chorale Albatros",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 615,
+    "fr": "Notre chorale Albatros fait vibrer chaque événement.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 616,
+    "fr": "Arts plastiques & Écriture",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 617,
+    "fr": "Dessin, peinture et ateliers d’écriture créative.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 618,
+    "fr": "Compétitions sportives",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 619,
+    "fr": "Football, athlétisme, cross-country et tournois inter-classes.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 620,
+    "fr": "3 sorties par an : régionale, nationale et internationale.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 621,
+    "fr": "Événements annuels",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 622,
+    "fr": "Carnaval, fête du printemps, kermesse et Olympiade.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 623,
+    "fr": "Service de Cantine",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 624,
+    "fr": "Repas équilibrés servis sur place dans un cadre encadré et convivial.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 625,
+    "fr": "Transport disponible",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 626,
+    "fr": "Service de transport scolaire sécurisé avec accompagnement dédié.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 627,
+    "fr": "Salles informatiques, tableaux interactifs et laboratoire de sciences.",
+    "files": [
+      "src/lib/constants.ts"
+    ]
+  },
+  {
+    "id": 628,
+    "fr": "Maternelle Privée Trilingue à Tanger — PS, MS, GS",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 629,
+    "fr": "Maternelle Privée à Tanger | Groupe Scolaire Les Lumières",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 630,
+    "fr": "Maternelle privée trilingue à Tanger : Petite, Moyenne et Grande Section. Approche Montessori et éveil dans un cadre chaleureux. Inscriptions 2026-2027.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 631,
+    "fr": "Les premiers pas de votre enfant dans un environnement chaleureux, sécurisé et stimulant — où le français structure les apprentissages, avec l’arabe dès la PS et l’anglais dès la GS.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 632,
+    "fr": "La maternelle du Groupe Scolaire Les Lumières accueille les enfants de 3 à 5 ans dans un cadre conçu pour le respect de leur rythme et de leur curiosité naturelle. Notre approche s’inspire de la pédagogie Montessori : l’enfant apprend par la manipulation, l’expérimentation et le jeu, accompagné par des éducatrices bienveillantes et expérimentées.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 633,
+    "fr": "Dès la Petite Section, votre enfant bénéficie d’un éveil linguistique structuré : le français accompagne la communication quotidienne, l’arabe est enseigné dès la PS et l’anglais commence dès la Grande Section à raison de 3 heures par semaine. Cette progression développe l’oreille, la mémoire et l’aisance linguistique qui feront la différence tout au long de sa scolarité.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 634,
+    "fr": "Les effectifs réduits permettent un suivi individualisé : chaque enfant est observé, encouragé et valorisé. La maternelle Les Lumières, située à Val Fleuri à Tanger, constitue le socle sur lequel se construit la confiance en soi, l’autonomie et le goût d’apprendre.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 635,
+    "fr": "3 ans — adaptation, socialisation et éveil sensoriel.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 636,
+    "fr": "4 ans — langage, motricité fine et premières notions.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 637,
+    "fr": "5 ans — préparation à la lecture, à l’écriture et au calcul.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 638,
+    "fr": "Éveil au langage (3 langues)",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 639,
+    "fr": "Arts plastiques & créativité",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 640,
+    "fr": "Chant & expression corporelle",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 641,
+    "fr": "Découverte des nombres",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 642,
+    "fr": "Vivre ensemble & autonomie",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 643,
+    "fr": "Jeux de rôle & motricité",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 644,
+    "fr": "Du matériel sensoriel adapté pour apprendre par l’expérience et développer l’autonomie.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 645,
+    "fr": "Apprendre en jouant",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 646,
+    "fr": "Le jeu est le moteur de l’apprentissage : chaque activité a un objectif pédagogique précis.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 647,
+    "fr": "Éveil trilingue",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 648,
+    "fr": "Français langue principale, arabe dès la Petite Section et anglais dès la Grande Section.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 649,
+    "fr": "Langue principale d’éveil et de communication.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 650,
+    "fr": "Dès la Petite Section — comptines, histoires et vocabulaire.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 651,
+    "fr": "Dès la Grande Section, 3 heures par semaine — initiation orale et Cambridge Preparation progressive.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 652,
+    "fr": "Effectifs réduits et suivi individualisé",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 653,
+    "fr": "Éducatrices qualifiées et bienveillantes",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 654,
+    "fr": "Locaux sécurisés et adaptés aux tout-petits",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 655,
+    "fr": "Service de Cantine et Transport disponibles",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 656,
+    "fr": "Inscrire mon enfant en Maternelle",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 657,
+    "fr": "École Primaire Privée à Tanger — Du CP au CE6",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 658,
+    "fr": "École Primaire Privée à Tanger | Les Lumières",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 659,
+    "fr": "École primaire privée à Tanger du CP au CE6. Méthode de Singapour pour les maths, enseignement trilingue et Cambridge Preparation. Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 660,
+    "fr": "Des bases solides en français, en arabe et en anglais, et une excellence en mathématiques grâce à la Méthode de Singapour.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 661,
+    "fr": "Le cycle primaire du Groupe Scolaire Les Lumières, du CP au CE6, constitue une étape déterminante dans le parcours de votre enfant. C’est ici que se construisent les compétences fondamentales : lire, écrire, compter et raisonner. Notre projet pédagogique met l’accent sur la rigueur, la curiosité et la confiance en soi.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 662,
+    "fr": "En mathématiques, nous appliquons la célèbre Méthode de Singapour, reconnue comme l’une des plus efficaces au monde. Cette approche progressive — du concret vers l’abstrait — développe une compréhension profonde des concepts et un véritable goût pour la résolution de problèmes.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 663,
+    "fr": "L’enseignement reste résolument trilingue : le français est la langue principale d’instruction, l’arabe est consolidé, et l’anglais commencé dès la Grande Section se poursuit à raison de 3 heures par semaine, avec Cambridge Preparation progressive. Notre école primaire privée à Tanger conjugue exigence académique et épanouissement personnel.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 664,
+    "fr": "Apprentissage de la lecture et de l’écriture.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 665,
+    "fr": "Consolidation des bases et autonomie croissante.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 666,
+    "fr": "Approfondissement et méthodologie de travail.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 667,
+    "fr": "Préparation à l’entrée au collège.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 668,
+    "fr": "Mathématiques (Singapour)",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 669,
+    "fr": "Français, Arabe, Anglais",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 670,
+    "fr": "Sciences & découverte du monde",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 671,
+    "fr": "Arts plastiques",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 672,
+    "fr": "Éducation musicale & sport",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 673,
+    "fr": "Approche concrète-imagée-abstraite pour une maîtrise durable des mathématiques.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 674,
+    "fr": "Pédagogie de projet",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 675,
+    "fr": "Des projets concrets qui donnent du sens aux apprentissages.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 676,
+    "fr": "Évaluation par compétences",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 677,
+    "fr": "Un suivi régulier centré sur les progrès de chaque élève.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 678,
+    "fr": "Langue principale d’instruction.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 679,
+    "fr": "Enseignement structuré et progressif.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 680,
+    "fr": "Depuis la Grande Section, 3 heures par semaine — Cambridge Preparation progressive.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 681,
+    "fr": "Méthode de Singapour pour les mathématiques",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 682,
+    "fr": "Salles informatiques et tableaux interactifs",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 683,
+    "fr": "Activités parascolaires riches et variées",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 684,
+    "fr": "Inscrire mon enfant en Primaire",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 685,
+    "fr": "Collège Privé International à Tanger — 1AC, 2AC, 3AC",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 686,
+    "fr": "Collège Privé International à Tanger | Les Lumières",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 687,
+    "fr": "Collège privé international à Tanger. 1AC, 2AC, 3AC. Cambridge Preparation, laboratoires de sciences, programme trilingue. Inscriptions ouvertes.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 688,
+    "fr": "Un collège international exigeant et bienveillant, qui prépare les adolescents au lycée et au parcours Cambridge Preparation.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 689,
+    "fr": "Le Collège International du Groupe Scolaire Les Lumières accompagne les élèves de la 1ère à la 3ème Année Collège (1AC, 2AC, 3AC) à travers une période charnière de leur développement. Notre objectif : conjuguer exigence académique, ouverture internationale et accompagnement personnalisé.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 690,
+    "fr": "Le programme, enrichi d’une dimension internationale, s’appuie sur Cambridge Preparation. Les élèves bénéficient de laboratoires de sciences modernes, de salles informatiques équipées de tableaux interactifs, et d’une équipe pédagogique investie qui valorise l’esprit critique et l’autonomie.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 691,
+    "fr": "Au collège, l’enseignement trilingue prend toute sa dimension : maîtrise du français comme langue d’instruction, perfectionnement de l’arabe, et renforcement de l’anglais en vue des certifications internationales. Notre collège privé international à Tanger forme des adolescents curieux, responsables et confiants.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 692,
+    "fr": "Transition primaire-collège et méthodologie.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 693,
+    "fr": "Approfondissement et autonomie de travail.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 694,
+    "fr": "Préparation au lycée et orientation.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 695,
+    "fr": "Mathématiques",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 696,
+    "fr": "Histoire-Géo & éducation civique",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 697,
+    "fr": "Un curriculum enrichi tourné vers l’ouverture et l’excellence.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 698,
+    "fr": "Entraînement régulier vers les Cambridge English Qualifications.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 699,
+    "fr": "Travaux pratiques",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 700,
+    "fr": "Laboratoires de sciences pour apprendre par l’expérimentation.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 701,
+    "fr": "Langue d’instruction des matières scientifiques.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 702,
+    "fr": "Perfectionnement linguistique et littéraire.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 703,
+    "fr": "Renforcement et Cambridge Preparation.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 704,
+    "fr": "Laboratoires de sciences et salles TICE",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 705,
+    "fr": "Encadrement rapproché des adolescents",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 706,
+    "fr": "Ouverture internationale et projets pédagogiques",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 707,
+    "fr": "Inscrire mon enfant au Collège",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 708,
+    "fr": "Lycée Privé à Tanger — Tronc Commun, 1er Bac et 2ème Bac",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 709,
+    "fr": "Lycée Privé à Tanger | Les Lumières — Bac et Cambridge",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 710,
+    "fr": "Lycée privé à Tanger. Tronc commun, 1er et 2ème Bac (SVT, PC, Éco, SGC). Cambridge Preparation, bourse d’excellence. Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 711,
+    "fr": "Du Tronc Commun au 2ème Bac, nous préparons chaque lycéen à réussir ses examens et à construire son projet d’avenir.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 712,
+    "fr": "Le Lycée du Groupe Scolaire Les Lumières conduit les élèves du Tronc Commun jusqu’au 2ème Bac, avec un seul objectif : la réussite de chacun. Notre encadrement allie exigence académique, accompagnement personnalisé et orientation active vers les études supérieures.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 713,
+    "fr": "Les élèves choisissent parmi plusieurs filières : Sciences de la Vie et de la Terre (SVT), Physique-Chimie (PC), Sciences Mathématiques, Sciences Économiques et Sciences de Gestion Comptable (SGC). Chaque filière bénéficie d’un suivi rigoureux, de devoirs surveillés réguliers et d’une préparation intensive aux examens.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 714,
+    "fr": "Au-delà des résultats, le lycée valorise l’excellence à travers une Bourse d’Excellence destinée aux élèves les plus méritants, et poursuit Cambridge Preparation. Notre lycée privé à Tanger forme des bacheliers confiants, ambitieux et prêts pour l’enseignement supérieur.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 715,
+    "fr": "Année de consolidation et d’orientation.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 716,
+    "fr": "Filières : SVT, Sciences Maths, Sciences Éco.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 717,
+    "fr": "Filières : PC, SVT, Éco, SGC — préparation finale aux examens.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 718,
+    "fr": "Sciences Économiques & Gestion",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 719,
+    "fr": "Philosophie & sciences humaines",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 720,
+    "fr": "Préparation au Bac",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 721,
+    "fr": "Devoirs surveillés, examens blancs et méthodologie ciblée.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 722,
+    "fr": "Orientation active",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 723,
+    "fr": "Accompagnement vers les filières et les études supérieures.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 724,
+    "fr": "Renforcement continu en anglais vers des certifications internationales reconnues.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 725,
+    "fr": "Matières littéraires et islamiques.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 726,
+    "fr": "Cambridge Preparation continue.",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 727,
+    "fr": "Filières scientifiques et économiques complètes",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 728,
+    "fr": "Préparation intensive aux examens",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 729,
+    "fr": "Bourse d’excellence pour les élèves méritants",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 730,
+    "fr": "Cambridge Preparation au lycée",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 731,
+    "fr": "Inscrire mon enfant au Lycée",
+    "files": [
+      "src/lib/cycles-content.ts"
+    ]
+  },
+  {
+    "id": 732,
+    "fr": "Quels sont les cycles scolaires proposés par Les Lumières ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 733,
+    "fr": "Le Groupe Scolaire Les Lumières propose 4 cycles complets : Maternelle (PS, MS, GS), Primaire (CP à CE6), Collège International (1AC, 2AC, 3AC) et Lycée (Tronc Commun, 1er Bac et 2ème Bac). Votre enfant peut ainsi être accompagné dans un parcours cohérent, de la Maternelle au Lycée, dans un même établissement à Tanger.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 734,
+    "fr": "L’école est-elle trilingue ? Quelles langues sont enseignées ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 735,
+    "fr": "Oui, Les Lumières est une école trilingue. Le français est la langue principale d’instruction (mathématiques, sciences, informatique), l’arabe est enseigné dès la Petite Section, et l’anglais est introduit dès la Grande Section à raison de 3 heures par semaine, avec Cambridge Preparation.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 736,
+    "fr": "Qu’est-ce que la Méthode de Singapour utilisée en mathématiques ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 737,
+    "fr": "La Méthode de Singapour est une approche pédagogique reconnue comme l’une des plus efficaces au monde en mathématiques. Elle suit une progression « concret – imagé – abstrait » qui développe une compréhension profonde des concepts et un vrai goût pour la résolution de problèmes. Elle est appliquée dès le primaire à l’école Les Lumières.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 738,
+    "fr": "L’école prépare-t-elle aux certifications Cambridge English ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 739,
+    "fr": "Oui. Le Groupe Scolaire Les Lumières prépare ses élèves aux Cambridge English Qualifications, des certifications internationales reconnues mondialement. L’anglais commence dès la Grande Section à raison de 3 heures par semaine, puis Cambridge Preparation se structure progressivement jusqu’au lycée.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 740,
+    "fr": "Quelles sont les activités parascolaires proposées ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 741,
+    "fr": "Les Lumières propose de nombreuses activités : théâtre, chorale (Chorale Albatros), arts plastiques, écriture créative, compétitions sportives, ainsi que 3 voyages scolaires par an (régional, national et international). L’école organise aussi le carnaval, la fête du printemps, la kermesse et l’Olympiade de mathématiques du Ramadan.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 742,
+    "fr": "Comment se déroule le processus d’inscription ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 743,
+    "fr": "L’inscription se fait en 4 étapes : 1) vous nous contactez via WhatsApp ou le formulaire en ligne ; 2) nous vous rappelons pour répondre à vos questions ; 3) vous visitez l’école et rencontrez l’équipe pédagogique ; 4) vous finalisez l’inscription de votre enfant. Les inscriptions 2026-2027 sont ouvertes.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 744,
+    "fr": "Quels sont les documents nécessaires pour l’inscription ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 745,
+    "fr": "Pour inscrire votre enfant, prévoyez : une copie de l’acte de naissance, des copies de la CIN des parents, les bulletins scolaires de l’année précédente, des photos d’identité récentes, le certificat de scolarité ou de radiation de l’ancien établissement, et le carnet de santé/vaccination. Notre équipe vous guide à chaque étape.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 746,
+    "fr": "L’école dispose-t-elle d’un service de transport scolaire ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 747,
+    "fr": "Oui. Le Groupe Scolaire Les Lumières dispose d’un service de transport scolaire sécurisé avec une flotte de véhicules neufs, un personnel d’accompagnement dédié et un contrôle technique régulier, pour assurer la sécurité de votre enfant sur l’ensemble des trajets à Tanger.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 748,
+    "fr": "Y a-t-il une cantine ou un service de restauration ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 749,
+    "fr": "Oui, l’école propose un service de restauration sur place avec des repas équilibrés, un encadrement des élèves pendant les repas et des conditions d’hygiène strictes.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 750,
+    "fr": "Quels sont les horaires de l’école ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 751,
+    "fr": "Les horaires scolaires officiels sont de 08h45 à 12h30. Pour les visites, inscriptions et informations administratives, contactez-nous au 0539 93 90 95 ou via WhatsApp.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 752,
+    "fr": "Comment contacter l’école pour plus d’informations ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 753,
+    "fr": "Vous pouvez nous contacter par téléphone au 0539 93 90 95 ou 0666 63 69 74, par WhatsApp au +212 666 63 69 74, par email à leslumieres2021@gmail.com, ou directement via le formulaire de contact du site. Nous répondons rapidement.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 754,
+    "fr": "Où se situe exactement l’école à Tanger ?",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 755,
+    "fr": "Le Groupe Scolaire Les Lumières est situé à Ribh2, Avenue Moulay Rachid, quartier Val Fleuri, 90060 Tanger, Maroc. L’établissement est facilement accessible et desservi par le service de transport scolaire de l’école.",
+    "files": [
+      "src/lib/faq.ts"
+    ]
+  },
+  {
+    "id": 756,
+    "fr": "Vue de la façade du Groupe Scolaire Les Lumières à Tanger depuis la rue principale.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 757,
+    "fr": "Vue aérienne du quartier Val Fleuri et de l'emplacement du Groupe Scolaire Les Lumières à Tanger.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 758,
+    "fr": "Aperçu de l'espace maternelle et de l'entrée accueillante de l'école.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 759,
+    "fr": "Élèves en uniforme dans l'environnement scolaire du Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 760,
+    "fr": "Échange autour du partenariat Cambridge et de l'ouverture internationale de l'école.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 761,
+    "fr": "Vue de la façade et du campus du Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 762,
+    "fr": "Élèves pendant une activité sportive encadrée au sein de l'école.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 763,
+    "fr": "Détails de l'uniforme scolaire et de l'identité visuelle Les Lumières.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 764,
+    "fr": "Entretien vidéo sur la collaboration Cambridge au Groupe Scolaire Les Lumières.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 765,
+    "fr": "Message vidéo du responsable de l'établissement autour d'une année scolaire de travail et de réussite.",
+    "files": [
+      "src/lib/media.ts"
+    ]
+  },
+  {
+    "id": 766,
+    "fr": "école privée Tanger",
+    "files": [
+      "src/lib/metadata.ts"
+    ]
+  },
+  {
+    "id": 767,
+    "fr": "école trilingue Tanger",
+    "files": [
+      "src/lib/metadata.ts"
+    ]
+  },
+  {
+    "id": 768,
+    "fr": "École privée trilingue à Tanger, Maroc. De la maternelle au lycée. Fondée en 2004. Méthode de Singapour, Cambridge English, activités parascolaires.",
+    "files": [
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 769,
+    "fr": "Primaire (CP à CE6)",
+    "files": [
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 770,
+    "fr": "Collège International (1AC-3AC)",
+    "files": [
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 771,
+    "fr": "Middle School",
+    "files": [
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 772,
+    "fr": "Lycée (Tronc Commun au Bac)",
+    "files": [
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 773,
+    "fr": "High School",
+    "files": [
+      "src/lib/schema.ts"
+    ]
+  },
+  {
+    "id": 774,
+    "fr": "{{0}} au Groupe Scolaire Les Lumières à Tanger - photo {{1}}",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 775,
+    "fr": "Vie en maternelle",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 776,
+    "fr": "Vie en primaire",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 777,
+    "fr": "Vie au collège",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 778,
+    "fr": "Vie au lycée",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 779,
+    "fr": "Événements",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 780,
+    "fr": "Spectacle et événement scolaire aux Lumières",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 781,
+    "fr": "Remise de certificats aux élèves des Lumières",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 782,
+    "fr": "Projet scolaire et moment de partage aux Lumières",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 783,
+    "fr": "Atelier théâtre au Groupe Scolaire Les Lumières",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 784,
+    "fr": "Sortie scolaire des élèves des Lumières",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 785,
+    "fr": "Voyage scolaire et découverte culturelle",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 786,
+    "fr": "Excursion scolaire encadrée par Les Lumières",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 787,
+    "fr": "Groupe d’élèves pendant une sortie scolaire",
+    "files": [
+      "src/lib/school-images.ts"
+    ]
+  },
+  {
+    "id": 788,
+    "fr": "École privée trilingue à Tanger",
+    "files": [
+      "src/components/home/HeroSection.tsx"
+    ]
+  },
+  {
+    "id": 789,
+    "fr": "Inscription",
+    "files": []
+  },
+  {
+    "id": 790,
+    "fr": "Galerie",
+    "files": []
+  },
+  {
+    "id": 791,
+    "fr": "Inscriptions 2026-2027 ouvertes",
+    "files": []
+  },
+  {
+    "id": 792,
+    "fr": "Niveaux",
+    "files": []
+  },
+  {
+    "id": 793,
+    "fr": "Programme",
+    "files": []
+  },
+  {
+    "id": 794,
+    "fr": "Trilingue",
+    "files": []
+  },
+  {
+    "id": 795,
+    "fr": "Arabe",
+    "files": []
+  },
+  {
+    "id": 796,
+    "fr": "Anglais",
+    "files": []
+  },
+  {
+    "id": 797,
+    "fr": "Contactez-nous",
+    "files": []
+  },
+  {
+    "id": 798,
+    "fr": "Carnaval & Kermesse",
+    "files": []
+  },
+  {
+    "id": 799,
+    "fr": "Cross-country",
+    "files": []
+  },
+  {
+    "id": 800,
+    "fr": "Sciences (SVT, Physique)",
+    "files": []
+  },
+  {
+    "id": 801,
+    "fr": "Informatique & laboratoire",
+    "files": []
+  },
+  {
+    "id": 802,
+    "fr": "Adresse & horaires",
+    "files": []
+  },
+  {
+    "id": 803,
+    "fr": "Tout",
+    "files": []
+  },
+  {
+    "id": 804,
+    "fr": "Sorties",
+    "files": []
+  },
+  {
+    "id": 805,
+    "fr": "Localisation",
+    "files": []
+  },
+  {
+    "id": 806,
+    "fr": "Fondation",
+    "files": []
+  },
+  {
+    "id": 807,
+    "fr": "Parcours",
+    "files": []
+  },
+  {
+    "id": 808,
+    "fr": "Langues",
+    "files": []
+  },
+  {
+    "id": 809,
+    "fr": "Admissions",
+    "files": []
+  },
+  {
+    "id": 810,
+    "fr": "TICE & Laboratoires",
+    "files": []
+  },
+  {
+    "id": 811,
+    "fr": "(optionnel)",
+    "files": []
+  },
+  {
+    "id": 812,
+    "fr": "Physique-Chimie & SVT",
+    "files": []
+  },
+  {
+    "id": 813,
+    "fr": "Langues (FR, AR, EN)",
+    "files": []
+  },
+  {
+    "id": 814,
+    "fr": "Informatique",
+    "files": []
+  },
+  {
+    "id": 815,
+    "fr": "Informations légales relatives au site gsleslumieres.ma.",
+    "files": []
+  },
+  {
+    "id": 816,
+    "fr": "Excellents",
+    "files": []
+  },
+  {
+    "id": 817,
+    "fr": "Olympiades",
+    "files": []
+  },
+  {
+    "id": 818,
+    "fr": "Bourses",
+    "files": []
+  },
+  {
+    "id": 819,
+    "fr": "Coordination pédagogique",
+    "files": []
+  },
+  {
+    "id": 820,
+    "fr": "Éducatrices spécialisées",
+    "files": []
+  },
+  {
+    "id": 821,
+    "fr": "Professeurs des écoles",
+    "files": []
+  },
+  {
+    "id": 822,
+    "fr": "Professeurs de spécialité",
+    "files": []
+  },
+  {
+    "id": 823,
+    "fr": "Accueil & accompagnement des familles",
+    "files": []
+  },
+  {
+    "id": 824,
+    "fr": "Informatique (TICE)",
+    "files": []
+  },
+  {
+    "id": 825,
+    "fr": "Autonomie",
+    "files": []
+  },
+  {
+    "id": 826,
+    "fr": "Note : {{0}} sur 5",
+    "files": []
+  }
+]

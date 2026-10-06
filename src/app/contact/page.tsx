@@ -48,8 +48,8 @@ export default function ContactPage() {
               <MessageCircle className="h-7 w-7" />
             </span>
             <h2 className="mb-2 text-lg font-bold text-ink">WhatsApp</h2>
-            <span className="text-whatsapp">{SCHOOL.whatsappDisplay}</span>
-            <span className="mt-1 text-sm text-ink/60">Réponse rapide</span>
+            <span className="text-whatsapp-dark">{SCHOOL.whatsappDisplay}</span>
+            <span className="mt-1 text-sm text-ink/70">Réponse rapide</span>
           </a>
           <div className="card flex flex-col items-center p-7 text-center">
             <span className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-gold-500 text-ink">

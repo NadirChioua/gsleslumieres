@@ -32,6 +32,7 @@ const config: Config = {
         cream: '#FAFAF8', // warm white background
         ink: '#1A1A2E', // near-black text
         whatsapp: '#25D366',
+        'whatsapp-dark': '#0B7A3B', // WhatsApp green darkened for text on light backgrounds (contrast ≥ 4.5:1)
       },
       fontFamily: {
         heading: ['var(--font-heading)', 'Georgia', 'serif'],

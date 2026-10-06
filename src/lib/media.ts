@@ -3,7 +3,9 @@ import { SCHOOL_IMAGES } from './school-images';
 export const SCHOOL_MEDIA = {
   hero: {
     src: '/video/optimized/hero-campus.mp4',
+    mobileSrc: '/video/optimized/hero-campus-mobile.mp4',
     poster: SCHOOL_IMAGES.general.heroCampus,
+    mobilePoster: '/images/school-life/general/hero-campus-mobile.webp',
     description:
       'Vue de la façade du Groupe Scolaire Les Lumières à Tanger depuis la rue principale.',
   },

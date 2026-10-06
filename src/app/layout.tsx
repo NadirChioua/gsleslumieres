@@ -1,13 +1,5 @@
-// ═══════════════════════════════════════════════════
-// TRACKING IDS — REPLACE WITH YOUR ACTUAL IDS
-// GA4: G-XXXXXXXXXX → Get from analytics.google.com
-// GTM: GTM-XXXXXXX → Get from tagmanager.google.com
-// Meta Pixel: XXXXXXXXXXXXXXX → Get from business.facebook.com
-// ═══════════════════════════════════════════════════
-
 import type { Metadata } from 'next';
 import { DM_Serif_Display, DM_Sans, Noto_Sans_Arabic } from 'next/font/google';
-import Script from 'next/script';
 import '@/styles/globals.css';
 
 import Header from '@/components/layout/Header';
@@ -15,12 +7,11 @@ import Footer from '@/components/layout/Footer';
 import TopBar from '@/components/layout/TopBar';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import JsonLd from '@/components/seo/JsonLd';
-import { organizationSchema } from '@/lib/schema';
-import { SITE_URL, SCHOOL } from '@/lib/constants';
+import { organizationSchema, websiteSchema } from '@/lib/schema';
+import Script from 'next/script';
+import { SITE_URL, SCHOOL, TRACKING } from '@/lib/constants';
 import { SCHOOL_IMAGES } from '@/lib/school-images';
-
-const GTM_ID = 'GTM-XXXXXXX';
-const hasGtm = !GTM_ID.includes('XXXX');
+import { LOCALE, localizedPath, languageAlternates } from '@/lib/locale';
 
 const heading = DM_Serif_Display({ subsets: ['latin'], weight: '400', variable: '--font-heading', display: 'swap' });
 const body = DM_Sans({ subsets: ['latin'], variable: '--font-body', display: 'swap' });
@@ -29,27 +20,31 @@ const arabic = Noto_Sans_Arabic({ subsets: ['arabic'], variable: '--font-arabic'
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Groupe Scolaire Les Lumières | École Privée Trilingue à Tanger depuis 2004',
+    default: 'Les Lumières Tanger | École Privée Trilingue depuis 2004',
     template: '%s | Groupe Scolaire Les Lumières',
   },
   description:
-    'École privée trilingue à Tanger depuis 2004. Maternelle, Primaire, Collège, Lycée. Cambridge English. Méthode de Singapour. Inscriptions 2026-2027 ouvertes. ☎ 0539 93 90 95',
+    'École privée trilingue à Tanger depuis 2004 : maternelle, primaire, collège et lycée. Cambridge English, méthode de Singapour. Inscriptions 2026-2027.',
   applicationName: SCHOOL.name,
   authors: [{ name: SCHOOL.name }],
   creator: SCHOOL.name,
-  manifest: '/site.webmanifest',
+  manifest: '/manifest.webmanifest',
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
   },
   robots: { index: true, follow: true },
-  alternates: { canonical: SITE_URL },
+  verification: {
+    ...(TRACKING.googleSiteVerification ? { google: TRACKING.googleSiteVerification } : {}),
+    ...(TRACKING.bingSiteVerification ? { other: { 'msvalidate.01': TRACKING.bingSiteVerification } } : {}),
+  },
+  alternates: { canonical: `${SITE_URL}${localizedPath('/')}`, languages: languageAlternates('/') },
   openGraph: {
     type: 'website',
     siteName: SCHOOL.name,
-    locale: 'fr_MA',
-    url: SITE_URL,
-    title: 'Groupe Scolaire Les Lumières | École Privée Trilingue à Tanger depuis 2004',
+    locale: LOCALE === 'ar' ? 'ar_MA' : LOCALE === 'en' ? 'en_GB' : 'fr_MA',
+    url: `${SITE_URL}${localizedPath('/')}`,
+    title: 'Les Lumières Tanger | École Privée Trilingue depuis 2004',
     description:
       'École privée trilingue à Tanger depuis 2004. Maternelle, Primaire, Collège, Lycée. Cambridge English. Méthode de Singapour. Inscriptions 2026-2027 ouvertes.',
     images: [{ url: `${SITE_URL}${SCHOOL_IMAGES.general.heroCampus}`, width: 1200, height: 630, alt: SCHOOL.name }],
@@ -64,36 +59,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${heading.variable} ${body.variable} ${arabic.variable}`}>
+    <html lang={LOCALE} dir={LOCALE === 'ar' ? 'rtl' : 'ltr'} className={`${heading.variable} ${body.variable} ${arabic.variable}`}>
       <head>
-        {hasGtm && (
-          <Script id="gtm" strategy="afterInteractive">
-            {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','${GTM_ID}');`}
-          </Script>
-        )}
-        <link rel="alternate" hrefLang="fr-ma" href={SITE_URL} />
         <meta name="theme-color" content="#8B0000" />
         <meta name="geo.region" content="MA-01" />
         <meta name="geo.placename" content="Tanger" />
         <JsonLd data={organizationSchema()} />
+        <JsonLd data={websiteSchema()} />
       </head>
       <body>
-        {hasGtm && (
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-              height="0"
-              width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
-              title="gtm"
-            />
-          </noscript>
-        )}
-
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[200] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-primary-800 focus:shadow">
           Aller au contenu
         </a>
@@ -103,6 +77,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main-content">{children}</main>
         <Footer />
         <WhatsAppButton />
+        {TRACKING.ga4Id && (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${TRACKING.ga4Id}`} strategy="afterInteractive" />
+            <Script id="ga4" strategy="afterInteractive">
+              {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${TRACKING.ga4Id}');`}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   );

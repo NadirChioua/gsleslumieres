@@ -10,7 +10,7 @@ import { SCHOOL_IMAGES } from '@/lib/school-images';
 export const metadata = buildMetadata({
   title: 'Nos Résultats & Réussites | Les Lumières Tanger',
   description:
-    'Découvrez les résultats et réussites du Groupe Scolaire Les Lumières à Tanger : réussite au lycée, certifications Cambridge, distinctions et bourses d’excellence.',
+    'Résultats et réussites du Groupe Scolaire Les Lumières à Tanger : réussite au lycée, certifications Cambridge, distinctions et bourses d’excellence.',
   path: '/nos-resultats',
   keywords: ['résultats lycée Tanger', 'taux de réussite école Tanger', 'réussite Les Lumières'],
 });

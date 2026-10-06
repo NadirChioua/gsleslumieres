@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { TESTIMONIALS } from '@/lib/constants';
 import SectionTitle from '@/components/shared/SectionTitle';
 import TestimonialCard from '@/components/shared/TestimonialCard';
@@ -10,11 +10,6 @@ const PER_VIEW_DESKTOP = 3;
 export default function TestimonialsCarousel() {
   const [index, setIndex] = useState(0);
   const pages = Math.ceil(TESTIMONIALS.length / PER_VIEW_DESKTOP);
-
-  useEffect(() => {
-    const t = setInterval(() => setIndex((i) => (i + 1) % pages), 6000);
-    return () => clearInterval(t);
-  }, [pages]);
 
   return (
     <section className="section-padding">
@@ -57,8 +52,9 @@ export default function TestimonialsCarousel() {
               key={p}
               onClick={() => setIndex(p)}
               aria-label={`Aller au groupe de témoignages ${p + 1}`}
-              className={`h-2.5 rounded-full transition-all ${index === p ? 'w-6 bg-primary-800' : 'w-2.5 bg-gold-300'}`}
-            />
+              aria-pressed={index === p}
+              className="flex h-11 w-11 items-center justify-center rounded-full"
+            ><span className={`h-2.5 rounded-full transition-all ${index === p ? 'w-6 bg-primary-800' : 'w-2.5 bg-gold-300'}`} /></button>
           ))}
         </div>
       </div>

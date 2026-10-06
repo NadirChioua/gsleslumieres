@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { motion, useReducedMotion } from 'framer-motion';
 import { Award, CalendarCheck, Clock, Globe2, MapPin, Route } from 'lucide-react';
-import { SCHOOL, whatsappLink } from '@/lib/constants';
+import { SCHOOL, GOOGLE_MAPS_DIRECTIONS, whatsappLink } from '@/lib/constants';
 
 const milestones = [
   {
@@ -115,7 +115,7 @@ export default function SchoolDatesSection() {
                       <p className="mt-4 text-base leading-relaxed text-white/75">{item.body}</p>
                       {isLast && (
                         <a
-                          href={`https://www.google.com/maps/search/?api=1&query=${SCHOOL.geo.latitude},${SCHOOL.geo.longitude}`}
+                          href={GOOGLE_MAPS_DIRECTIONS}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="mt-5 inline-flex min-h-11 items-center gap-2 self-start rounded-lg border border-white/20 px-4 py-2 text-sm font-semibold text-white transition hover:border-gold-300 hover:text-gold-200"

@@ -10,7 +10,7 @@ import { SCHOOL_IMAGES } from '@/lib/school-images';
 export const metadata = buildMetadata({
   title: 'Notre Équipe Pédagogique | Les Lumières Tanger',
   description:
-    'Rencontrez l’équipe pédagogique du Groupe Scolaire Les Lumières à Tanger : des enseignants qualifiés, expérimentés et bienveillants, au service de la réussite de chaque élève.',
+    'L’équipe pédagogique du Groupe Scolaire Les Lumières à Tanger : des enseignants qualifiés et bienveillants au service de la réussite de chaque élève.',
   path: '/notre-equipe',
   keywords: ['équipe pédagogique Tanger', 'enseignants école Les Lumières', 'professeurs Tanger'],
 });
@@ -51,7 +51,7 @@ export default function NotreEquipePage() {
                   </div>
                   <div className="p-5">
                     <h3 className="font-bold text-primary-800">{m.name}</h3>
-                    <p className="text-sm text-ink/60">{m.role}</p>
+                    <p className="text-sm text-ink/70">{m.role}</p>
                   </div>
                 </div>
               </ScrollReveal>

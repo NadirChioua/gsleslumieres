@@ -31,6 +31,8 @@
     -webkit-text-size-adjust: 100%;
   }
 
+  [id] { scroll-margin-top: 7rem; }
+
   body {
     @apply bg-cream text-ink font-body antialiased;
     line-height: 1.7;
@@ -96,7 +98,7 @@
   }
 
   .btn-whatsapp {
-    @apply btn bg-whatsapp text-white hover:brightness-95 hover:shadow-lg;
+    @apply btn bg-whatsapp text-ink hover:brightness-95 hover:shadow-lg;
   }
 
   .btn-outline-white {
@@ -116,7 +118,7 @@
   }
 
   .eyebrow {
-    @apply inline-block text-sm font-semibold uppercase tracking-wider text-gold-600;
+    @apply inline-block text-sm font-semibold uppercase tracking-wider text-gold-700;
   }
 
   .text-shadow-media {

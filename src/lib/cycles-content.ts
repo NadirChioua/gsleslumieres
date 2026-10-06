@@ -42,7 +42,7 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     h1: 'Maternelle Privée Trilingue à Tanger — PS, MS, GS',
     metaTitle: 'Maternelle Privée à Tanger | Groupe Scolaire Les Lumières',
     metaDescription:
-      'Maternelle privée trilingue à Tanger. Petite, Moyenne et Grande Section. Approche Montessori, éveil et apprentissage dans un cadre chaleureux. Inscriptions 2026-2027.',
+      'Maternelle privée trilingue à Tanger : Petite, Moyenne et Grande Section. Approche Montessori et éveil dans un cadre chaleureux. Inscriptions 2026-2027.',
     heroSubtitle:
       'Les premiers pas de votre enfant dans un environnement chaleureux, sécurisé et stimulant — où le français structure les apprentissages, avec l’arabe dès la PS et l’anglais dès la GS.',
     heroImage: SCHOOL_IMAGES.cycles.maternelle.hero,
@@ -96,7 +96,7 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     name: 'Primaire',
     breadcrumbName: 'Primaire',
     h1: 'École Primaire Privée à Tanger — Du CP au CE6',
-    metaTitle: 'Primaire Privé à Tanger | École Les Lumières — Méthode de Singapour',
+    metaTitle: 'École Primaire Privée à Tanger | Les Lumières',
     metaDescription:
       'École primaire privée à Tanger du CP au CE6. Méthode de Singapour pour les maths, enseignement trilingue et Cambridge Preparation. Groupe Scolaire Les Lumières.',
     heroSubtitle:
@@ -148,7 +148,7 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     name: 'Collège International',
     breadcrumbName: 'Collège International',
     h1: 'Collège Privé International à Tanger — 1AC, 2AC, 3AC',
-    metaTitle: 'Collège Privé International à Tanger | Les Lumières — Cambridge English',
+    metaTitle: 'Collège Privé International à Tanger | Les Lumières',
     metaDescription:
       'Collège privé international à Tanger. 1AC, 2AC, 3AC. Cambridge Preparation, laboratoires de sciences, programme trilingue. Inscriptions ouvertes.',
     heroSubtitle:
@@ -199,7 +199,7 @@ export const CYCLES_CONTENT: Record<string, CycleContent> = {
     name: 'Lycée',
     breadcrumbName: 'Lycée',
     h1: 'Lycée Privé à Tanger — Tronc Commun, 1er Bac et 2ème Bac',
-    metaTitle: 'Lycée Privé à Tanger | Groupe Scolaire Les Lumières — Parcours Lycée',
+    metaTitle: 'Lycée Privé à Tanger | Les Lumières — Bac et Cambridge',
     metaDescription:
       'Lycée privé à Tanger. Tronc commun, 1er et 2ème Bac (SVT, PC, Éco, SGC). Cambridge Preparation, bourse d’excellence. Groupe Scolaire Les Lumières.',
     heroSubtitle:

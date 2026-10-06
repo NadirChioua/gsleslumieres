@@ -34,3 +34,6 @@ next-env.d.ts
 /public/video/*
 !/public/video/optimized/
 !/public/video/optimized/*.mp4
+
+# locale builds (scripts/build-locales.mjs)
+.locale-build/

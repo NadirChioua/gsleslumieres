@@ -11,7 +11,7 @@ import { SCHOOL_IMAGES } from '@/lib/school-images';
 export const metadata = buildMetadata({
   title: 'Qui sommes-nous | École à Tanger depuis 2004',
   description:
-    'Découvrez le Groupe Scolaire Les Lumières, école privée trilingue fondée en 2004 à Tanger. 22 ans d’expérience, de la maternelle au lycée. Méthode Montessori et Singapour.',
+    'Le Groupe Scolaire Les Lumières, école privée trilingue fondée en 2004 à Tanger : 22 ans d’expérience, de la maternelle au lycée, Montessori et Singapour.',
   path: '/qui-sommes-nous',
   keywords: ['école privée Val Fleuri', 'histoire école Les Lumières', 'école trilingue Tanger 2004'],
 });

@@ -7,6 +7,16 @@ import { SCHOOL_IMAGES } from './school-images';
 
 export const SITE_URL = 'https://gsleslumieres.ma';
 
+// Measurement and ownership IDs. Leave empty until the accounts exist; nothing is loaded while empty.
+export const TRACKING = {
+  // Google Analytics 4 measurement ID, e.g. 'G-XXXXXXXXXX'
+  ga4Id: '',
+  // Google Search Console "HTML tag" verification token (content value only)
+  googleSiteVerification: '',
+  // Bing Webmaster Tools verification token (msvalidate.01 content value)
+  bingSiteVerification: '',
+} as const;
+
 export const SCHOOL = {
   name: 'Groupe Scolaire Les Lumières',
   shortName: 'Les Lumières',
@@ -75,7 +85,7 @@ export function whatsappLink(text: string = SCHOOL.whatsappDefaultText): string 
 
 export const telLink = (phone: string) => `tel:${phone.replace(/\s/g, '')}`;
 
-export const GOOGLE_MAPS_DIRECTIONS = `https://www.google.com/maps/search/?api=1&query=${SCHOOL.geo.latitude},${SCHOOL.geo.longitude}`;
+export const GOOGLE_MAPS_DIRECTIONS = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${SCHOOL.name}, ${SCHOOL.address.full}`)}`;
 
 // ─── Cycles scolaires ──────────────────────────────────────────
 export const CYCLES = [
@@ -309,6 +319,3 @@ export const NAV = [
   { label: 'Inscription', href: '/inscription-ecole-tanger' },
   { label: 'Contact', href: '/contact' },
 ] as const;
-
-// Formspree endpoint — REPLACE with your real form id after deployment
-export const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xxxxxxxx';

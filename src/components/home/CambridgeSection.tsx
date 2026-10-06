@@ -42,7 +42,7 @@ export default function CambridgeSection() {
                 Entretien avec Simon
               </div>
             </div>
-            <figcaption className="mt-4 text-sm text-ink/60">
+            <figcaption className="mt-4 text-sm text-ink/70">
               Témoignage vidéo autour de la collaboration entre Les Lumières et Cambridge.
             </figcaption>
           </figure>

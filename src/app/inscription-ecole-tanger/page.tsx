@@ -12,7 +12,7 @@ import { SCHOOL_IMAGES } from '@/lib/school-images';
 export const metadata = buildMetadata({
   title: 'Inscription École Privée Tanger 2026-2027 | Les Lumières',
   description:
-    'Inscrivez votre enfant au Groupe Scolaire Les Lumières à Tanger. Inscriptions 2026-2027 ouvertes. Formulaire en ligne, WhatsApp ou visite sur place. Réponse rapide.',
+    'Inscrivez votre enfant aux Lumières, école privée à Tanger. Inscriptions 2026-2027 ouvertes : formulaire en ligne, WhatsApp ou visite. Réponse rapide.',
   path: '/inscription-ecole-tanger',
   ogImage: SCHOOL_IMAGES.cycles.maternelle.card,
   keywords: ['inscription école Tanger', 'inscription 2026-2027 Tanger', 'inscrire enfant école privée Tanger'],
@@ -65,15 +65,15 @@ export default function InscriptionPage() {
                 <MessageCircle className="h-7 w-7" />
               </span>
               <h3 className="mb-1 text-lg font-bold text-ink">WhatsApp</h3>
-              <p className="text-sm text-ink/60">Le moyen le plus rapide</p>
-              <span className="mt-3 text-sm font-semibold text-whatsapp">{SCHOOL.whatsappDisplay}</span>
+              <p className="text-sm text-ink/70">Le moyen le plus rapide</p>
+              <span className="mt-3 text-sm font-semibold text-whatsapp-dark">{SCHOOL.whatsappDisplay}</span>
             </a>
             <a href={telLink(SCHOOL.phone1Intl)} className="card card-hover flex flex-col items-center p-7 text-center">
               <span className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary-800 text-white">
                 <Phone className="h-7 w-7" />
               </span>
               <h3 className="mb-1 text-lg font-bold text-ink">Par téléphone</h3>
-              <p className="text-sm text-ink/60">Du lundi au samedi</p>
+              <p className="text-sm text-ink/70">Du lundi au samedi</p>
               <span className="mt-3 text-sm font-semibold text-primary-800">{SCHOOL.phone1}</span>
             </a>
             <a href="#formulaire" className="card card-hover flex flex-col items-center p-7 text-center">
@@ -81,7 +81,7 @@ export default function InscriptionPage() {
                 <FileText className="h-7 w-7" />
               </span>
               <h3 className="mb-1 text-lg font-bold text-ink">Formulaire en ligne</h3>
-              <p className="text-sm text-ink/60">Remplissez-le ci-dessous</p>
+              <p className="text-sm text-ink/70">Remplissez-le ci-dessous</p>
               <span className="mt-3 text-sm font-semibold text-gold-600">4 champs seulement</span>
             </a>
           </div>

@@ -39,8 +39,8 @@ export default function MentionsLegalesPage() {
 
             <h2>Hébergement</h2>
             <p>
-              Le site est hébergé sur une plateforme d’hébergement web statique (par exemple Vercel, Netlify ou un
-              hébergeur équivalent). Les coordonnées de l’hébergeur peuvent être communiquées sur demande.
+              La publication du site est prévue sur Vercel. Informations sur le service :{' '}
+              <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel.com</a>.
             </p>
 
             <h2>Propriété intellectuelle</h2>
@@ -50,20 +50,26 @@ export default function MentionsLegalesPage() {
               totale ou partielle, sans autorisation préalable écrite, est interdite.
             </p>
 
-            <h2>Protection des données personnelles</h2>
+            <h2 id="donnees-personnelles">Protection des données personnelles</h2>
             <p>
-              Les informations collectées via les formulaires de contact et d’inscription sont destinées exclusivement
-              au {SCHOOL.name} et servent uniquement à traiter votre demande. Conformément à la loi marocaine n° 09-08
-              relative à la protection des personnes physiques à l’égard du traitement des données à caractère
-              personnel, vous disposez d’un droit d’accès, de rectification et de suppression de vos données. Pour
-              l’exercer, contactez-nous à {SCHOOL.email}.
+              Les formulaires préparent votre message dans votre navigateur. Le site ne l’enregistre pas
+              dans une base de données. En ouvrant WhatsApp, vous transmettez le texte préparé à ce service ;
+              votre demande parvient à l’école lorsque vous appuyez sur Envoyer dans WhatsApp.
+              Les informations reçues servent à répondre à votre demande de contact ou d’inscription.
+              N’ajoutez pas de documents d’identité ni d’informations médicales à votre message.
+            </p>
+            <p>
+              Pour toute question concernant vos informations ou pour demander leur correction ou leur
+              suppression, contactez l’école à <a href={`mailto:${SCHOOL.email}`}>{SCHOOL.email}</a>.
+              L’utilisation de WhatsApp est également soumise à sa propre{' '}
+              <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>.
             </p>
 
             <h2>Cookies & mesure d’audience</h2>
             <p>
-              Ce site peut utiliser des outils de mesure d’audience (Google Analytics) et des balises publicitaires
-              afin d’améliorer votre expérience et nos services. Vous pouvez configurer votre navigateur pour refuser
-              les cookies.
+              Le site n’intègre actuellement ni Google Analytics, ni pixel publicitaire.
+              Les services externes que vous choisissez d’ouvrir (WhatsApp, réseaux sociaux, Google Maps)
+              appliquent leurs propres règles de confidentialité et de cookies.
             </p>
 
             <h2>Liens externes</h2>

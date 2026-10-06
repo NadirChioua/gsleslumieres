@@ -9,6 +9,7 @@ import ScrollReveal from '@/components/shared/ScrollReveal';
 import MediaVideo from '@/components/shared/MediaVideo';
 import { SCHOOL_MEDIA } from '@/lib/media';
 import { SCHOOL_IMAGES } from '@/lib/school-images';
+import { LOCALE } from '@/lib/locale';
 
 export const metadata = buildMetadata({
   title: 'Actualités et Événements | Les Lumières Tanger',
@@ -57,17 +58,19 @@ const articles = [
   },
 ];
 
+const DATE_LOCALE = LOCALE === 'ar' ? 'ar-MA' : LOCALE === 'en' ? 'en-GB' : 'fr-MA';
+
 function parseLocalDate(date: string) {
   const [year, month, day] = date.split('-').map(Number);
   return new Date(year, month - 1, day);
 }
 
 function formatMonth(date: string) {
-  return new Intl.DateTimeFormat('fr-MA', { month: 'short' }).format(parseLocalDate(date)).replace('.', '');
+  return new Intl.DateTimeFormat(DATE_LOCALE, { month: 'short' }).format(parseLocalDate(date)).replace('.', '');
 }
 
 function formatLongDate(date: string) {
-  return new Intl.DateTimeFormat('fr-MA', {
+  return new Intl.DateTimeFormat(DATE_LOCALE, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

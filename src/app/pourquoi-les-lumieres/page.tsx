@@ -10,9 +10,9 @@ import TestimonialCard from '@/components/shared/TestimonialCard';
 import { SCHOOL_IMAGES } from '@/lib/school-images';
 
 export const metadata = buildMetadata({
-  title: 'Pourquoi choisir Les Lumières ? | Meilleure École Privée à Tanger',
+  title: 'Pourquoi choisir Les Lumières ? | École Privée à Tanger',
   description:
-    '7 raisons de choisir le Groupe Scolaire Les Lumières à Tanger : 22 ans d’expérience, école trilingue, Cambridge Preparation, Méthode de Singapour, activités riches, encadrement personnalisé.',
+    '7 raisons de choisir Les Lumières à Tanger : 22 ans d’expérience, école trilingue, Cambridge Preparation, méthode de Singapour et suivi personnalisé.',
   path: '/pourquoi-les-lumieres',
   keywords: ['meilleure école privée Tanger', 'pourquoi Les Lumières', 'TICE Tanger'],
 });

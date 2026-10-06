@@ -75,7 +75,7 @@ export default function TransportPage() {
               </ScrollReveal>
             ))}
           </div>
-          <div className="mt-8 flex items-center justify-center gap-2 text-sm text-ink/60">
+          <div className="mt-8 flex items-center justify-center gap-2 text-sm text-ink/70">
             <ShieldCheck className="h-5 w-5 text-whatsapp" /> Pour connaître les circuits et tarifs, contactez-nous.
           </div>
         </div>
