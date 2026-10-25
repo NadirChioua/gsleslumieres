@@ -33,7 +33,6 @@ const PAGES: Entry[] = [
 const LOCALE_PREFIXES = ['', '/en', '/ar'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   return PAGES.flatMap((p) => {
     const suffix = p.path === '/' ? '/' : `${p.path}/`;
     const alternates = Object.fromEntries(
@@ -41,7 +40,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     );
     return LOCALE_PREFIXES.map((prefix) => ({
       url: `${SITE_URL}${prefix}${suffix}`,
-      lastModified: now,
       changeFrequency: p.changefreq,
       priority: prefix ? Math.round(p.priority * 0.9 * 10) / 10 : p.priority,
       alternates: { languages: alternates },

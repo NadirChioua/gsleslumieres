@@ -1,8 +1,10 @@
 RewriteEngine On
 
-# Force HTTPS
+# Match the preferred HTTPS host used by canonical URLs and the sitemap.
 RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ https://www.gsleslumieres.ma%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\.gsleslumieres\.ma$ [NC]
+RewriteRule ^(.*)$ https://www.gsleslumieres.ma%{REQUEST_URI} [L,R=301]
 
 # Old URL redirects (301)
 RewriteRule ^mot-du-president/?$ /mot-du-directeur/ [R=301,L]

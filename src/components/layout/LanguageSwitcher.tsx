@@ -16,7 +16,11 @@ export default function LanguageSwitcher() {
   // uses a plain <a> (full page load): client-side navigation cannot cross builds. The pathname
   // has no /en or /ar prefix while prerendering and has one in the browser: strip it either way.
   const pathname = usePathname() || '/';
-  const page = pathname.replace(/^\/(en|ar)(?=\/|$)/, '') || '/';
+  const stripped = pathname.replace(/^\/(en|ar)(?=\/|$)/, '') || '/';
+  // Next prerenders the error document under /_not-found, which is not a public URL.
+  const page = /^\/(?:_not-found|404)(?:\/|\.html|$)/.test(stripped)
+    ? '/'
+    : `${stripped.replace(/\/$/, '')}/`;
   return (
     <nav aria-label={NAV_LABEL[LOCALE]} className="flex shrink-0 items-center gap-0.5 rounded-lg border border-black/10 bg-white p-0.5" dir="ltr">
       {languages.map(({ code, label, name }) => (

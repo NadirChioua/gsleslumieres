@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { STATS } from '@/lib/constants';
 
 function Counter({ value, suffix }: { value: number | string; suffix: string }) {
-  const [display, setDisplay] = useState<number | string>(typeof value === 'number' ? 0 : value);
+  // Real values are present in the initial HTML, including for crawlers and no-JS users.
+  const [display, setDisplay] = useState<number | string>(value);
   const ref = useRef<HTMLSpanElement>(null);
   const started = useRef(false);
 

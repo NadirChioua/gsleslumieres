@@ -1,0 +1,10 @@
+/Image for site web
+/deliverables
+/out
+/.next
+/.claude
+/.locale-build
+/node_modules
+/public/video/*
+!/public/video/optimized
+*.tsbuildinfo

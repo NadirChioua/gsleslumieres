@@ -19,23 +19,23 @@
 
 ## Main pages (French)
 
-- [Home](https://gsleslumieres.ma/): overview of the school
-- [Qui sommes-nous](https://gsleslumieres.ma/qui-sommes-nous/): history and values
-- [Pourquoi Les Lumières](https://gsleslumieres.ma/pourquoi-les-lumieres/): reasons to choose the school
-- [Maternelle](https://gsleslumieres.ma/maternelle-tanger/): preschool cycle
-- [Primaire](https://gsleslumieres.ma/primaire-prive-tanger/): primary cycle
-- [Collège International](https://gsleslumieres.ma/college-prive-tanger/): middle school cycle
-- [Lycée](https://gsleslumieres.ma/lycee-prive-tanger/): high school cycle
-- [Inscription](https://gsleslumieres.ma/inscription-ecole-tanger/): admissions and pre-registration
-- [Transport scolaire](https://gsleslumieres.ma/transport-scolaire/) · [Cantine](https://gsleslumieres.ma/cantine/)
-- [Activités parascolaires](https://gsleslumieres.ma/activites-parascolaires/)
-- [FAQ](https://gsleslumieres.ma/faq/): answers to frequent parent questions
-- [Contact](https://gsleslumieres.ma/contact/)
+- [Home](https://www.gsleslumieres.ma/): overview of the school
+- [Qui sommes-nous](https://www.gsleslumieres.ma/qui-sommes-nous/): history and values
+- [Pourquoi Les Lumières](https://www.gsleslumieres.ma/pourquoi-les-lumieres/): reasons to choose the school
+- [Maternelle](https://www.gsleslumieres.ma/maternelle-tanger/): preschool cycle
+- [Primaire](https://www.gsleslumieres.ma/primaire-prive-tanger/): primary cycle
+- [Collège International](https://www.gsleslumieres.ma/college-prive-tanger/): middle school cycle
+- [Lycée](https://www.gsleslumieres.ma/lycee-prive-tanger/): high school cycle
+- [Inscription](https://www.gsleslumieres.ma/inscription-ecole-tanger/): admissions and pre-registration
+- [Transport scolaire](https://www.gsleslumieres.ma/transport-scolaire/) · [Cantine](https://www.gsleslumieres.ma/cantine/)
+- [Activités parascolaires](https://www.gsleslumieres.ma/activites-parascolaires/)
+- [FAQ](https://www.gsleslumieres.ma/faq/): answers to frequent parent questions
+- [Contact](https://www.gsleslumieres.ma/contact/)
 
 ## Other languages
 
-- Arabic version: https://gsleslumieres.ma/ar/
-- English version: https://gsleslumieres.ma/en/
+- Arabic version: https://www.gsleslumieres.ma/ar/
+- English version: https://www.gsleslumieres.ma/en/
 
 ## Social profiles
 

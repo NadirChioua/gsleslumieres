@@ -5,7 +5,8 @@
 
 import { SCHOOL_IMAGES } from './school-images';
 
-export const SITE_URL = 'https://gsleslumieres.ma';
+// Match the final HTTPS host served by production (the apex redirects to www).
+export const SITE_URL = 'https://www.gsleslumieres.ma';
 
 // Measurement and ownership IDs. Leave empty until the accounts exist; nothing is loaded while empty.
 export const TRACKING = {

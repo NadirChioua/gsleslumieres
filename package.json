@@ -8,7 +8,9 @@
     "build": "next build && node scripts/build-locales.mjs",
     "build:fr": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "typecheck": "tsc --noEmit",
+    "seo:check": "node scripts/audit-seo.mjs",
+    "check:export": "node scripts/check-export.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.3.0",

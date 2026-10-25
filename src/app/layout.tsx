@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: 'Les Lumières Tanger | École Privée Trilingue depuis 2004',
     description:
       'École privée trilingue à Tanger depuis 2004. Maternelle, Primaire, Collège, Lycée. Cambridge English. Méthode de Singapour. Inscriptions 2026-2027 ouvertes.',
-    images: [{ url: `${SITE_URL}${SCHOOL_IMAGES.general.heroCampus}`, width: 1200, height: 630, alt: SCHOOL.name }],
+    images: [{ url: `${SITE_URL}${SCHOOL_IMAGES.general.heroCampus}`, alt: SCHOOL.name }],
   },
   twitter: {
     card: 'summary_large_image',

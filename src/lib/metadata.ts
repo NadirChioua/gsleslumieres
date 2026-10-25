@@ -42,7 +42,7 @@ export function buildMetadata({
       title,
       description,
       url: canonical,
-      images: [{ url: imageUrl, width: 1200, height: 630, alt: title }],
+      images: [{ url: imageUrl, alt: title }],
     },
     twitter: {
       card: 'summary_large_image',

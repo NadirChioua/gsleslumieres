@@ -9,8 +9,6 @@ import { LOCALE, localizedPath } from './locale';
 const ORG_ID = `${SITE_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const IN_LANGUAGE = LOCALE === 'ar' ? 'ar-MA' : LOCALE === 'en' ? 'en' : 'fr-MA';
-// Build date: lets search engines and AI crawlers see when the content was last refreshed.
-const BUILD_DATE = new Date().toISOString().slice(0, 10);
 
 const pageUrl = (path: string) => `${SITE_URL}${localizedPath(path).replace(/\/$/, '')}/`;
 
@@ -153,6 +151,5 @@ export function webPageSchema(name: string, description: string, path: string) {
     isPartOf: { '@id': WEBSITE_ID },
     about: { '@id': ORG_ID },
     inLanguage: IN_LANGUAGE,
-    dateModified: BUILD_DATE,
   };
 }

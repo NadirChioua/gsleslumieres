@@ -1,7 +1,7 @@
 // Build the English (/en) and Arabic (/ar) versions of the static site.
 //
 // Runs after the French `next build` (see the "build" script in package.json):
-//   1. For each locale, copy src/ into .locale-build/<locale>/ while replacing every French
+//   1. For each locale, copy src/ into an owned system-temp workspace while replacing every French
 //      segment found in src/i18n/catalog.json by its translation from translations.tsv
 //      (same AST traversal as scripts/extract-translations.mjs), setting LOCALE in
 //      src/lib/locale.ts, and prefixing internal page links with /<locale>.
@@ -11,12 +11,14 @@
 // Segments without a translation stay in French, so the build never fails on a missing row.
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import { execFileSync } from 'node:child_process';
 import ts from 'typescript';
 
 const ROOT = process.cwd();
 const LOCALES = process.argv.slice(2).length ? process.argv.slice(2) : ['en', 'ar'];
-const WORK = path.join(ROOT, '.locale-build');
+// A fresh owned workspace per build; source and existing work directories stay intact.
+const WORK = fs.mkdtempSync(path.join(os.tmpdir(), 'leslumieres-locales-'));
 const OUT = path.join(ROOT, 'out');
 const CONFIG_FILES = ['package.json', 'next.config.js', 'tsconfig.json', 'tailwind.config.ts', 'postcss.config.js', 'next-env.d.ts'];
 // Keys whose string values are code, never visible text. (Narrower than the extractor's list:
@@ -130,19 +132,20 @@ function transform(code, file, loc) {
 }
 
 // ── Build helpers ───────────────────────────────────────────────────────────────
-function copyTree(src, dst, filter = () => true) {
+function copyTree(src, dst, filter = () => true, overwrite = false) {
   fs.mkdirSync(dst, { recursive: true });
   for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
     const s = path.join(src, entry.name);
     const d = path.join(dst, entry.name);
     if (!filter(entry.name, s)) continue;
-    if (entry.isDirectory()) copyTree(s, d, filter);
-    else if (!fs.existsSync(d)) fs.copyFileSync(s, d);
+    if (entry.isDirectory()) copyTree(s, d, filter, overwrite);
+    else if (overwrite || !fs.existsSync(d)) fs.copyFileSync(s, d);
   }
 }
 
 // Remove a work dir without ever following the node_modules/public junctions inside it.
 function removeWorkDir(dir) {
+  if (!path.resolve(dir).startsWith(path.resolve(WORK) + path.sep)) throw new Error('Cleanup outside owned temporary workspace');
   for (const link of ['node_modules', 'public']) {
     const p = path.join(dir, link);
     let st;
@@ -193,11 +196,10 @@ for (const loc of LOCALES) {
   const built = path.join(dir, 'out');
   copyTree(path.join(built, '_next'), path.join(OUT, '_next'));
   const target = path.join(OUT, loc);
-  fs.rmSync(target, { recursive: true, force: true });
   copyTree(built, target, (name, full) => {
     if (path.dirname(full) !== built) return true;
     return !SKIP_FROM_LOCALE_OUT.has(name) && !publicEntries.has(name);
-  });
+  }, true);
   console.log(`  → out/${loc}/`);
 }
 
